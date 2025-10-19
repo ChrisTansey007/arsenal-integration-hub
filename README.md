@@ -3,6 +3,8 @@
 **How to use the complete Arsenal ecosystem together**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Examples](https://img.shields.io/badge/Examples-7-brightgreen.svg)]()
+[![Scripts](https://img.shields.io/badge/Scripts-10-blue.svg)]()
 
 ---
 
@@ -41,9 +43,15 @@ git clone https://github.com/ChrisTansey007/ai-scripts-arsenal.git
 ### 2. Browse Integration Examples
 
 Choose your scenario:
+
+**Project Setup:**
+- **[React Vite Setup](examples/react-vite-setup/)** - React + Vite with automated ESM fixes and modern UI
+- **[Repository Organization](examples/repo-organization/)** - File organization and cleanup automation
 - **[Full-Stack Web App](examples/fullstack-nextjs-app/)** - Next.js + FastAPI
 - **[Mobile App](examples/react-native-app/)** - React Native with backend
 - **[API Service](examples/api-service/)** - Backend API project
+
+**Team & Workflow:**
 - **[Team Setup](examples/team-setup/)** - Multi-developer environment
 - **[Solo Developer](examples/solo-developer/)** - Individual productivity setup
 
@@ -60,33 +68,52 @@ Each example includes:
 
 ## 📚 What's Inside
 
-### Complete Integration Examples (5)
+### Complete Integration Examples (7)
 
-1. **[Full-Stack Next.js + FastAPI](examples/fullstack-nextjs-app/)**
+#### Project Setup & Organization
+
+1. **[React Vite Setup](examples/react-vite-setup/)** ⚡ NEW
+   - Automated React + Vite project setup
+   - ESM configuration fixes
+   - Modern UI transformation guide
+   - Accessibility best practices
+   - Time saved: 2-3 hours per project
+
+2. **[Repository Organization](examples/repo-organization/)** 📁 NEW
+   - Systematic file organization workflow
+   - Safe file migration scripts
+   - Repository cleanup automation
+   - Best practices enforcement
+
+#### Full-Stack Applications
+
+3. **[Full-Stack Next.js + FastAPI](examples/fullstack-nextjs-app/)**
    - Frontend: Next.js 14 App Router
    - Backend: FastAPI + PostgreSQL
    - Complete Arsenal integration
    - Team collaboration setup
 
-2. **[React Native Mobile App](examples/react-native-app/)**
+4. **[React Native Mobile App](examples/react-native-app/)**
    - Mobile: React Native + Expo
    - Backend: Node.js API
    - CI/CD workflows
    - App store deployment
 
-3. **[FastAPI Microservice](examples/api-service/)**
+5. **[FastAPI Microservice](examples/api-service/)**
    - REST API with FastAPI
    - Database with Prisma
    - Testing workflows
    - Docker deployment
 
-4. **[Team Collaboration Setup](examples/team-setup/)**
+#### Team & Workflow
+
+6. **[Team Collaboration Setup](examples/team-setup/)**
    - Multi-developer configuration
    - Shared Memories and Rules
    - Code review workflows
    - Onboarding automation
 
-5. **[Solo Developer Productivity](examples/solo-developer/)**
+7. **[Solo Developer Productivity](examples/solo-developer/)**
    - Minimal setup
    - Essential tools only
    - Optimized for speed
