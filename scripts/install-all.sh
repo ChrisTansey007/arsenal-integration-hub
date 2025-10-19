@@ -1,5 +1,20 @@
 #!/bin/bash
 
+# ---
+# id: scr.install-all
+# type: script
+# title: Install All Arsenals
+# tags: [install, setup, git, arsenals]
+# summary: Clones all Arsenal repositories to local machine for development use.
+# runner: bash
+# platforms: [macos, linux]
+# requires: [bash, git]
+# examples:
+#   - "curl -sSL https://get.arsenal.dev/install-all.sh | bash"
+#   - "./scripts/install-all.sh"
+# version: 1
+# ---
+
 # Arsenal Integration Hub - Install All Arsenals Script
 # This script clones all Arsenal repositories to your local machine
 

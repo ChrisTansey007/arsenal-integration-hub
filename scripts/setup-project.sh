@@ -1,5 +1,24 @@
 #!/bin/bash
 
+# ---
+# id: scr.setup-project
+# type: script
+# title: Arsenal Project Setup
+# tags: [setup, project, init, arsenals]
+# summary: Sets up a new project with Arsenal integration, copying Memories, Rules, and Workflows based on project type.
+# runner: bash
+# platforms: [macos, linux]
+# requires: [bash, git]
+# vars:
+#   - { name: project-name, required: true, description: "Name of the new project directory" }
+#   - { name: project-type, required: false, default: "fullstack", description: "Project type: fullstack, frontend, backend, mobile, minimal" }
+# examples:
+#   - "./scripts/setup-project.sh my-app fullstack"
+#   - "./scripts/setup-project.sh my-api backend"
+#   - "arsenal init my-project --type fullstack"
+# version: 1
+# ---
+
 # Arsenal Integration Hub - Project Setup Script
 # Sets up a new project with Arsenal integration
 
