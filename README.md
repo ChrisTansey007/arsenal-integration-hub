@@ -3,7 +3,7 @@
 **How to use the complete Arsenal ecosystem together**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Examples](https://img.shields.io/badge/Examples-7-brightgreen.svg)]()
+[![Examples](https://img.shields.io/badge/Examples-8-brightgreen.svg)]()
 [![Scripts](https://img.shields.io/badge/Scripts-10-blue.svg)]()
 
 ---
@@ -52,8 +52,12 @@ Choose your scenario:
 - **[API Service](examples/api-service/)** - Backend API project
 
 **Team & Workflow:**
-- **[Team Setup](examples/team-setup/)** - Multi-developer environment
-- **[Solo Developer](examples/solo-developer/)** - Individual productivity setup
+- **[Team Collaboration Setup](./examples/team-setup/)** - Multi-developer environment with shared rules and workflows
+- **[Solo Developer Productivity](./examples/solo-developer/)** - Personal productivity setup optimized for indie developers
+
+### Meta-Prompting & Knowledge Extraction
+
+- **[Meta-Prompting Workflow](./examples/meta-prompting/)** - Systematic conversation analysis and knowledge extraction pipeline
 
 ### 3. Follow the Guide
 
