@@ -49,6 +49,36 @@ This example demonstrates the **complete meta-prompting workflow** for:
 
 ---
 
+## 🎯 Extracted Prompts from First Analysis
+
+**Source:** `prompt-insights--0724c73c.md` (agents.md conversation, 2025-10-20)
+
+These prompts were extracted using the meta-prompting workflow above:
+
+### **Super-Prompt:** Structured Document Architect
+**Location:** [prompt-arsenal/development/documentation/structured-document-architect.md](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/documentation/structured-document-architect.md)  
+**Quality Score:** 5/5 across all dimensions  
+**What it does:** Create or evaluate technical documents with structured sections, real-world grounding, and quality validation
+
+### **Prompt:** Add Citations to Output
+**Location:** [prompt-arsenal/development/documentation/add-citations-to-output.md](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/documentation/add-citations-to-output.md)  
+**Effectiveness:** 5/5  
+**What it does:** Enhance output by adding 2+ verifiable citations or repository links to each major section
+
+### **Prompt:** Self-Score Output Quality
+**Location:** [prompt-arsenal/quality-assurance/self-score-output.md](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/quality-assurance/self-score-output.md)  
+**Effectiveness:** 4/5  
+**What it does:** Trigger AI self-review with quality scoring on custom dimensions (1-5 scale)
+
+### **Prompt:** Extract Reusable Template
+**Location:** [prompt-arsenal/development/documentation/extract-reusable-template.md](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/documentation/extract-reusable-template.md)  
+**Effectiveness:** 5/5  
+**What it does:** Transform specific solutions into standardized reusable templates with variables
+
+**Total extracted:** 4 production-ready prompts + 6 patterns added to library
+
+---
+
 ## 🔄 The Complete Workflow
 
 ### Phase 1: Analyze Thread (3 min)

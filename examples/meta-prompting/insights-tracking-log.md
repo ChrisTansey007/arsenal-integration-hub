@@ -52,14 +52,24 @@
 - Quick Wins Library (immediately reusable)
 
 **Arsenal Items Added:**
-1. `prompt-arsenal/meta-prompting/prompt-forensics-analyzer.md`
-2. `prompt-arsenal/meta-prompting/insights-intake-processor.md`
-3. `ai-workflows-arsenal/windsurf/meta-analysis/insights-extraction-pipeline.md`
-4. `windsurf-memories-arsenal/prompt-engineering/prompt-patterns-library.md`
-5. `ai-rules-arsenal/windsurf/prompt-design/prompt-quality-standards.md`
-6. `arsenal-integration-hub/examples/meta-prompting/` (tracking infrastructure)
 
-**Time Invested:** ~3 hours (create complete bundle)
+**Meta-Prompting Infrastructure (6 items):**
+1. [Prompt Forensics Analyzer](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/meta-prompting/prompt-forensics-analyzer.md) - Conversation analysis tool
+2. [Insights Intake Processor](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/meta-prompting/insights-intake-processor.md) - Process forensics output
+3. [Insights Extraction Pipeline](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/meta-analysis/insights-extraction-pipeline.md) - Complete workflow
+4. [Prompt Patterns Library](https://github.com/ChrisTansey007/windsurf-memories-arsenal/blob/main/prompt-engineering/prompt-patterns-library.md) - Pattern catalog
+5. [Prompt Quality Standards](https://github.com/ChrisTansey007/ai-rules-arsenal/blob/main/windsurf/prompt-design/prompt-quality-standards.md) - 5-D scoring framework
+6. [Meta-Prompting Example](./README.md) - Documentation and tracking
+
+**Extracted Prompts from Analysis (4 items):**
+1. [Structured Document Architect](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/documentation/structured-document-architect.md) - Super-prompt for technical docs
+2. [Add Citations to Output](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/documentation/add-citations-to-output.md) - Ground in sources
+3. [Self-Score Output Quality](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/quality-assurance/self-score-output.md) - AI self-review
+4. [Extract Reusable Template](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/documentation/extract-reusable-template.md) - Create templates
+
+**Total:** 10 Arsenal items created
+
+**Time Invested:** ~5 hours (infrastructure + extracted prompts)
 
 **Notes:**
 - First meta-prompting bundle
