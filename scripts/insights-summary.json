@@ -1,0 +1,782 @@
+{
+  "summary": {
+    "total_files": 43,
+    "with_super_prompt": 21,
+    "with_quick_wins": 35,
+    "avg_word_count": 1427.5813953488373,
+    "total_quick_wins": 115
+  },
+  "domains": {
+    "API Development": [
+      "prompt-insights--03fcddc7.md",
+      "prompt-insights--bb9bd65d.md",
+      "prompt-insights--f4217758.md"
+    ],
+    "Web Development": [
+      "prompt-insights--516a6aa4.md",
+      "prompt-insights-20251020T210042Z.md",
+      "prompt-insights-459.md"
+    ],
+    "Automation": [
+      "prompt-insights--72177e32.md",
+      "prompt-insights-0cf9cc53e99e411b9825ae8abcc56843.md",
+      "prompt-insights-521.md",
+      "prompt_insights-226.md",
+      "prompt_insights-227.md",
+      "prompt_insights-925.md"
+    ],
+    "Business Process": [
+      "prompt-insights-515.md"
+    ],
+    "Data Analysis": [
+      "prompt-insights--deadbeef.md"
+    ],
+    "AI/ML": [
+      "prompt-insights--71eaa4e0.md",
+      "prompt-insights--9d54bb11.md",
+      "prompt-insights--afb72640.md",
+      "prompt-insights--d43cd04f.md",
+      "prompt-insights--hash8-unavailable.md",
+      "prompt-insights-20251020-205339.md"
+    ],
+    "Other": [
+      "prompt-insights--06fd9796.md",
+      "prompt-insights--0724c73c.md",
+      "prompt-insights--12201afa.md",
+      "prompt-insights--3b1aae92.md",
+      "prompt-insights--5a4f6c25.md",
+      "prompt-insights--682855a3.md",
+      "prompt-insights--73150756.md",
+      "prompt-insights--79325781.md",
+      "prompt-insights--7acb1f5f.md",
+      "prompt-insights--a93b9e12.md",
+      "prompt-insights--aadedac5.md",
+      "prompt-insights--canvas-3e59bc9c.md",
+      "prompt-insights--da41c628.md",
+      "prompt-insights--e97a13f7.md",
+      "prompt-insights--f02d5f45.md",
+      "prompt-insights--f5b17e93.md",
+      "prompt-insights-508.md",
+      "prompt-insights-5085.md",
+      "prompt-insights-5086.md",
+      "prompt-insights-523.md",
+      "prompt-insights-wp-elementor-anchors-2025-10-20-620087b6.md",
+      "prompt-insights.md",
+      "prompt_insights-522.md"
+    ]
+  },
+  "high_value_files": [
+    "prompt-insights--03fcddc7.md",
+    "prompt-insights--0724c73c.md",
+    "prompt-insights--12201afa.md",
+    "prompt-insights--a93b9e12.md",
+    "prompt-insights--deadbeef.md",
+    "prompt_insights-522.md"
+  ],
+  "all_files": [
+    {
+      "filename": "prompt-insights--03fcddc7.md",
+      "title": "Prompt Insights: Zapier MCP Tools Thread",
+      "date": "2022-10-01",
+      "tags": "",
+      "thread_id": "03fcddc7",
+      "word_count": 1413,
+      "has_super_prompt": true,
+      "super_prompt_length": 208,
+      "has_quick_wins": true,
+      "quick_wins_count": 7,
+      "quick_wins": [
+        "Clarify scope \u2192 \u201cConfirm: built-ins only or any Zapier app exposed via MCP?\u201d",
+        "Constrain format \u2192 \u201cReturn markdown tables with columns: Tool | Action | Purpose | Notes.\u201d",
+        "Verify \u2192 \u201cDo not include quotas/pricing unless directly provided; no placeholder citations.\u201d"
+      ],
+      "super_prompt_preview": "```text\nROLE: You are a Zapier MCP librarian and verifier.\n\nTASK: Produce a scoped, verified list of Zapier tools that match the user\u2019s needs.\n\nINPUTS:\n- {GOAL}  (e.g., \u201clist tools for Zapier MCP servers\u201d)\n- {SCOPE} (\u201cbuilt-ins only\u201d | \u201cany Zapier app\u201d | \u201cboth\u201d)\n- {CATEGORIES} (e.g., utilities, comm"
+    },
+    {
+      "filename": "prompt-insights--06fd9796.md",
+      "title": "Prompt Insights: Church Leader Outreach Writing Collaboration",
+      "date": "2022-10-26",
+      "tags": "",
+      "thread_id": "06fd9796",
+      "word_count": 1254,
+      "has_super_prompt": true,
+      "super_prompt_length": 194,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "\"Please confirm which essays you're pulling from in your email drafts.\""
+      ],
+      "super_prompt_preview": "```text\nYou are {{ROLE}} writing on behalf of {{NAME}} to create a 3-part cold outreach email sequence to help church leaders engage with {{TOPIC}}. The goals are: (1) introduce {{SERVICE}}, (2) share a specific insight or essay from {{RESOURCE_HUB}}, and (3) invite interest in consulting support.\n\n"
+    },
+    {
+      "filename": "prompt-insights--0724c73c.md",
+      "title": "Prompt Insights \u2014 `agents.md` Conversation Audit",
+      "date": "2022-11-20",
+      "tags": "",
+      "thread_id": "0724c73c",
+      "word_count": 1090,
+      "has_super_prompt": true,
+      "super_prompt_length": 143,
+      "has_quick_wins": true,
+      "quick_wins_count": 7,
+      "quick_wins": [
+        "\u201cWhat is the intended audience or domain for this {DOCUMENT_TYPE}?\u201d",
+        "\u201cOutput must include structured sections with examples and citations.\u201d",
+        "\u201cScore your draft for clarity, specificity, and constraint adherence (1\u20135 scale).\u201d"
+      ],
+      "super_prompt_preview": "```markdown\nYou are an **Analyst-Architect** skilled in structured document design.\n\n**Objective:** Create or evaluate a {DOCUMENT_TYPE} (e.g., agents.md, README, API spec) that balances clarity, completeness, and real-world grounding.\n\n**Inputs:**\n- Context or prior draft: {CONTEXT}\n- Domain or use"
+    },
+    {
+      "filename": "prompt-insights--12201afa.md",
+      "title": "Prompt Insights \u2013 Office Space \u201cBob\u201d Prompt Series",
+      "date": "2022-12-15",
+      "tags": "",
+      "thread_id": "hash8:12201afa",
+      "word_count": 1261,
+      "has_super_prompt": true,
+      "super_prompt_length": 183,
+      "has_quick_wins": true,
+      "quick_wins_count": 7,
+      "quick_wins": [
+        "\"Use the same structure but rewrite this as if sent by Bob from Office Space.\"",
+        "\"Keep humor corporate-safe and avoid slang. Maintain memo formatting.\"",
+        "\"Rate tone, clarity, and corporate realism (1\u20135).\""
+      ],
+      "super_prompt_preview": "```markdown\nYou are **Bob from Office Space**, the well-meaning but painfully corporate consultant.\nYour job: rewrite or generate {TASK_DESCRIPTION} into an internal company memo or email that captures Bob\u2019s signature sarcastic tone.\n\n### INPUTS\n- {TASK_DESCRIPTION} = The real-world workflow or auto"
+    },
+    {
+      "filename": "prompt-insights--3b1aae92.md",
+      "title": "Prompt Insights \u2013 Prior Thread Audit",
+      "date": "2023-01-09",
+      "tags": "",
+      "thread_id": "3b1aae92",
+      "word_count": 1162,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 7,
+      "quick_wins": [
+        "Clarify Scope \u2192 \u201cUse latest **stable** (post\u20112023); note any preview features separately.\u201d",
+        "Verify Claims \u2192 \u201cAttach a **URL** to a primary source for every non\u2011obvious claim.\u201d",
+        "Enforce Format \u2192 \u201cUse the **exact** table header provided; no additional columns.\u201d"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights--516a6aa4.md",
+      "title": "Prompt Insights: Building Structured JSON for Sci-Fi Trilogy Generation",
+      "date": "2023-02-03",
+      "tags": "",
+      "thread_id": "hash8:e42b7a9c",
+      "word_count": 1336,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": false,
+      "quick_wins_count": 0,
+      "quick_wins": [],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights--5a4f6c25.md",
+      "title": "Prompt Insights: SEO FAQ Ranking Thread",
+      "date": "2023-02-28",
+      "tags": "",
+      "thread_id": "5a4f6c25",
+      "word_count": 1413,
+      "has_super_prompt": true,
+      "super_prompt_length": 253,
+      "has_quick_wins": true,
+      "quick_wins_count": 2,
+      "quick_wins": [
+        "Clarify scope",
+        "\u201cConfirm total items and range to cover (e.g., 1\u201330). Any must\u2011include FAQs?\u201d"
+      ],
+      "super_prompt_preview": "```text\nROLE: You are an SEO strategist and content architect.\n\nOBJECTIVE: Rank a set of FAQs from best\u2192worst for SEO impact and produce decision-ready outputs.\n\nINPUTS:\n- {{FAQ_LIST}}  # list of questions + any notes/content\n- {{BUSINESS_PROFILE}}  # brand, services, locations, audiences, constrain"
+    },
+    {
+      "filename": "prompt-insights--682855a3.md",
+      "title": "Prompt Insights: Refactoring a Pine Script v6 Indicator",
+      "date": "2023-03-25",
+      "tags": "",
+      "thread_id": "682855a3",
+      "word_count": 1527,
+      "has_super_prompt": true,
+      "super_prompt_length": 241,
+      "has_quick_wins": true,
+      "quick_wins_count": 2,
+      "quick_wins": [
+        "Clarify Version",
+        "\u201cKeep Pine //@version=6. If tuple unpacking errors, use a global-mutating cleanup function instead.\u201d"
+      ],
+      "super_prompt_preview": "```text\nROLE: You are a senior TradingView Pine Script v6 engineer and refactoring partner.\n\nOBJECTIVE: Improve and refactor a Pine v6 script for clarity, modularity, and correctness without changing intended behavior.\n\nINPUTS:\n- {{CODE}}  (full Pine v6 source)\n- {{GOALS}} (e.g., \u201cmove alert creatio"
+    },
+    {
+      "filename": "prompt-insights--71eaa4e0.md",
+      "title": "Prompt Insights \u2014 Forensics, Chainmining, and Upgrades",
+      "date": "2023-04-19",
+      "tags": "",
+      "thread_id": "71eaa4e0",
+      "word_count": 1411,
+      "has_super_prompt": true,
+      "super_prompt_length": 253,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "Clarify: \u201cList the exact sections you\u2019ll include in the style guide before writing.\u201d"
+      ],
+      "super_prompt_preview": "```text\nROLE: Senior Content Strategist + Copy Editor for a family-owned home-services company.\n\nOBJECTIVE: Produce a consistent, helpful writing style guide for FAQ-style blog posts.\n\nINPUTS:\n- {BRAND_NAME} (string)\n- {INDUSTRY} (e.g., fencing)\n- {TONE_KEYWORDS} (e.g., friendly, approachable, down-"
+    },
+    {
+      "filename": "prompt-insights--72177e32.md",
+      "title": "Prompt Insights \u2013 n8n Workflow Programmatic Thread (72177e32)",
+      "date": "2023-05-14",
+      "tags": "",
+      "thread_id": "72177e32",
+      "word_count": 1191,
+      "has_super_prompt": true,
+      "super_prompt_length": 216,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "Clarify env: \u201cTarget n8n version and hosting (Cloud/self-hosted)? Confirm Docker availability and open port.\u201d"
+      ],
+      "super_prompt_preview": "```text\nROLE: You are a senior automation engineer + technical writer.\nOBJECTIVE: Produce a runnable artifact and minimal docs to {GOAL}.\n\nINPUTS:\n- {CONTEXT}: prior materials/specs (optional)\n- {TARGET_STACK}: e.g., n8n (version), Docker, OS\n- {RUNTIME_ENV}: Jupyter/Notebook vs. plain Python; netwo"
+    },
+    {
+      "filename": "prompt-insights--73150756.md",
+      "title": "Prompt Insights \u2014 AnyDoc Studio Thread",
+      "date": "2023-06-08",
+      "tags": "",
+      "thread_id": "73150756",
+      "word_count": 1578,
+      "has_super_prompt": true,
+      "super_prompt_length": 219,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "CLARIFY: \u201cRestate the objective and list any assumptions; if ambiguous, ask one question, else choose safe defaults.\u201d"
+      ],
+      "super_prompt_preview": "```text\nROLE: You are a senior full\u2011stack engineer + prompt architect building {PRODUCT_NAME}.\n\nOBJECTIVE: Create a doc\u2011agnostic web app where a chat assistant ({LLM_PROVIDER}) can create, render, and edit ANY document via natural language AND direct UI edits.\n\nINPUTS:\n- {USER_GOAL} (plain language)"
+    },
+    {
+      "filename": "prompt-insights--79325781.md",
+      "title": "Prompt Insights \u2014 Forensics & Synthesis",
+      "date": "2023-07-03",
+      "tags": "",
+      "thread_id": "79325781",
+      "word_count": 1361,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "Clarify: \u201cList only tools enabled in THIS chat with exact function names and required/optional params.\u201d"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights--7acb1f5f.md",
+      "title": "Prompt Insights \u2014 Forensics & Refactor",
+      "date": "2023-07-28",
+      "tags": "",
+      "thread_id": "7acb1f5f",
+      "word_count": 1157,
+      "has_super_prompt": true,
+      "super_prompt_length": 223,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "Clarify: \u201cList the required sections and any forbidden additions in one sentence.\u201d"
+      ],
+      "super_prompt_preview": "```text\nROLE/PERSPECTIVE\nYou are a Prompt Forensics + Chainminer + Opportunity Hunter.\n\nTASK & OBJECTIVE\nAudit the prior chat (excluding the current instruction), extract high\u2011impact prompts, map links, surface gaps, and output a ready\u2011to\u2011share Markdown report.\n\nINPUTS {VARIABLES}\n- {THREAD_TEXT}: F"
+    },
+    {
+      "filename": "prompt-insights--9d54bb11.md",
+      "title": "Prompt Insights \u2013 CrewAI Multi\u2011Agent Thread (Forensics & Synthesis)",
+      "date": "2023-08-22",
+      "tags": "",
+      "thread_id": "9d54bb11",
+      "word_count": 1678,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "Clarify: Restate my goal, list assumptions, and ask 2 critical questions before designing."
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights--a93b9e12.md",
+      "title": "Prompt Insights: Deep-Research \u2192 Tactical Playbook Thread",
+      "date": "2023-09-16",
+      "tags": "",
+      "thread_id": "hash8:a93b9e12",
+      "word_count": 1295,
+      "has_super_prompt": true,
+      "super_prompt_length": 209,
+      "has_quick_wins": true,
+      "quick_wins_count": 7,
+      "quick_wins": [
+        "\"Confirm: Should research focus only on U.S.-based startups or global scope?\"",
+        "\"Ensure each use-case lists company size, funding stage, and AI stack.\"",
+        "\"Cross-check that every metric has \u22652 independent sources; label \u2018single-source\u2019 if not.\""
+      ],
+      "super_prompt_preview": "```markdown\n<System>\nYou are a **dual-mode AI analyst and workflow ethnographer**.\n\n<Objective>\nDocument and analyze **real, field-verified AI adoption patterns** among {{COMPANY_TYPE}} in {{REGION}} published since {{DATE_START}}.\n\n<Domains>\nCustomer Ops & Communications | Sales & Marketing | Inter"
+    },
+    {
+      "filename": "prompt-insights--aadedac5.md",
+      "title": "Prompt Insights \u2014 Forensic Audit & Super\u2011Prompt",
+      "date": "2023-10-11",
+      "tags": "",
+      "thread_id": "aadedac5",
+      "word_count": 1346,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 2,
+      "quick_wins": [
+        "Clarify Tooling",
+        "\u201cConfirm we\u2019re in an **AI Agent Tools** app node using `$fromAI()`; otherwise say which node it is.\u201d"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights--afb72640.md",
+      "title": "Prompt Insights \u2014 Forensics, Chainmining, and Upgrade Synthesis",
+      "date": "2023-11-05",
+      "tags": "",
+      "thread_id": "afb72640",
+      "word_count": 1364,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "Clarify-Mode: \u201cChoose one MODE now: Roadmap / Hands\u2011On Guide / Comparison Article. I will deliver only that.\u201d"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights--bb9bd65d.md",
+      "title": "Prompt Insights \u2014 MLS API Thread",
+      "date": "2023-11-30",
+      "tags": "",
+      "thread_id": "bb9bd65d",
+      "word_count": 1466,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "Clarify role & scope \u2192 \u201cI am a {role} targeting {market}. I need {feed_types}. Confirm the MLS/platform and list the steps to obtain API credentials.\u201d"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights--canvas-3e59bc9c.md",
+      "title": "Prompt Insights \u2014 Croquet Venture Thread",
+      "date": "2023-12-25",
+      "tags": "",
+      "thread_id": "canvas-3e59bc9c",
+      "word_count": 1825,
+      "has_super_prompt": true,
+      "super_prompt_length": 299,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "CLARIFY \u2192 \u201cConfirm the **goal, audience, and deadline** for the investor brief in 3 bullets.\u201d"
+      ],
+      "super_prompt_preview": "```text\nROLE: You are a Venture Builder + Research Analyst + Product Designer.\nOBJECTIVE: Produce a club-first go-to-market, quantified model, and investor-ready assets for a niche gear venture.\n\nINPUTS:\n- {{VENTURE_NAME}} (e.g., \u201cCroquet Supply Co.\u201d)\n- {{PRODUCT_LINES}} (e.g., Classic/Club+/Pro; ke"
+    },
+    {
+      "filename": "prompt-insights--d43cd04f.md",
+      "title": "Prompt Insights: Forensics + Chainminer + Opportunity Hunter",
+      "date": "2024-01-19",
+      "tags": "",
+      "thread_id": "d43cd04f",
+      "word_count": 1686,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "Clarify: \u201cConfirm scope: {SECTIONS}. Any must\u2011include items (e.g., frameworks)?\u201d"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights--da41c628.md",
+      "title": "Prompt Insights \u2014 Port City Fence SEO/AEO Agent Thread",
+      "date": "2024-02-13",
+      "tags": "",
+      "thread_id": "da41c628",
+      "word_count": 1427,
+      "has_super_prompt": true,
+      "super_prompt_length": 256,
+      "has_quick_wins": true,
+      "quick_wins_count": 2,
+      "quick_wins": [
+        "Clarify scope fast:",
+        "\u201cConfirm {SITE_URL} (for metadataBase) and list indexable routes so I can finalize sitemap and canonicals.\u201d"
+      ],
+      "super_prompt_preview": "```text\nROLE: You are a senior \u201cSEO/AEO Implementation Agent\u201d for a Next.js 14 codebase.\n\nOBJECTIVE: Transform inputs into (a) an agent-executable checklist (atomic tasks + DoD), and/or (b) repo-ready docs (e.g., AGENTS.md), without timelines.\n\nINPUTS:\n- {PROJECT_NAME} (string)\n- {SITE_URL} (absolut"
+    },
+    {
+      "filename": "prompt-insights--deadbeef.md",
+      "title": "Prompt Insights: Meta-Prompting Thread Analysis",
+      "date": "2024-03-09",
+      "tags": "",
+      "thread_id": "deadbeef",
+      "word_count": 1322,
+      "has_super_prompt": true,
+      "super_prompt_length": 151,
+      "has_quick_wins": true,
+      "quick_wins_count": 7,
+      "quick_wins": [
+        "\u201cWhat additional information would clarify this task?\u201d",
+        "\u201cList any assumptions you\u2019re making before proceeding.\u201d",
+        "\u201cConvert the above prompt into a numbered checklist.\u201d"
+      ],
+      "super_prompt_preview": "```\nYou are a Prompt Forensics & Optimization assistant. Given a conversation history {{THREAD_HISTORY}}, perform:\n\n1. **Conversation Map**  \n   - Enumerate each message (speaker, summary).  \n   - Mark key turning points.\n\n2. **Great Prompts Catalog**  \n   - Extract up to {{MAX_PROMPTS}} high-impact"
+    },
+    {
+      "filename": "prompt-insights--e97a13f7.md",
+      "title": "Prompt Insights: Forensics of the Prior Thread",
+      "date": "2024-04-03",
+      "tags": "",
+      "thread_id": "e97a13f7",
+      "word_count": 1429,
+      "has_super_prompt": true,
+      "super_prompt_length": 957,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "Add \u201c(verified {{VERIFY_DATE}})\u201d links to every claim; if none, mark \u201cNo public figures available\u2014anecdotal only.\u201d"
+      ],
+      "super_prompt_preview": "```md\nROLE\nYou are a **Senior Research Analyst** evaluating real\u2011world adoption of {{TOOLS}} in {{ECOSYSTEM}} teams for enterprise engineering leadership.\n\nOBJECTIVE\nDeliver an evidence\u2011driven report with verifiable outcomes and rollout guidance.\n\nINPUTS\n- Tools: {{TOOLS}} (e.g., Cursor, Windsurf)\n-"
+    },
+    {
+      "filename": "prompt-insights--f02d5f45.md",
+      "title": "Prompt Insights \u2014 AEO/GEO Lab thread",
+      "date": "2024-04-28",
+      "tags": "",
+      "thread_id": "f02d5f45",
+      "word_count": 1221,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "Clarify: \u201cAudit this code for AEO/GEO, a11y (ARIA tabs), and INP performance; provide copy-ready patches.\u201d"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights--f4217758.md",
+      "title": "Prompt Insights \u2014 ChromaDB REST API Build (TDD, Docker, Persistence)",
+      "date": "2024-05-23",
+      "tags": "",
+      "thread_id": "f4217758",
+      "word_count": 2200,
+      "has_super_prompt": true,
+      "super_prompt_length": 316,
+      "has_quick_wins": true,
+      "quick_wins_count": 2,
+      "quick_wins": [
+        "Clarify-Tests-First:",
+        "\u201cList the first three failing tests you will write (names + purpose) before any implementation.\u201d"
+      ],
+      "super_prompt_preview": "```text\nROLE/PERSPECTIVE\nYou are a senior backend engineer and test strategist. Use strict TDD (write failing tests first, then minimal code, then refactor).\n\nOBJECTIVE\nDeliver a production-ready REST API around a vector database with persistence, clean modularity, and Dockerized deployment.\n\nINPUTS"
+    },
+    {
+      "filename": "prompt-insights--f5b17e93.md",
+      "title": "Prompt Insights \u2014 Prompt Generator App Thread",
+      "date": "2024-06-17",
+      "tags": "",
+      "thread_id": "hash8: f5b17e93",
+      "word_count": 1393,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 7,
+      "quick_wins": [
+        "\"Summarize the full architecture (backend, frontend, data) for this app in three sections.\"",
+        "\"Produce markdown documentation only, following Section headers 1\u20135.\"",
+        "\"Check whether all entities follow CLEAN code principle; list any violations.\""
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights--hash8-unavailable.md",
+      "title": "Prompt Insights \u2014 Forensics \u2022 Chainminer \u2022 Opportunity Hunter",
+      "date": "2024-07-12",
+      "tags": "",
+      "thread_id": "hash8-unavailable",
+      "word_count": 1730,
+      "has_super_prompt": true,
+      "super_prompt_length": 216,
+      "has_quick_wins": true,
+      "quick_wins_count": 2,
+      "quick_wins": [
+        "**Add Evidence Window**",
+        "\u201cCite \u22653 authoritative sources dated \u2264 {{N}} months; append a References section. Tag vendor-only claims as (vendor).\u201d"
+      ],
+      "super_prompt_preview": "```md\n<System>\nYou are {{ROLE}} \u2014 a senior expert who delivers fast, reliable results with minimal hallucination.\nPriorities: 1) Correctness vs. acceptance criteria, 2) Speed, 3) Effort, 4) Cost.\nIf a fact blocks progress, ask ONE concise question; else proceed with labeled assumptions.\n</System>\n\n<"
+    },
+    {
+      "filename": "prompt-insights-0cf9cc53e99e411b9825ae8abcc56843.md",
+      "title": "Prompt Forensics Report \u2013 Process\u2011Automation Interview Thread",
+      "date": "2024-08-06",
+      "tags": "",
+      "thread_id": "0cf9cc53e99e411b9825ae8abcc56843",
+      "word_count": 1611,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 6,
+      "quick_wins": [
+        "Clarify: \u201cConfirm scope: {{tools}} and {{use-case}}; include/exclude {{items}}.\u201d",
+        "Constrain: \u201cReturn a markdown table with exactly these columns: {{cols}}; \u2264{{words}} words.\u201d",
+        "Verify: \u201cCite 2\u20133 official sources (2024\u20132025) per claim; add dates.\u201d"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights-20251020-205339.md",
+      "title": "Prompt Forensics \u2022 Chainminer \u2022 Opportunity Hunter Report",
+      "date": "2024-08-31",
+      "tags": "",
+      "thread_id": "20251020-205339",
+      "word_count": 2613,
+      "has_super_prompt": true,
+      "super_prompt_length": 369,
+      "has_quick_wins": true,
+      "quick_wins_count": 2,
+      "quick_wins": [
+        "// Clarify scope",
+        "\u201cList endpoints and routes you intend to implement, with brief payload examples for each.\u201d"
+      ],
+      "super_prompt_preview": "```md\nROLE: Senior Data Product Engineer + UX Strategist\n\nTASK: Build and ship a data-to-visualization web app for rental vs. ownership analysis with fast discovery, trustworthy uncertainty handling, and exportable, reproducible outputs.\n\nOBJECTIVE: Deliver a working FastAPI + Next.js app with bivar"
+    },
+    {
+      "filename": "prompt-insights-20251020T210042Z.md",
+      "title": "Prompt-Chain Audit & Refactor (Simpson Strong-Tie + NC Code MCP Build)",
+      "date": "2024-09-25",
+      "tags": "",
+      "thread_id": "20251020T210042Z",
+      "word_count": 1117,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": false,
+      "quick_wins_count": 0,
+      "quick_wins": [],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights-459.md",
+      "title": "Prompt Forensics Report \u2013 New Hanover Permit MCP Build Conversation",
+      "date": "2024-10-20",
+      "tags": "",
+      "thread_id": "459",
+      "word_count": 1064,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": false,
+      "quick_wins_count": 0,
+      "quick_wins": [],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights-508.md",
+      "title": "Prompt Forensics Report \u2013 AWS MCP repo research thread",
+      "date": "2024-11-14",
+      "tags": "",
+      "thread_id": "508",
+      "word_count": 1454,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 1,
+      "quick_wins": [
+        "[Clarify] Define link scope: \"Use only README\u2011explicit repo links; exclude non\u2011repo hyperlinks unless approved.\""
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights-5085.md",
+      "title": "Prompt Forensics Report \u2013 Google Search Console Ownership Transfer",
+      "date": "2024-12-09",
+      "tags": "",
+      "thread_id": "5085",
+      "word_count": 1085,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 2,
+      "quick_wins": [
+        "Clarify property type:",
+        "\u201cIs this a **domain** property or a **URL\u2011prefix** property in GSC?\u201d"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights-5086.md",
+      "title": "Prompt Forensics Report \u2013 Prior Thread Audit",
+      "date": "2025-01-03",
+      "tags": "",
+      "thread_id": "5086",
+      "word_count": 1620,
+      "has_super_prompt": true,
+      "super_prompt_length": 301,
+      "has_quick_wins": false,
+      "quick_wins_count": 0,
+      "quick_wins": [],
+      "super_prompt_preview": "```text\nROLE: You are a precise, safety-conscious assistant that can use tools only within the current chat environment.\n\nTASK: Help me complete {OBJECTIVE} while honoring my constraints, verifying facts, and adapting to tool limits.\n\nINPUTS:\n- Service/System: {SERVICE} (e.g., Gmail, Outlook, Drive)"
+    },
+    {
+      "filename": "prompt-insights-515.md",
+      "title": "Prompt Forensics Report: Business Needs Inc Chat Audit",
+      "date": "2025-01-28",
+      "tags": "",
+      "thread_id": "515",
+      "word_count": 749,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": false,
+      "quick_wins_count": 0,
+      "quick_wins": [],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights-521.md",
+      "title": "Prompt Forensics Report \u2013 Process\u2011Automation Interview Thread",
+      "date": "2025-02-22",
+      "tags": "",
+      "thread_id": "521",
+      "word_count": 1611,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 6,
+      "quick_wins": [
+        "Clarify: \u201cConfirm scope: {{tools}} and {{use-case}}; include/exclude {{items}}.\u201d",
+        "Constrain: \u201cReturn a markdown table with exactly these columns: {{cols}}; \u2264{{words}} words.\u201d",
+        "Verify: \u201cCite 2\u20133 official sources (2024\u20132025) per claim; add dates.\u201d"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights-523.md",
+      "title": "Prompt Forensics Report \u2014 Elementor CSS/UX Thread",
+      "date": "2025-03-19",
+      "tags": "",
+      "thread_id": "523",
+      "word_count": 1585,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 14,
+      "quick_wins": [
+        "[Clarify target]",
+        "Are we styling an Elementor **popup** or a **regular container**? That changes overlay handling.",
+        "[Overlay parity]"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights-wp-elementor-anchors-2025-10-20-620087b6.md",
+      "title": "Prompt Forensics Report: WordPress/Elementor Anchor-Link Support Thread",
+      "date": "2025-04-13",
+      "tags": "",
+      "thread_id": "620087b6",
+      "word_count": 1736,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": true,
+      "quick_wins_count": 2,
+      "quick_wins": [
+        "[Verify ID in DOM]",
+        "Run in Console: !!document.getElementById('{{ID}}')"
+      ],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt-insights.md",
+      "title": "Prompt Forensics Report \u2014 Repo Audit Prompt Design",
+      "date": "2025-05-08",
+      "tags": "",
+      "thread_id": "repo-audit",
+      "word_count": 1501,
+      "has_super_prompt": true,
+      "super_prompt_length": 309,
+      "has_quick_wins": true,
+      "quick_wins_count": 2,
+      "quick_wins": [
+        "CLARIFY STACK",
+        "\u201cDetect primary languages/frameworks from the provided files and state assumptions you\u2019ll use.\u201d"
+      ],
+      "super_prompt_preview": "```text\nROLE: You are a senior software architect and code reviewer.\n\nOBJECTIVE: Audit the provided repository and produce actionable insights AND a versioned report pack saved to disk.\n\nINPUTS:\n- {{REPO_TREE}} (concise tree) and {{KEY_FILES}} (configs, entry points, largest modules)\n- {{STACK_HINTS"
+    },
+    {
+      "filename": "prompt_insights-226.md",
+      "title": "Prompt Forensics Report: Fence Content & Image Metadata Workflow (Part 1)",
+      "date": "2025-06-02",
+      "tags": "",
+      "thread_id": "226",
+      "word_count": 1298,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": false,
+      "quick_wins_count": 0,
+      "quick_wins": [],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt_insights-227.md",
+      "title": "Prompt Forensics Report: Fence Content & Image Metadata Workflow (Part 2)",
+      "date": "2025-06-27",
+      "tags": "",
+      "thread_id": "227",
+      "word_count": 1298,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": false,
+      "quick_wins_count": 0,
+      "quick_wins": [],
+      "super_prompt_preview": ""
+    },
+    {
+      "filename": "prompt_insights-522.md",
+      "title": "Super-Prompt Forensics & Opportunity Audit",
+      "date": "2025-07-22",
+      "tags": "",
+      "thread_id": "522",
+      "word_count": 1210,
+      "has_super_prompt": true,
+      "super_prompt_length": 175,
+      "has_quick_wins": true,
+      "quick_wins_count": 6,
+      "quick_wins": [
+        "\u201cCould you clarify the expected format for the output sections?\u201d",
+        "\u201cPlease present your response as a numbered list with bullet-point critiques.\u201d",
+        "\u201cOn a scale of 1\u20135, how would you rate the completeness of the feature list?\u201d"
+      ],
+      "super_prompt_preview": "```markdown\nYou are {{ROLE}} specializing in prompt engineering and critique.\nYour objective is to analyze a provided {{INPUT_DOCUMENT}} and produce:\n1. **User Stories**: Identify 5 distinct stakeholder personas with \u201cAs a\u2026, I want\u2026, So that\u2026\u201d format.\n2. **Critique**: For each story, evaluate how th"
+    },
+    {
+      "filename": "prompt_insights-925.md",
+      "title": "Prompt Forensics Report: Fence Content & Image Metadata Workflow (Part 3)",
+      "date": "2025-08-16",
+      "tags": "",
+      "thread_id": "925",
+      "word_count": 1298,
+      "has_super_prompt": false,
+      "super_prompt_length": 0,
+      "has_quick_wins": false,
+      "quick_wins_count": 0,
+      "quick_wins": [],
+      "super_prompt_preview": ""
+    }
+  ]
+}

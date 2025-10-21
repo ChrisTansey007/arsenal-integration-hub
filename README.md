@@ -10,14 +10,21 @@
 
 ## 🎯 The Complete Arsenal Ecosystem
 
+### Content Repositories
 ```
 💭 windsurf-memories-arsenal  → What Cascade remembers
-📝 prompt-arsenal            → What to ask/build
+📝 prompt-arsenal            → What to ask/build (26 prompts)
 ⚙️ ai-rules-arsenal          → How Cascade behaves
 🔄 ai-workflows-arsenal      → Multi-step processes
 🤖 ai-scripts-arsenal        → Automation scripts
+```
 
-🔗 arsenal-integration-hub   → YOU ARE HERE (How to use them together)
+### Integration & Tooling
+```
+🔗 arsenal-integration-hub   → YOU ARE HERE (Examples & docs)
+🌐 arsenal-context-server    → MCP context server
+⚡ arsenal-cli               → Command-line interface
+🔌 arsenal-mcp-server        → Model Context Protocol server
 ```
 
 **This repository shows you how to combine all Arsenal tools for maximum productivity!**
@@ -32,12 +39,17 @@
 # One-command setup (recommended)
 curl -sSL https://raw.githubusercontent.com/ChrisTansey007/arsenal-integration-hub/main/scripts/install-all.sh | bash
 
-# Or manually
+# Or manually - Content repositories
 git clone https://github.com/ChrisTansey007/windsurf-memories-arsenal.git
 git clone https://github.com/ChrisTansey007/prompt-arsenal.git
 git clone https://github.com/ChrisTansey007/ai-rules-arsenal.git
 git clone https://github.com/ChrisTansey007/ai-workflows-arsenal.git
 git clone https://github.com/ChrisTansey007/ai-scripts-arsenal.git
+
+# Optional - Integration & tooling
+git clone https://github.com/ChrisTansey007/arsenal-context-server.git
+git clone https://github.com/ChrisTansey007/arsenal-cli.git
+git clone https://github.com/ChrisTansey007/arsenal-mcp-server.git
 ```
 
 ### 2. Browse Integration Examples
@@ -573,13 +585,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 🔗 Links
+## 🔗 Arsenal Ecosystem Links
 
-- [Windsurf Memories Arsenal](https://github.com/ChrisTansey007/windsurf-memories-arsenal)
-- [Prompt Arsenal](https://github.com/ChrisTansey007/prompt-arsenal)
-- [AI Rules Arsenal](https://github.com/ChrisTansey007/ai-rules-arsenal)
-- [AI Workflows Arsenal](https://github.com/ChrisTansey007/ai-workflows-arsenal)
-- [AI Scripts Arsenal](https://github.com/ChrisTansey007/ai-scripts-arsenal)
+### Content Repositories
+- [Windsurf Memories Arsenal](https://github.com/ChrisTansey007/windsurf-memories-arsenal) - Context & remembering
+- [Prompt Arsenal](https://github.com/ChrisTansey007/prompt-arsenal) - 26 production-ready prompts
+- [AI Rules Arsenal](https://github.com/ChrisTansey007/ai-rules-arsenal) - Behavior rules
+- [AI Workflows Arsenal](https://github.com/ChrisTansey007/ai-workflows-arsenal) - Multi-step processes
+- [AI Scripts Arsenal](https://github.com/ChrisTansey007/ai-scripts-arsenal) - Automation scripts
+
+### Integration & Tooling
+- [Arsenal Context Server](https://github.com/ChrisTansey007/arsenal-context-server) - MCP context delivery
+- [Arsenal CLI](https://github.com/ChrisTansey007/arsenal-cli) - Command-line management
+- [Arsenal MCP Server](https://github.com/ChrisTansey007/arsenal-mcp-server) - Model Context Protocol server
 
 ---
 

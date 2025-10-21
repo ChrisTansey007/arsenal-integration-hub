@@ -1,0 +1,1858 @@
+{
+  "extraction_date": "2025-10-21T12:34:37.375373",
+  "summary": {
+    "total_files": 43,
+    "successful": 43,
+    "with_super_prompts": 21,
+    "with_quick_wins": 35,
+    "total_quick_wins": 112,
+    "high_quality_count": 12,
+    "medium_quality_count": 8,
+    "low_quality_count": 23
+  },
+  "quality_tiers": {
+    "high": [
+      "prompt-insights--03fcddc7.md",
+      "prompt-insights--5a4f6c25.md",
+      "prompt-insights--682855a3.md",
+      "prompt-insights--71eaa4e0.md",
+      "prompt-insights--72177e32.md",
+      "prompt-insights--73150756.md",
+      "prompt-insights--canvas-3e59bc9c.md",
+      "prompt-insights--da41c628.md",
+      "prompt-insights-20251020-205339.md",
+      "prompt-insights-5086.md",
+      "prompt-insights.md",
+      "prompt_insights-522.md"
+    ],
+    "medium": [
+      "prompt-insights--06fd9796.md",
+      "prompt-insights--0724c73c.md",
+      "prompt-insights--12201afa.md",
+      "prompt-insights--7acb1f5f.md",
+      "prompt-insights--a93b9e12.md",
+      "prompt-insights--deadbeef.md",
+      "prompt-insights--e97a13f7.md",
+      "prompt-insights--f4217758.md"
+    ],
+    "low": [
+      "prompt-insights--3b1aae92.md",
+      "prompt-insights--516a6aa4.md",
+      "prompt-insights--79325781.md",
+      "prompt-insights--9d54bb11.md",
+      "prompt-insights--aadedac5.md",
+      "prompt-insights--afb72640.md",
+      "prompt-insights--bb9bd65d.md",
+      "prompt-insights--d43cd04f.md",
+      "prompt-insights--f02d5f45.md",
+      "prompt-insights--f5b17e93.md",
+      "prompt-insights--hash8-unavailable.md",
+      "prompt-insights-0cf9cc53e99e411b9825ae8abcc56843.md",
+      "prompt-insights-20251020T210042Z.md",
+      "prompt-insights-459.md",
+      "prompt-insights-508.md",
+      "prompt-insights-5085.md",
+      "prompt-insights-515.md",
+      "prompt-insights-521.md",
+      "prompt-insights-523.md",
+      "prompt-insights-wp-elementor-anchors-2025-10-20-620087b6.md",
+      "prompt_insights-226.md",
+      "prompt_insights-227.md",
+      "prompt_insights-925.md"
+    ]
+  },
+  "domains": {
+    "automation": 7,
+    "ai-ml": 28,
+    "documentation": 1,
+    "web-development": 3,
+    "api-development": 2,
+    "data-analysis": 1,
+    "business-process": 1
+  },
+  "files": [
+    {
+      "filename": "prompt-insights--03fcddc7.md",
+      "file_id": "03fcddc7",
+      "title": "Prompt Insights: Zapier MCP Tools Thread",
+      "date": "2022-10-01",
+      "tags": "",
+      "domain": "automation",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "ROLE: You are a Zapier MCP librarian and verifier.\n\nTASK: Produce a scoped, verified list of Zapier tools that match the user\u2019s needs.\n\nINPUTS:\n- {GOAL}  (e.g., \u201clist tools for Zapier MCP servers\u201d)\n- {SCOPE} (\u201cbuilt-ins only\u201d | \u201cany Zapier app\u201d | \u201cboth\u201d)\n- {CATEGORIES} (e.g., utilities, comms, data, docs, CRM, PM, calendar, payments)\n- {OUTPUT_FORMAT} (e.g., markdown tables with columns: Tool | Action | Purpose | Notes)\n- {VERIFICATION_MODE} (\u201clight\u201d cite official names only | \u201cstrict\u201d confirm in docs, no fabricated citations)\n\nPROCESS CHECKLIST:\n1) Restate {GOAL} and resolve {SCOPE}; if ambiguous, assume \u201cbuilt-ins only\u201d and note assumption.\n2) Build the list by category; use official tool/action names; avoid made-up citations.\n3) Add 1\u20132 sentence usage notes per category (common pitfalls or gotchas).\n4) Provide a short \u201cHow to add in MCP\u201d checklist.\n5) Include an optional \u201cNext expansions\u201d list (top adjacent third\u2011party apps).\n6) Run quality checks.\n\nOUTPUT SPEC:\n- Section: Summary (scope, assumptions)\n- Section: Tools (per {CATEGORIES} as tables)\n- Section: How to Add in MCP (step list)\n- Section: Next Expansions (bullets)\n\nQUALITY CHECKS:\n- Names match the phrasing used in Zapier UI.\n- No placeholder or fabricated citations.\n- Avoid unverifiable claims (quotas, pricing) unless explicitly provided by the user.",
+        "role": "You are a Zapier MCP librarian and verifier.",
+        "task": "Produce a scoped, verified list of Zapier tools that match the user\u2019s needs.",
+        "inputs": [
+          "- {GOAL}  (e.g., \u201clist tools for Zapier MCP servers\u201d)",
+          "- {SCOPE} (\u201cbuilt-ins only\u201d | \u201cany Zapier app\u201d | \u201cboth\u201d)",
+          "- {CATEGORIES} (e.g., utilities, comms, data, docs, CRM, PM, calendar, payments)",
+          "- {OUTPUT_FORMAT} (e.g., markdown tables with columns: Tool | Action | Purpose | Notes)",
+          "- {VERIFICATION_MODE} (\u201clight\u201d cite official names only | \u201cstrict\u201d confirm in docs, no fabricated citations)"
+        ],
+        "process": [
+          "1) Restate {GOAL} and resolve {SCOPE}; if ambiguous, assume \u201cbuilt-ins only\u201d and note assumption.",
+          "2) Build the list by category; use official tool/action names; avoid made-up citations.",
+          "3) Add 1\u20132 sentence usage notes per category (common pitfalls or gotchas).",
+          "4) Provide a short \u201cHow to add in MCP\u201d checklist.",
+          "5) Include an optional \u201cNext expansions\u201d list (top adjacent third\u2011party apps).",
+          "6) Run quality checks."
+        ],
+        "output": "1) Restate {GOAL} and resolve {SCOPE}; if ambiguous, assume \u201cbuilt-ins only\u201d and note assumption.\n2) Build the list by category; use official tool/action names; avoid made-up citations.\n3) Add 1\u20132 sentence usage notes per category (common pitfalls or gotchas).\n4) Provide a short \u201cHow to add in MCP\u201d checklist.\n5) Include an optional \u201cNext expansions\u201d list (top adjacent third\u2011party apps).\n6) Run quality checks.",
+        "quality_checks": [
+          "- Names match the phrasing used in Zapier UI.",
+          "- No placeholder or fabricated citations.",
+          "- Avoid unverifiable claims (quotas, pricing) unless explicitly provided by the user."
+        ]
+      },
+      "quick_wins": [
+        {
+          "category": "Clarify scope",
+          "pattern": "\u201cConfirm: built-ins only or any Zapier app exposed via MCP?\u201d",
+          "original": "Clarify scope \u2192 \u201cConfirm: built-ins only or any Zapier app exposed via MCP?\u201d"
+        },
+        {
+          "category": "Constrain format",
+          "pattern": "\u201cReturn markdown tables with columns: Tool | Action | Purpose | Notes.\u201d",
+          "original": "Constrain format \u2192 \u201cReturn markdown tables with columns: Tool | Action | Purpose | Notes.\u201d"
+        },
+        {
+          "category": "Verify",
+          "pattern": "\u201cDo not include quotas/pricing unless directly provided; no placeholder citations.\u201d",
+          "original": "Verify \u2192 \u201cDo not include quotas/pricing unless directly provided; no placeholder citations.\u201d"
+        },
+        {
+          "category": "Prioritize",
+          "pattern": "\u201cOrder tools by relevance to apps I use: {APP_LIST}.\u201d",
+          "original": "Prioritize \u2192 \u201cOrder tools by relevance to apps I use: {APP_LIST}.\u201d"
+        },
+        {
+          "category": "Export",
+          "pattern": "\u201cAlso provide a CSV block with the same columns.\u201d",
+          "original": "Export \u2192 \u201cAlso provide a CSV block with the same columns.\u201d"
+        },
+        {
+          "category": "Refactor",
+          "pattern": "\u201cCondense to the top 12 starter tools with 1-line justifications.\u201d",
+          "original": "Refactor \u2192 \u201cCondense to the top 12 starter tools with 1-line justifications.\u201d"
+        },
+        {
+          "category": "Safety",
+          "pattern": "\u201cFlag actions that can send messages or charge money; add approval step suggestions.\u201d",
+          "original": "Safety \u2192 \u201cFlag actions that can send messages or charge money; add approval step suggestions.\u201d"
+        }
+      ],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1413
+    },
+    {
+      "filename": "prompt-insights--06fd9796.md",
+      "file_id": "06fd9796",
+      "title": "Prompt Insights: Church Leader Outreach Writing Collaboration",
+      "date": "2022-10-26",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "MEDIUM",
+      "super_prompt": {
+        "full_text": "You are {{ROLE}} writing on behalf of {{NAME}} to create a 3-part cold outreach email sequence to help church leaders engage with {{TOPIC}}. The goals are: (1) introduce {{SERVICE}}, (2) share a specific insight or essay from {{RESOURCE_HUB}}, and (3) invite interest in consulting support.\n\nUse the following inputs:\n- Contact Name: {{CONTACT_NAME}}\n- Contact Title: {{CONTACT_ROLE}}\n- Church or Org Name: {{CHURCH_NAME}}\n- Relevant Context: {{CONTEXT}}\n\nProcess:\n1. Select 3 essays from {{ESSAY_LIST}} matched to the contact\u2019s role and context.\n2. For each, integrate a key hook from the essay and link to the article on {{RESOURCE_HUB_URL}}.\n3. Write three emails: initial outreach, first follow-up, and final check-in.\n4. Keep tone warm, pastoral, clear, and brief\u2014aimed at both heart and mind.\n5. Gently introduce {{NAME}}'s consulting offer by email 2, reinforce lightly in email 3.\n\nOutput:\n- For each email:\n  - Essay/Hook Used\n  - Link to Essay\n  - Subject Line\n  - Full email body in first person as {{NAME}}\n\nEvaluation Rubric:\n- Tone: Faith-rooted, professional, warm\n- Clarity: CTA is always clear (read essay or connect)\n- Voice: Matches {{NAME}}'s perspective and mission\n- Brevity: Scannable, \u2264 175 words per email",
+        "role": null,
+        "task": null,
+        "inputs": [],
+        "process": [
+          "1. Select 3 essays from {{ESSAY_LIST}} matched to the contact\u2019s role and context.",
+          "2. For each, integrate a key hook from the essay and link to the article on {{RESOURCE_HUB_URL}}.",
+          "3. Write three emails: initial outreach, first follow-up, and final check-in.",
+          "4. Keep tone warm, pastoral, clear, and brief\u2014aimed at both heart and mind.",
+          "5. Gently introduce {{NAME}}'s consulting offer by email 2, reinforce lightly in email 3.",
+          "- For each email:",
+          "- Essay/Hook Used",
+          "- Link to Essay",
+          "- Subject Line",
+          "- Full email body in first person as {{NAME}}",
+          "- Tone: Faith-rooted, professional, warm",
+          "- Clarity: CTA is always clear (read essay or connect)",
+          "- Voice: Matches {{NAME}}'s perspective and mission",
+          "- Brevity: Scannable, \u2264 175 words per email"
+        ],
+        "output": "- For each email:\n  - Essay/Hook Used\n  - Link to Essay\n  - Subject Line\n  - Full email body in first person as {{NAME}}\n\nEvaluation Rubric:\n- Tone: Faith-rooted, professional, warm\n- Clarity: CTA is always clear (read essay or connect)\n- Voice: Matches {{NAME}}'s perspective and mission\n- Brevity: Scannable, \u2264 175 words per email",
+        "quality_checks": []
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "\"Please confirm which essays you're pulling from in your email drafts.\"",
+          "original": "\"Please confirm which essays you're pulling from in your email drafts.\""
+        }
+      ],
+      "lessons": [
+        "**Start with a structured, scoped format request** \u2013 Anchoring structure early yields clean output.",
+        "**Voice alignment (first-person switch) matters deeply** \u2013 Persona precision improved impact.",
+        "**Clear CTA evolution matters across sequences** \u2013 Woven soft-selling proved stronger than front-loading.",
+        "**Essay selection + hook integration needs enforcement** \u2013 Hook/essay integration wasn\u2019t systematized due to missing CSV access.",
+        "**Repurposing high-value copy structures saves time** \u2013 Output could serve as a repeatable outreach template with minor changes."
+      ],
+      "extraction_success": true,
+      "word_count": 1254
+    },
+    {
+      "filename": "prompt-insights--0724c73c.md",
+      "file_id": "0724c73c",
+      "title": "Prompt Insights \u2014 `agents.md` Conversation Audit",
+      "date": "2022-11-20",
+      "tags": "",
+      "domain": "documentation",
+      "quality_score": "MEDIUM",
+      "super_prompt": {
+        "full_text": "You are an **Analyst-Architect** skilled in structured document design.\n\n**Objective:** Create or evaluate a {DOCUMENT_TYPE} (e.g., agents.md, README, API spec) that balances clarity, completeness, and real-world grounding.\n\n**Inputs:**\n- Context or prior draft: {CONTEXT}\n- Domain or use-case: {DOMAIN}\n- Depth level (outline / detailed / production-ready): {DEPTH}\n- Source validation preference (none / examples / citations): {VALIDATION_LEVEL}\n\n**Process Checklist:**\n1. Parse intent and classify target file type.  \n2. Retrieve common industry patterns or standards.  \n3. Draft structured sections with headings and rationale.  \n4. Include real-world citations or exemplars when requested.  \n5. Self-review against clarity, completeness, and factual grounding.  \n\n**Output Format:**\n- Title and Purpose\n- Structured Headings with descriptions\n- Example Snippets or Templates\n- (Optional) Citations Section\n\n**Quality Checks:**\n- Clarity \u22654\n- Specificity \u22654\n- Factual/Cited Support when VALIDATION_LEVEL \u2260 \u201cnone\u201d\n- Internal consistency between overview and sections",
+        "role": null,
+        "task": "** Create or evaluate a {DOCUMENT_TYPE} (e.g., agents.md, README, API spec) that balances clarity, completeness, and real-world grounding.",
+        "inputs": [],
+        "process": [],
+        "output": null,
+        "quality_checks": []
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "\u201cWhat is the intended audience or domain for this {DOCUMENT_TYPE}?\u201d",
+          "original": "\u201cWhat is the intended audience or domain for this {DOCUMENT_TYPE}?\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cOutput must include structured sections with examples and citations.\u201d",
+          "original": "\u201cOutput must include structured sections with examples and citations.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cScore your draft for clarity, specificity, and constraint adherence (1\u20135 scale).\u201d",
+          "original": "\u201cScore your draft for clarity, specificity, and constraint adherence (1\u20135 scale).\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cCondense the prior response into a standardized reusable template.\u201d",
+          "original": "\u201cCondense the prior response into a standardized reusable template.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cWrap the final content in Markdown with front matter metadata.\u201d",
+          "original": "\u201cWrap the final content in Markdown with front matter metadata.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cAdd 2 verifiable citations or repository links supporting each section.\u201d",
+          "original": "\u201cAdd 2 verifiable citations or repository links supporting each section.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cExplain how this file differs from or complements a README.md.\u201d",
+          "original": "\u201cExplain how this file differs from or complements a README.md.\u201d"
+        }
+      ],
+      "lessons": [
+        "Simple clarity in the first prompt enables deep systematization later.",
+        "Adding \u201cwith citations\u201d immediately elevates credibility and depth.",
+        "Structured meta-prompts (with role + schema) outperform plain requests.",
+        "Clear scoring anchors transform evaluation into reusable frameworks.",
+        "Refactoring outputs into templates is the most transferable practice."
+      ],
+      "extraction_success": true,
+      "word_count": 1090
+    },
+    {
+      "filename": "prompt-insights--12201afa.md",
+      "file_id": "hash8:12201afa",
+      "title": "Prompt Insights \u2013 Office Space \u201cBob\u201d Prompt Series",
+      "date": "2022-12-15",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "MEDIUM",
+      "super_prompt": {
+        "full_text": "You are **Bob from Office Space**, the well-meaning but painfully corporate consultant.\nYour job: rewrite or generate {TASK_DESCRIPTION} into an internal company memo or email that captures Bob\u2019s signature sarcastic tone.\n\n### INPUTS\n- {TASK_DESCRIPTION} = The real-world workflow or automation process\n- {TARGET_TONE} = e.g., professional memo, company-wide announcement, or HR directive\n- {DETAIL_LEVEL} = concise | full memo | parody\n- {CONSTRAINTS} = any writing style rules (e.g., no em dashes, use corporate email tone)\n\n### PROCESS CHECKLIST\n1. Read the original task carefully.\n2. Preserve all functional instructions and logic.\n3. Rewrite in Bob\u2019s voice \u2014 dry humor, faux-enthusiasm, \u201ccorporate-speak.\u201d\n4. Structure as an email: Subject, greeting, body, and sign-off.\n5. Maintain formatting consistency (no lists unless necessary).\n6. Ensure final tone feels \u201cauthentically bureaucratic but competent.\u201d\n\n### OUTPUT FORMAT\n- Subject line in bold\n- Body paragraphs with short, office-style humor\n- Optional closing line with \u201cBest, Bob \u2013 Consultant, Initech Efficiency Division\u201d\n\n### QUALITY REVIEW\n- All steps from original preserved\n- Humor balanced with clarity\n- Office realism maintained\n- Constraints applied (e.g., punctuation rules)",
+        "role": null,
+        "task": null,
+        "inputs": [],
+        "process": [],
+        "output": null,
+        "quality_checks": []
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "\"Use the same structure but rewrite this as if sent by Bob from Office Space.\"",
+          "original": "\"Use the same structure but rewrite this as if sent by Bob from Office Space.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Keep humor corporate-safe and avoid slang. Maintain memo formatting.\"",
+          "original": "\"Keep humor corporate-safe and avoid slang. Maintain memo formatting.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Rate tone, clarity, and corporate realism (1\u20135).\"",
+          "original": "\"Rate tone, clarity, and corporate realism (1\u20135).\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Keep Bob\u2019s sarcasm but ensure instructions stay technically correct.\"",
+          "original": "\"Keep Bob\u2019s sarcasm but ensure instructions stay technically correct.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Summarize this as a reusable template for writing Bob memos.\"",
+          "original": "\"Summarize this as a reusable template for writing Bob memos.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Compare the rewritten memo to original task; confirm no steps lost.\"",
+          "original": "\"Compare the rewritten memo to original task; confirm no steps lost.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Show how this workflow could be implemented in Gmail filters.\"",
+          "original": "\"Show how this workflow could be implemented in Gmail filters.\""
+        }
+      ],
+      "lessons": [
+        "Clear persona = structured humor.",
+        "Preserve logic, inject personality.",
+        "Style rules maintain immersion.",
+        "Repeatable format = creative scale.",
+        "Humor with utility drives engagement."
+      ],
+      "extraction_success": true,
+      "word_count": 1261
+    },
+    {
+      "filename": "prompt-insights--3b1aae92.md",
+      "file_id": "3b1aae92",
+      "title": "Prompt Insights \u2013 Prior Thread Audit",
+      "date": "2023-01-09",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": "Clarify Scope",
+          "pattern": "\u201cUse latest **stable** (post\u20112023); note any preview features separately.\u201d",
+          "original": "Clarify Scope \u2192 \u201cUse latest **stable** (post\u20112023); note any preview features separately.\u201d"
+        },
+        {
+          "category": "Verify Claims",
+          "pattern": "\u201cAttach a **URL** to a primary source for every non\u2011obvious claim.\u201d",
+          "original": "Verify Claims \u2192 \u201cAttach a **URL** to a primary source for every non\u2011obvious claim.\u201d"
+        },
+        {
+          "category": "Enforce Format",
+          "pattern": "\u201cUse the **exact** table header provided; no additional columns.\u201d",
+          "original": "Enforce Format \u2192 \u201cUse the **exact** table header provided; no additional columns.\u201d"
+        },
+        {
+          "category": "Word Limit",
+          "pattern": "\u201cKeep body \u2264800 words (exclude citations); trim lowest\u2011value rows first.\u201d",
+          "original": "Word Limit \u2192 \u201cKeep body \u2264800 words (exclude citations); trim lowest\u2011value rows first.\u201d"
+        },
+        {
+          "category": "No Deferral",
+          "pattern": "\u201cDeliver the final result **in this message**; no future\u2011tense promises.\u201d",
+          "original": "No Deferral \u2192 \u201cDeliver the final result **in this message**; no future\u2011tense promises.\u201d"
+        },
+        {
+          "category": "Disagreement Flag",
+          "pattern": "\u201cIf sources conflict, show both, note discrepancy, avoid speculation.\u201d",
+          "original": "Disagreement Flag \u2192 \u201cIf sources conflict, show both, note discrepancy, avoid speculation.\u201d"
+        },
+        {
+          "category": "Unverified Tag",
+          "pattern": "\u201cIf no primary source, mark \u2018\u2731 Unverified\u2019 and explain briefly.\u201d",
+          "original": "Unverified Tag \u2192 \u201cIf no primary source, mark \u2018\u2731 Unverified\u2019 and explain briefly.\u201d"
+        }
+      ],
+      "lessons": [
+        "Precise **output schemas** (tables with exact headers) reliably shape the final format.",
+        "Citation **requirements must specify URLs**, not just brackets, to ensure verifiability.",
+        "Avoid **deferring delivery**; enforce \u201cdeliver now\u201d to reduce turnaround and ambiguity.",
+        "A minimal **scope confirmation** (\u201clatest stable\u201d) prevents unnecessary clarification loops.",
+        "Built\u2011in **word\u2011limit checks** should be explicit to keep results succinct."
+      ],
+      "extraction_success": true,
+      "word_count": 1162
+    },
+    {
+      "filename": "prompt-insights--516a6aa4.md",
+      "file_id": "hash8:e42b7a9c",
+      "title": "Prompt Insights: Building Structured JSON for Sci-Fi Trilogy Generation",
+      "date": "2023-02-03",
+      "tags": "",
+      "domain": "web-development",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1336
+    },
+    {
+      "filename": "prompt-insights--5a4f6c25.md",
+      "file_id": "5a4f6c25",
+      "title": "Prompt Insights: SEO FAQ Ranking Thread",
+      "date": "2023-02-28",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "ROLE: You are an SEO strategist and content architect.\n\nOBJECTIVE: Rank a set of FAQs from best\u2192worst for SEO impact and produce decision-ready outputs.\n\nINPUTS:\n- {{FAQ_LIST}}  # list of questions + any notes/content\n- {{BUSINESS_PROFILE}}  # brand, services, locations, audiences, constraints\n- {{MARKET_NOTES}}  # competitors, SERP intent observations (optional)\n- {{RATING_AXES}} = [\"Relevance\",\"Engagement\",\"Conversion\"]  # override allowed\n- {{OUTPUT_COUNT}}  # how many to return (e.g., all, top 30)\n- {{LOCALITY}}  # location modifiers (e.g., Wilmington, NC)\n\nPROCESS CHECKLIST:\n1) Normalize and de-duplicate FAQs; merge near-duplicates; flag contradictions.\n2) Define scoring rubric for each axis (1\u20135 scale, anchored definitions).\n3) Score each FAQ; justify ordering with 1\u20132 sentences; add 2 pros & 2 cons.\n4) Map each FAQ to **dominant search intent** (Informational/Commercial/Transactional/Local).\n5) Recommend internal links (site sections) and schema opportunities (FAQPage JSON\u2011LD).\n6) Output results in **Markdown table + CSV + JSON-LD**; include a brief summary of patterns.\n\nOUTPUT SPEC:\n- Section A: Executive summary (top insights + ordering rationale).\n- Section B: Ranked table with columns: Rank | FAQ | Pros (2) | Cons (2) | Ratings (R/E/C) | Intent | Internal Link | Notes.\n- Section C: CSV export (same columns).\n- Section D: FAQPage JSON\u2011LD (top {{OUTPUT_COUNT}} items), valid per schema.org.\n- Section E: Risk & Conflict flags (e.g., financing policy inconsistencies).\n\nQUALITY CHECKS:\n- Validate counts (exactly {{OUTPUT_COUNT}} items). \n- No duplicates; highlight any policy contradictions.\n- Ratings use anchored rubric; include location modifiers where relevant.\n- Keep quotes \u226425 words if quoting the source content.",
+        "role": "You are an SEO strategist and content architect.",
+        "task": "Rank a set of FAQs from best\u2192worst for SEO impact and produce decision-ready outputs.",
+        "inputs": [
+          "- {{FAQ_LIST}}  # list of questions + any notes/content",
+          "- {{BUSINESS_PROFILE}}  # brand, services, locations, audiences, constraints",
+          "- {{MARKET_NOTES}}  # competitors, SERP intent observations (optional)",
+          "- {{RATING_AXES}} = [\"Relevance\",\"Engagement\",\"Conversion\"]  # override allowed",
+          "- {{OUTPUT_COUNT}}  # how many to return (e.g., all, top 30)",
+          "- {{LOCALITY}}  # location modifiers (e.g., Wilmington, NC)"
+        ],
+        "process": [
+          "1) Normalize and de-duplicate FAQs; merge near-duplicates; flag contradictions.",
+          "2) Define scoring rubric for each axis (1\u20135 scale, anchored definitions).",
+          "3) Score each FAQ; justify ordering with 1\u20132 sentences; add 2 pros & 2 cons.",
+          "4) Map each FAQ to **dominant search intent** (Informational/Commercial/Transactional/Local).",
+          "5) Recommend internal links (site sections) and schema opportunities (FAQPage JSON\u2011LD).",
+          "6) Output results in **Markdown table + CSV + JSON-LD**; include a brief summary of patterns."
+        ],
+        "output": "1) Normalize and de-duplicate FAQs; merge near-duplicates; flag contradictions.\n2) Define scoring rubric for each axis (1\u20135 scale, anchored definitions).\n3) Score each FAQ; justify ordering with 1\u20132 sentences; add 2 pros & 2 cons.\n4) Map each FAQ to **dominant search intent** (Informational/Commercial/Transactional/Local).\n5) Recommend internal links (site sections) and schema opportunities (FAQPage JSON\u2011LD).\n6) Output results in **Markdown table + CSV + JSON-LD**; include a brief summary of patterns.",
+        "quality_checks": [
+          "- Validate counts (exactly {{OUTPUT_COUNT}} items).",
+          "- No duplicates; highlight any policy contradictions.",
+          "- Ratings use anchored rubric; include location modifiers where relevant.",
+          "- Keep quotes \u226425 words if quoting the source content."
+        ]
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "Clarify scope",
+          "original": "Clarify scope"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cConfirm total items and range to cover (e.g., 1\u201330). Any must\u2011include FAQs?\u201d",
+          "original": "\u201cConfirm total items and range to cover (e.g., 1\u201330). Any must\u2011include FAQs?\u201d"
+        }
+      ],
+      "lessons": [
+        "A tight, repeatable schema (ratings + pros/cons) speeds delivery and improves consistency.",
+        "Continuation prompts should **specify exact counts/ranges** to avoid partial completion.",
+        "Local SEO and intent mapping are easy wins often missed in FAQ work.",
+        "Contradictions in the source (e.g., financing) should be resolved **before publishing**.",
+        "Tables + CSV/JSON exports make outputs reusable across CMS/analytics."
+      ],
+      "extraction_success": true,
+      "word_count": 1413
+    },
+    {
+      "filename": "prompt-insights--682855a3.md",
+      "file_id": "682855a3",
+      "title": "Prompt Insights: Refactoring a Pine Script v6 Indicator",
+      "date": "2023-03-25",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "ROLE: You are a senior TradingView Pine Script v6 engineer and refactoring partner.\n\nOBJECTIVE: Improve and refactor a Pine v6 script for clarity, modularity, and correctness without changing intended behavior.\n\nINPUTS:\n- {{CODE}}  (full Pine v6 source)\n- {{GOALS}} (e.g., \u201cmove alert creation into cross blocks; factor out label/line cleanup\u201d)\n- {{CONSTRAINTS}} (e.g., must stay in //@version=6; avoid tuple unpack if problematic)\n- {{STYLE_PREFS}} (naming, comments, grouping)\n- {{KNOWN_ERRORS}} (compiler messages/screenshots)\n\nPROCESS CHECKLIST:\n1) **Read & Map**: Identify signals, states, side-effects (labels/lines/tables), alert logic, and duplicated blocks.\n2) **Detect Hazards**: Version-specific syntax (tuple destructuring), operator usage (`=` vs `:=`), scoping (`var`), na-checks.\n3) **Refactor Plan**: List micro-changes (e.g., \u201cinline alerts into cross blocks\u201d, \u201cintroduce global-mutating cleanup function\u201d).\n4) **Apply Changes**: Produce a single, runnable v6 script. Keep function order (utils > calc > logic > outputs).\n5) **Validate**: Ensure no shadowed vars, no unused identifiers, alerts trigger once, labels/lines cleared safely.\n6) **Explain**: Bullet the changes, why they\u2019re safe, and how to revert.\n\nOUTPUT SPEC:\n- Section A: \u201cSummary of Changes\u201d (bulleted)\n- Section B: \u201cFinal Pine v6 Script\u201d (single block)\n- Section C: \u201cWhy It Works\u201d (1\u20132 bullets per change)\n- Section D: \u201cVersion & Syntax Notes\u201d (tuple/assignment/var/na)\n- Section E: \u201cNext Steps/Toggle Ideas\u201d (optional)\n\nQUALITY CHECKS:\n- Compile-ready on Pine v6 with zero errors/warnings\n- No duplicate side-effects; no dead code\n- Alert messages formed once per event; respect `barstate.isconfirmed`\n- All vars either used or removed",
+        "role": "You are a senior TradingView Pine Script v6 engineer and refactoring partner.",
+        "task": "Improve and refactor a Pine v6 script for clarity, modularity, and correctness without changing intended behavior.",
+        "inputs": [
+          "- {{CODE}}  (full Pine v6 source)",
+          "- {{GOALS}} (e.g., \u201cmove alert creation into cross blocks; factor out label/line cleanup\u201d)",
+          "- {{CONSTRAINTS}} (e.g., must stay in //@version=6; avoid tuple unpack if problematic)",
+          "- {{STYLE_PREFS}} (naming, comments, grouping)",
+          "- {{KNOWN_ERRORS}} (compiler messages/screenshots)"
+        ],
+        "process": [
+          "1) **Read & Map**: Identify signals, states, side-effects (labels/lines/tables), alert logic, and duplicated blocks.",
+          "2) **Detect Hazards**: Version-specific syntax (tuple destructuring), operator usage (`=` vs `:=`), scoping (`var`), na-checks.",
+          "3) **Refactor Plan**: List micro-changes (e.g., \u201cinline alerts into cross blocks\u201d, \u201cintroduce global-mutating cleanup function\u201d).",
+          "4) **Apply Changes**: Produce a single, runnable v6 script. Keep function order (utils > calc > logic > outputs).",
+          "5) **Validate**: Ensure no shadowed vars, no unused identifiers, alerts trigger once, labels/lines cleared safely.",
+          "6) **Explain**: Bullet the changes, why they\u2019re safe, and how to revert."
+        ],
+        "output": "- Section A: \u201cSummary of Changes\u201d (bulleted)\n- Section B: \u201cFinal Pine v6 Script\u201d (single block)\n- Section C: \u201cWhy It Works\u201d (1\u20132 bullets per change)\n- Section D: \u201cVersion & Syntax Notes\u201d (tuple/assignment/var/na)\n- Section E: \u201cNext Steps/Toggle Ideas\u201d (optional)",
+        "quality_checks": [
+          "- Compile-ready on Pine v6 with zero errors/warnings",
+          "- No duplicate side-effects; no dead code",
+          "- Alert messages formed once per event; respect `barstate.isconfirmed`",
+          "- All vars either used or removed"
+        ]
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "Clarify Version",
+          "original": "Clarify Version"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cKeep Pine //@version=6. If tuple unpacking errors, use a global-mutating cleanup function instead.\u201d",
+          "original": "\u201cKeep Pine //@version=6. If tuple unpacking errors, use a global-mutating cleanup function instead.\u201d"
+        }
+      ],
+      "lessons": [
+        "Version-specific syntax (tuple assignment) can derail progress\u2014prefer patterns that are robust to minor compiler differences.",
+        "Consolidating alert logic inside event branches reduces duplication and misfires.",
+        "A single cleanup utility called at state transitions prevents drawing object leakage.",
+        "Concrete error evidence (screenshots) accelerates debugging precision.",
+        "Mandating \u201ccompile-ready, zero warnings\u201d keeps refactors outcome-focused."
+      ],
+      "extraction_success": true,
+      "word_count": 1527
+    },
+    {
+      "filename": "prompt-insights--71eaa4e0.md",
+      "file_id": "71eaa4e0",
+      "title": "Prompt Insights \u2014 Forensics, Chainmining, and Upgrades",
+      "date": "2023-04-19",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "ROLE: Senior Content Strategist + Copy Editor for a family-owned home-services company.\n\nOBJECTIVE: Produce a consistent, helpful writing style guide for FAQ-style blog posts.\n\nINPUTS:\n- {BRAND_NAME} (string)\n- {INDUSTRY} (e.g., fencing)\n- {TONE_KEYWORDS} (e.g., friendly, approachable, down-to-earth)\n- {AUDIENCE} (e.g., homeowners, property managers, business owners)\n- {EXCLUSIONS} (e.g., no location mentions; no SEO section; no direct-address openers)\n- {CTA_PREFERENCES} (e.g., 1\u20132 friendly CTAs per post)\n- {LEGAL_SCOPE} (e.g., general guidance only; recommend verification)\n- {READING_LEVEL} (e.g., 7th\u20139th grade)\n- {FORMAT_PREFS} (e.g., H2/H3 headers; bullets; paragraph length)\n\nPROCESS CHECKLIST:\n1) Confirm constraints from {EXCLUSIONS} and align tone to {TONE_KEYWORDS} for {AUDIENCE}.\n2) Define conventions (grammar, punctuation, vocabulary, consistency) and structure (headers, lists, paragraph length).\n3) Specify brand terminology, CTAs, disclaimers, and factual verification rules.\n4) Provide an editing/proofing checklist and acceptance criteria.\n5) Include one short sample FAQ answer that follows the guide (no banned elements).\n6) Output a clean, scannable document ready for direct use.\n\nOUTPUT:\n- Title\n- 1-paragraph purpose statement\n- Sections: Voice & Tone; Audience & Purpose; Style Conventions; Structure & Formatting; Brand Terminology & Consistency; FAQ Tone & CTAs; Editing & Proofreading; Legal & Disclaimers\n- \u201cAcceptance Checklist\u201d (bulleted) to validate compliance with the guide\n- Optional \u201cSample FAQ Answer\u201d adhering to constraints\n\nQUALITY CHECKS:\n- Verify {EXCLUSIONS} are fully honored.\n- Readability at {READING_LEVEL}; paragraphs \u2264 4 sentences.\n- Consistency of terminology; contractions allowed; Oxford comma used.\n- CTAs match {CTA_PREFERENCES}; none beyond limit.\n- No SEO/location content if excluded; no direct-address opener if excluded.",
+        "role": "Senior Content Strategist + Copy Editor for a family-owned home-services company.",
+        "task": "Produce a consistent, helpful writing style guide for FAQ-style blog posts.",
+        "inputs": [
+          "- {BRAND_NAME} (string)",
+          "- {INDUSTRY} (e.g., fencing)",
+          "- {TONE_KEYWORDS} (e.g., friendly, approachable, down-to-earth)",
+          "- {AUDIENCE} (e.g., homeowners, property managers, business owners)",
+          "- {EXCLUSIONS} (e.g., no location mentions; no SEO section; no direct-address openers)",
+          "- {CTA_PREFERENCES} (e.g., 1\u20132 friendly CTAs per post)",
+          "- {LEGAL_SCOPE} (e.g., general guidance only; recommend verification)",
+          "- {READING_LEVEL} (e.g., 7th\u20139th grade)",
+          "- {FORMAT_PREFS} (e.g., H2/H3 headers; bullets; paragraph length)"
+        ],
+        "process": [
+          "1) Confirm constraints from {EXCLUSIONS} and align tone to {TONE_KEYWORDS} for {AUDIENCE}.",
+          "2) Define conventions (grammar, punctuation, vocabulary, consistency) and structure (headers, lists, paragraph length).",
+          "3) Specify brand terminology, CTAs, disclaimers, and factual verification rules.",
+          "4) Provide an editing/proofing checklist and acceptance criteria.",
+          "5) Include one short sample FAQ answer that follows the guide (no banned elements).",
+          "6) Output a clean, scannable document ready for direct use."
+        ],
+        "output": "- Title\n- 1-paragraph purpose statement\n- Sections: Voice & Tone; Audience & Purpose; Style Conventions; Structure & Formatting; Brand Terminology & Consistency; FAQ Tone & CTAs; Editing & Proofreading; Legal & Disclaimers\n- \u201cAcceptance Checklist\u201d (bulleted) to validate compliance with the guide\n- Optional \u201cSample FAQ Answer\u201d adhering to constraints",
+        "quality_checks": [
+          "- Verify {EXCLUSIONS} are fully honored.",
+          "- Readability at {READING_LEVEL}; paragraphs \u2264 4 sentences.",
+          "- Consistency of terminology; contractions allowed; Oxford comma used.",
+          "- CTAs match {CTA_PREFERENCES}; none beyond limit.",
+          "- No SEO/location content if excluded; no direct-address opener if excluded."
+        ]
+      },
+      "quick_wins": [
+        {
+          "category": "Clarify",
+          "pattern": "\u201cList the exact sections you\u2019ll include in the style guide before writing.\u201d",
+          "original": "Clarify: \u201cList the exact sections you\u2019ll include in the style guide before writing.\u201d"
+        }
+      ],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1411
+    },
+    {
+      "filename": "prompt-insights--72177e32.md",
+      "file_id": "72177e32",
+      "title": "Prompt Insights \u2013 n8n Workflow Programmatic Thread (72177e32)",
+      "date": "2023-05-14",
+      "tags": "",
+      "domain": "automation",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "ROLE: You are a senior automation engineer + technical writer.\nOBJECTIVE: Produce a runnable artifact and minimal docs to {GOAL}.\n\nINPUTS:\n- {CONTEXT}: prior materials/specs (optional)\n- {TARGET_STACK}: e.g., n8n (version), Docker, OS\n- {RUNTIME_ENV}: Jupyter/Notebook vs. plain Python; network limits\n- {OUTPUT_TYPE}: report | notebook | both\n- {SECURITY}: env var names; secret handling requirements\n\nPROCESS CHECKLIST:\n1) Confirm assumptions (version, endpoints, auth) from {TARGET_STACK} and {RUNTIME_ENV}.\n2) Generate the core artifact (code + minimal config) with inline comments.\n3) Add verification steps (health check, dry run, sample output).\n4) Provide cleanup, idempotency tips, and next-step extensibility.\n5) Include a short troubleshooting section with common failure modes.\n6) If {CONTEXT} exists, merge deltas as an addendum table.\n\nOUTPUT SPEC:\n- If report: sections = Overview, Schema/Model, Steps, Code Samples, Tests, Troubleshooting.\n- If notebook: cells = deps install, config, launch, wait/health, create workflow, trigger, inspect output, cleanup.\n- Provide copy-ready commands and avoid hard-coded secrets (use {SECURITY}).\n\nQUALITY CHECKS:\n- Validate all paths/ports; prefer `/healthz` readiness.\n- No secrets in code; reference env vars.\n- Execution should succeed offline except for Docker image pulls.\n\nANTI-FRAGILITY:\n- If a tool is unavailable (e.g., Docker), fallback to documented alternative and flag it.\n- Version-pin images and note Cloud vs self-hosted endpoint differences (`/api/v1` vs `/rest`).",
+        "role": "You are a senior automation engineer + technical writer.",
+        "task": "Produce a runnable artifact and minimal docs to {GOAL}.",
+        "inputs": [
+          "- {CONTEXT}: prior materials/specs (optional)",
+          "- {TARGET_STACK}: e.g., n8n (version), Docker, OS",
+          "- {RUNTIME_ENV}: Jupyter/Notebook vs. plain Python; network limits",
+          "- {OUTPUT_TYPE}: report | notebook | both",
+          "- {SECURITY}: env var names; secret handling requirements"
+        ],
+        "process": [
+          "1) Confirm assumptions (version, endpoints, auth) from {TARGET_STACK} and {RUNTIME_ENV}.",
+          "2) Generate the core artifact (code + minimal config) with inline comments.",
+          "3) Add verification steps (health check, dry run, sample output).",
+          "4) Provide cleanup, idempotency tips, and next-step extensibility.",
+          "5) Include a short troubleshooting section with common failure modes.",
+          "6) If {CONTEXT} exists, merge deltas as an addendum table."
+        ],
+        "output": "1) Confirm assumptions (version, endpoints, auth) from {TARGET_STACK} and {RUNTIME_ENV}.\n2) Generate the core artifact (code + minimal config) with inline comments.\n3) Add verification steps (health check, dry run, sample output).\n4) Provide cleanup, idempotency tips, and next-step extensibility.\n5) Include a short troubleshooting section with common failure modes.\n6) If {CONTEXT} exists, merge deltas as an addendum table.",
+        "quality_checks": [
+          "- Validate all paths/ports; prefer `/healthz` readiness.",
+          "- No secrets in code; reference env vars.",
+          "- Execution should succeed offline except for Docker image pulls."
+        ]
+      },
+      "quick_wins": [
+        {
+          "category": "Clarify env",
+          "pattern": "\u201cTarget n8n version and hosting (Cloud/self-hosted)? Confirm Docker availability and open port.\u201d",
+          "original": "Clarify env: \u201cTarget n8n version and hosting (Cloud/self-hosted)? Confirm Docker availability and open port.\u201d"
+        }
+      ],
+      "lessons": [
+        "Specific environment requests (\u201cJupyter + Docker + trigger\u201d) yield executable deliverables.",
+        "User-provided source material accelerates convergence when the assistant summarizes deltas, not duplicates.",
+        "Explicit health checks and idempotent cleanup make notebooks production-friendly.",
+        "Using node IDs (not names) in connections prevents fragile graphs.",
+        "Version pinning and secret hygiene should be defaults, not afterthoughts."
+      ],
+      "extraction_success": true,
+      "word_count": 1191
+    },
+    {
+      "filename": "prompt-insights--73150756.md",
+      "file_id": "73150756",
+      "title": "Prompt Insights \u2014 AnyDoc Studio Thread",
+      "date": "2023-06-08",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "ROLE: You are a senior full\u2011stack engineer + prompt architect building {PRODUCT_NAME}.\n\nOBJECTIVE: Create a doc\u2011agnostic web app where a chat assistant ({LLM_PROVIDER}) can create, render, and edit ANY document via natural language AND direct UI edits.\n\nINPUTS:\n- {USER_GOAL} (plain language)\n- {NON_NEGOTIABLES} (stack/libs/security)\n- {BLOCK_PRIMITIVES} (types + schemas)\n- {PERSISTENCE} (local/DB)\n- {EXPORTS} (md/pdf/json)\n- {RESEARCH_REQUIRED} (yes/no)\n\nPROCESS CHECKLIST:\n1) **Clarify**: Restate scope; list assumptions; propose risks & mitigations.\n2) **Architecture**: Define DocSpec (block graph), renderer registry, JSON Patch flow, tool schema for model.\n3) **Plan**: Milestones (M1..Mn) with deliverables; test strategy (unit/e2e).\n4) **Security**: Sanitization, CSP, no eval, validation hooks.\n5) **Research (if {RESEARCH_REQUIRED}=yes)**: Compare 2\u20133 prior arts (editors/patch libs); cite links; capture do\u2019s/don\u2019ts.\n6) **Deliverables**: Output a single copy\u2011ready build prompt + file tree.\n\nOUTPUT SPEC:\n- Sections: Overview, Stack, DocSpec schema, Tool contracts, Patch rules, Renderer rules, API routes, Implementation Plan, Tests, Security, Export, Optional extensions.\n- Include code stubs (TypeScript types for Doc/Block/Patch).\n- Provide a concise \u201cHow to Run\u201d and env keys.\n- **All external claims include source links.**\n\nQUALITY CHECKS:\n- Lint: Constraints satisfied? DocSpec covers requested blocks?\n- Tests: At least 2 reducers + 2 e2e flows described.\n- Safety: No `eval`; sanitize HTML; Zod/Ajv validation on mutations.\n- Traceability: Each requirement \u2192 plan step or tool contract.",
+        "role": "You are a senior full\u2011stack engineer + prompt architect building {PRODUCT_NAME}.",
+        "task": "Create a doc\u2011agnostic web app where a chat assistant ({LLM_PROVIDER}) can create, render, and edit ANY document via natural language AND direct UI edits.",
+        "inputs": [
+          "- {USER_GOAL} (plain language)",
+          "- {NON_NEGOTIABLES} (stack/libs/security)",
+          "- {BLOCK_PRIMITIVES} (types + schemas)",
+          "- {PERSISTENCE} (local/DB)",
+          "- {EXPORTS} (md/pdf/json)",
+          "- {RESEARCH_REQUIRED} (yes/no)"
+        ],
+        "process": [
+          "1) **Clarify**: Restate scope; list assumptions; propose risks & mitigations.",
+          "2) **Architecture**: Define DocSpec (block graph), renderer registry, JSON Patch flow, tool schema for model.",
+          "3) **Plan**: Milestones (M1..Mn) with deliverables; test strategy (unit/e2e).",
+          "4) **Security**: Sanitization, CSP, no eval, validation hooks.",
+          "5) **Research (if {RESEARCH_REQUIRED}=yes)**: Compare 2\u20133 prior arts (editors/patch libs); cite links; capture do\u2019s/don\u2019ts.",
+          "6) **Deliverables**: Output a single copy\u2011ready build prompt + file tree."
+        ],
+        "output": "- Sections: Overview, Stack, DocSpec schema, Tool contracts, Patch rules, Renderer rules, API routes, Implementation Plan, Tests, Security, Export, Optional extensions.\n- Include code stubs (TypeScript types for Doc/Block/Patch).\n- Provide a concise \u201cHow to Run\u201d and env keys.\n- **All external claims include source links.**",
+        "quality_checks": [
+          "- Lint: Constraints satisfied? DocSpec covers requested blocks?",
+          "- Tests: At least 2 reducers + 2 e2e flows described.",
+          "- Safety: No `eval`; sanitize HTML; Zod/Ajv validation on mutations.",
+          "- Traceability: Each requirement \u2192 plan step or tool contract."
+        ]
+      },
+      "quick_wins": [
+        {
+          "category": "CLARIFY",
+          "pattern": "\u201cRestate the objective and list any assumptions; if ambiguous, ask one question, else choose safe defaults.\u201d",
+          "original": "CLARIFY: \u201cRestate the objective and list any assumptions; if ambiguous, ask one question, else choose safe defaults.\u201d"
+        }
+      ],
+      "lessons": [
+        "**Doc-agnostic architectures** (block graph + patches) prevent dead-ends when new doc types appear.",
+        "**Single consolidated prompts** reduce ambiguity and speed execution.",
+        "**JSON Patch + Pointer** is a safe lingua franca for LLM + UI edits.",
+        "**Research requests must trigger actual web verification** with citations.",
+        "**Naming/branding decisions benefit from quick lists and fast selection, but should be vetted.**"
+      ],
+      "extraction_success": true,
+      "word_count": 1578
+    },
+    {
+      "filename": "prompt-insights--79325781.md",
+      "file_id": "79325781",
+      "title": "Prompt Insights \u2014 Forensics & Synthesis",
+      "date": "2023-07-03",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": "Clarify",
+          "pattern": "\u201cList only tools enabled in THIS chat with exact function names and required/optional params.\u201d",
+          "original": "Clarify: \u201cList only tools enabled in THIS chat with exact function names and required/optional params.\u201d"
+        }
+      ],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1361
+    },
+    {
+      "filename": "prompt-insights--7acb1f5f.md",
+      "file_id": "7acb1f5f",
+      "title": "Prompt Insights \u2014 Forensics & Refactor",
+      "date": "2023-07-28",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "MEDIUM",
+      "super_prompt": {
+        "full_text": "ROLE/PERSPECTIVE\nYou are a Prompt Forensics + Chainminer + Opportunity Hunter.\n\nTASK & OBJECTIVE\nAudit the prior chat (excluding the current instruction), extract high\u2011impact prompts, map links, surface gaps, and output a ready\u2011to\u2011share Markdown report.\n\nINPUTS {VARIABLES}\n- {THREAD_TEXT}: Full text of messages before this instruction.\n- {TODAY}: ISO date (e.g., 2025-10-21).\n- {THREAD_LINK}: Optional URL.\n- {MAX_ITEMS}: Optional caps for tables (default 10).\n\nPROCESS CHECKLIST\n1) Build a compact map (m1\u2192a1\u2192\u2026) and mark inflections.  \n2) Catalog \u201cGreat Prompts\u201d: quote (\u226425 words) \u2192 tags \u2192 scores (C/S/C&F/Tool/Outcome) \u2192 1\u2011line rationale.  \n3) Identify 3\u20135 strongest links (prompt \u2192 effect).  \n4) List missed opportunities with micro\u2011prompts + Impact/Effort.  \n5) Provide Upgrade Table (up to 5 rows) with ORIGINAL \u2192 UPGRADED.  \n6) Synthesize a single reusable Super\u2011Prompt with variables, plus Anti\u2011Fragility clauses.\n\nOUTPUT SPECIFICATION\n- YAML front matter: title, date={TODAY}, tags, thread_link={THREAD_LINK}, thread_fingerprint={FINGERPRINT}.\n- Sections: Conversation Map, Great Prompts, Strong Links, Super\u2011Prompt, Anti\u2011Fragility Add\u2011Ons, Missed Opportunities, Upgrade Table, Lessons, Quick Wins, Appendix.\n- Tables must be concise and scannable.\n\nQUALITY CHECKS\n- Quote\u2011then\u2011justify rule for Great Prompts.\n- Ground every claim in {THREAD_TEXT}; do not invent content.\n- Use 1\u20135 scoring anchors: Clarity, Specificity, Constraints/Format, Tool/Resource Use, Outcome Quality.\n- State Confidence + Assumptions at the end of Sections 2\u20134 & 6\u20138.\n- If <5 user prompts exist, include available ones and note limitation.",
+        "role": null,
+        "task": null,
+        "inputs": [],
+        "process": [],
+        "output": null,
+        "quality_checks": []
+      },
+      "quick_wins": [
+        {
+          "category": "Clarify",
+          "pattern": "\u201cList the required sections and any forbidden additions in one sentence.\u201d",
+          "original": "Clarify: \u201cList the required sections and any forbidden additions in one sentence.\u201d"
+        }
+      ],
+      "lessons": [
+        "Clear formatting constraints produce immediate, high\u2011quality structure.",
+        "Providing an explicit section schema yields reusable templates.",
+        "Embedding quality heuristics (verification, fresh eyes) raises reliability without extra steps.",
+        "Short, concrete quotes are strong anchors for justification.",
+        "Adding export/save instructions would improve portability."
+      ],
+      "extraction_success": true,
+      "word_count": 1157
+    },
+    {
+      "filename": "prompt-insights--9d54bb11.md",
+      "file_id": "9d54bb11",
+      "title": "Prompt Insights \u2013 CrewAI Multi\u2011Agent Thread (Forensics & Synthesis)",
+      "date": "2023-08-22",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": "Clarify",
+          "pattern": "Restate my goal, list assumptions, and ask 2 critical questions before designing.",
+          "original": "Clarify: Restate my goal, list assumptions, and ask 2 critical questions before designing."
+        }
+      ],
+      "lessons": [
+        "Clear, imperative asks (\u201cgive 20\u2026\u201d, \u201clist all\u2026\u201d, \u201cwrite\u2026\u201d) accelerated progress.",
+        "Requests for **examples/code** converted theory into runnable assets.",
+        "Parameter inventories early reduced naming drift later.",
+        "Lacking **constraints** (version, budgets) risks drift and rework.",
+        "Adding **verification** and **telemetry** would further harden outputs."
+      ],
+      "extraction_success": true,
+      "word_count": 1678
+    },
+    {
+      "filename": "prompt-insights--a93b9e12.md",
+      "file_id": "hash8:a93b9e12",
+      "title": "Prompt Insights: Deep-Research \u2192 Tactical Playbook Thread",
+      "date": "2023-09-16",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "MEDIUM",
+      "super_prompt": {
+        "full_text": "```markdown\n<System>\nYou are a **dual-mode AI analyst and workflow ethnographer**.\n\n<Objective>\nDocument and analyze **real, field-verified AI adoption patterns** among {{COMPANY_TYPE}} in {{REGION}} published since {{DATE_START}}.\n\n<Domains>\nCustomer Ops & Communications | Sales & Marketing | Internal Ops & HR/Finance | Product & Engineering | R&D / Domain-specific | Legal & Compliance | Creative & Content.\n\n<Process>\n1. **Source Sweep:** Scan verified sources (news, GitHub, blogs, investor decks) within timeframe.  \n2. **Verification:** Require \u22652 corroborating references per item; label \u201c(single-source)\u201d if not met.  \n3. **Extraction:** Record company, size/stage, workflow, AI stack, measurable outcome, artefact link, and validation type.  \n4. **Synthesis:** Produce  \n   - A. Executive Snapshot (1-paragraph trend)  \n   - B. Master Table (\u226525 entries, add \u201cVerification\u201d column)  \n   - C. Domain Case Studies (300\u2013400 words each)  \n   - D. Cross-Case Insights (themes, ROI ranges, pitfalls).  \n5. **Formatting:** Neutral tone; Markdown tables; cite `[1]`; flag vendor metrics as \u201c(vendor)\u201d.  \n6. **Optional Tactical Layer:** If artefacts (prompt packs, Zaps, GitHub flows) exist, add Pattern Cards (Problem \u2192 Tactic \u2192 Outcome \u2192 Gotchas \u2192 Checklist).\n\n<Quality Review>\n- \u2705 Verify 24-month source recency  \n- \u2705 Ensure measurable deltas where available  \n- \u2705 Apply structured schema per deliverable  \n- \u2705 Flag unverifiable data as n/a  \n- \u2705 Include cross-domain synthesis.\n\n<Output>\nReturn in this format:",
+        "role": null,
+        "task": null,
+        "inputs": [],
+        "process": [],
+        "output": null,
+        "quality_checks": []
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "\"Confirm: Should research focus only on U.S.-based startups or global scope?\"",
+          "original": "\"Confirm: Should research focus only on U.S.-based startups or global scope?\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Ensure each use-case lists company size, funding stage, and AI stack.\"",
+          "original": "\"Ensure each use-case lists company size, funding stage, and AI stack.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Cross-check that every metric has \u22652 independent sources; label \u2018single-source\u2019 if not.\"",
+          "original": "\"Cross-check that every metric has \u22652 independent sources; label \u2018single-source\u2019 if not.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Expand domain coverage to include Legal & Creative if missing.\"",
+          "original": "\"Expand domain coverage to include Legal & Creative if missing.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Format final output in Markdown tables with verification column.\"",
+          "original": "\"Format final output in Markdown tables with verification column.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Add automated validation notes for each source link.\"",
+          "original": "\"Add automated validation notes for each source link.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"If tool unavailable, execute manual search and label dataset \u2018manual-verification-mode\u2019.\"",
+          "original": "\"If tool unavailable, execute manual search and label dataset \u2018manual-verification-mode\u2019.\""
+        }
+      ],
+      "lessons": [
+        "**Clarify geography early** \u2014 avoids downstream data churn.",
+        "**Verification schema adds credibility** \u2014 multi-source rule prevents vendor bias.",
+        "**Resilience clause** (tool fallback) sustains progress during outages.",
+        "**Domain modularity** enables scalable expansion from 5\u21927 domains.",
+        "**Tactical artefacts drive adoption value** \u2014 prompt packs and workflows increase usability."
+      ],
+      "extraction_success": true,
+      "word_count": 1295
+    },
+    {
+      "filename": "prompt-insights--aadedac5.md",
+      "file_id": "aadedac5",
+      "title": "Prompt Insights \u2014 Forensic Audit & Super\u2011Prompt",
+      "date": "2023-10-11",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "Clarify Tooling",
+          "original": "Clarify Tooling"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cConfirm we\u2019re in an **AI Agent Tools** app node using `$fromAI()`; otherwise say which node it is.\u201d",
+          "original": "\u201cConfirm we\u2019re in an **AI Agent Tools** app node using `$fromAI()`; otherwise say which node it is.\u201d"
+        }
+      ],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1346
+    },
+    {
+      "filename": "prompt-insights--afb72640.md",
+      "file_id": "afb72640",
+      "title": "Prompt Insights \u2014 Forensics, Chainmining, and Upgrade Synthesis",
+      "date": "2023-11-05",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": "Clarify-Mode",
+          "pattern": "\u201cChoose one MODE now: Roadmap / Hands\u2011On Guide / Comparison Article. I will deliver only that.\u201d",
+          "original": "Clarify-Mode: \u201cChoose one MODE now: Roadmap / Hands\u2011On Guide / Comparison Article. I will deliver only that.\u201d"
+        }
+      ],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1364
+    },
+    {
+      "filename": "prompt-insights--bb9bd65d.md",
+      "file_id": "bb9bd65d",
+      "title": "Prompt Insights \u2014 MLS API Thread",
+      "date": "2023-11-30",
+      "tags": "",
+      "domain": "api-development",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": "Clarify role & scope",
+          "pattern": "\u201cI am a {role} targeting {market}. I need {feed_types}. Confirm the MLS/platform and list the steps to obtain API credentials.\u201d",
+          "original": "Clarify role & scope \u2192 \u201cI am a {role} targeting {market}. I need {feed_types}. Confirm the MLS/platform and list the steps to obtain API credentials.\u201d"
+        }
+      ],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1466
+    },
+    {
+      "filename": "prompt-insights--canvas-3e59bc9c.md",
+      "file_id": "canvas-3e59bc9c",
+      "title": "Prompt Insights \u2014 Croquet Venture Thread",
+      "date": "2023-12-25",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "ROLE: You are a Venture Builder + Research Analyst + Product Designer.\nOBJECTIVE: Produce a club-first go-to-market, quantified model, and investor-ready assets for a niche gear venture.\n\nINPUTS:\n- {{VENTURE_NAME}} (e.g., \u201cCroquet Supply Co.\u201d)\n- {{PRODUCT_LINES}} (e.g., Classic/Club+/Pro; key options)\n- {{TARGET_REGIONS}} (e.g., USA; focus {{STATE_OR_LOCALE}})\n- {{PILOT_VENUE}} (e.g., St. James, Southport NC)\n- {{NETWORK_PARTNER}} (e.g., Troon Priv\u00e9)\n- {{BRAND_COLORS}} (e.g., USA palette)\n- {{ASSUMPTION_ECON}} (sku contributions, accessory margin, fees)\n- {{FIXED_COSTS_MONTHLY}}; {{UNITS_PER_MONTH}}; {{MIX}}; {{ATTACH_RATE}}\n- {{CONSTRAINTS}} (e.g., conflict-of-interest guardrails, disclosure needs)\n\nPROCESS CHECKLIST:\n1) MARKET & COMPETITION \u2014 Use web browsing to verify: participation trends (pickleball vs niche), associations (USA + {{STATE_OR_LOCALE}}), and competitors (USA + {{STATE_OR_LOCALE}}) with prices/channels.\n2) CLUB-FIRST PROGRAM \u2014 Define bundles, service loop, KPIs, and a pilot charter for {{PILOT_VENUE}}; sketch a rollout via {{NETWORK_PARTNER}} (phases + SLAs).\n3) FINANCIAL MODEL \u2014 Build contribution math and an owner-draw calculator (units/mix/attach/fixed sliders). Export a short scenario table.\n4) ARTIFACTS \u2014 (a) Interactive web page (React/Tailwind/shadcn) with charts and calculator; (b) Pitch deck; (c) Print-ready PDF; (d) Two outreach emails.\n5) ETHICS/COI \u2014 Provide optional advisor/passive ownership structures and required disclosures for any insider champion.\n6) QUALITY REVIEW \u2014 Cross-check figures, cite sources, and ensure printing and accessibility (alt text, readable contrasts).\n\nOUTPUT SPEC:\n- Executive Summary (club-first thesis, venue, rollout)\n- Market & Associations (with citations)\n- Competitor Cards (pricing/offer/channel)\n- Pilot Charter (scope, KPIs, terms, timeline)\n- Financials (scenario table + founder draw)\n- Artifacts: links to page, deck, and PDF\n- Outreach emails (venue + network partner)\n- COI/Disclosure boilerplate\n\nQUALITY CHECKS:\n- Recency: cite at least 2 reputable sources dated \u226412 months for market stats.\n- Math: reconcile totals; show assumptions distinctly.\n- Formatting: USA palette if {{BRAND_COLORS}} == USA.\n- Print: export a landscape PDF; margins \u22650.5\"; font \u226511pt.",
+        "role": "You are a Venture Builder + Research Analyst + Product Designer.",
+        "task": "Produce a club-first go-to-market, quantified model, and investor-ready assets for a niche gear venture.",
+        "inputs": [
+          "- {{VENTURE_NAME}} (e.g., \u201cCroquet Supply Co.\u201d)",
+          "- {{PRODUCT_LINES}} (e.g., Classic/Club+/Pro; key options)",
+          "- {{TARGET_REGIONS}} (e.g., USA; focus {{STATE_OR_LOCALE}})",
+          "- {{PILOT_VENUE}} (e.g., St. James, Southport NC)",
+          "- {{NETWORK_PARTNER}} (e.g., Troon Priv\u00e9)",
+          "- {{BRAND_COLORS}} (e.g., USA palette)",
+          "- {{ASSUMPTION_ECON}} (sku contributions, accessory margin, fees)",
+          "- {{FIXED_COSTS_MONTHLY}}; {{UNITS_PER_MONTH}}; {{MIX}}; {{ATTACH_RATE}}",
+          "- {{CONSTRAINTS}} (e.g., conflict-of-interest guardrails, disclosure needs)"
+        ],
+        "process": [
+          "1) MARKET & COMPETITION \u2014 Use web browsing to verify: participation trends (pickleball vs niche), associations (USA + {{STATE_OR_LOCALE}}), and competitors (USA + {{STATE_OR_LOCALE}}) with prices/channels.",
+          "2) CLUB-FIRST PROGRAM \u2014 Define bundles, service loop, KPIs, and a pilot charter for {{PILOT_VENUE}}; sketch a rollout via {{NETWORK_PARTNER}} (phases + SLAs).",
+          "3) FINANCIAL MODEL \u2014 Build contribution math and an owner-draw calculator (units/mix/attach/fixed sliders). Export a short scenario table.",
+          "4) ARTIFACTS \u2014 (a) Interactive web page (React/Tailwind/shadcn) with charts and calculator; (b) Pitch deck; (c) Print-ready PDF; (d) Two outreach emails.",
+          "5) ETHICS/COI \u2014 Provide optional advisor/passive ownership structures and required disclosures for any insider champion.",
+          "6) QUALITY REVIEW \u2014 Cross-check figures, cite sources, and ensure printing and accessibility (alt text, readable contrasts)."
+        ],
+        "output": "- Executive Summary (club-first thesis, venue, rollout)\n- Market & Associations (with citations)\n- Competitor Cards (pricing/offer/channel)\n- Pilot Charter (scope, KPIs, terms, timeline)\n- Financials (scenario table + founder draw)\n- Artifacts: links to page, deck, and PDF\n- Outreach emails (venue + network partner)\n- COI/Disclosure boilerplate",
+        "quality_checks": [
+          "- Executive Summary (club-first thesis, venue, rollout)",
+          "- Market & Associations (with citations)",
+          "- Competitor Cards (pricing/offer/channel)",
+          "- Pilot Charter (scope, KPIs, terms, timeline)",
+          "- Financials (scenario table + founder draw)",
+          "- Artifacts: links to page, deck, and PDF",
+          "- Outreach emails (venue + network partner)",
+          "- COI/Disclosure boilerplate"
+        ]
+      },
+      "quick_wins": [
+        {
+          "category": "CLARIFY",
+          "pattern": "\u201cConfirm the **goal, audience, and deadline** for the investor brief in 3 bullets.\u201d",
+          "original": "CLARIFY \u2192 \u201cConfirm the **goal, audience, and deadline** for the investor brief in 3 bullets.\u201d"
+        }
+      ],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1825
+    },
+    {
+      "filename": "prompt-insights--d43cd04f.md",
+      "file_id": "d43cd04f",
+      "title": "Prompt Insights: Forensics + Chainminer + Opportunity Hunter",
+      "date": "2024-01-19",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": "Clarify",
+          "pattern": "\u201cConfirm scope: {SECTIONS}. Any must\u2011include items (e.g., frameworks)?\u201d",
+          "original": "Clarify: \u201cConfirm scope: {SECTIONS}. Any must\u2011include items (e.g., frameworks)?\u201d"
+        }
+      ],
+      "lessons": [
+        "Clear counts and structure (\u201c5 examples + 3 reasons\u201d) drive dense, useful output.",
+        "Staging work (research \u2192 report) improves quality and coherence.",
+        "Explicit constraints (\u201cmention LangChain\u201d) prevent omissions of critical items.",
+        "Canvas creation is effective for long\u2011form artifacts and iteration.",
+        "Web verification strengthens credibility; primary docs should be preferred over blogs."
+      ],
+      "extraction_success": true,
+      "word_count": 1686
+    },
+    {
+      "filename": "prompt-insights--da41c628.md",
+      "file_id": "da41c628",
+      "title": "Prompt Insights \u2014 Port City Fence SEO/AEO Agent Thread",
+      "date": "2024-02-13",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "ROLE: You are a senior \u201cSEO/AEO Implementation Agent\u201d for a Next.js 14 codebase.\n\nOBJECTIVE: Transform inputs into (a) an agent-executable checklist (atomic tasks + DoD), and/or (b) repo-ready docs (e.g., AGENTS.md), without timelines.\n\nINPUTS:\n- {PROJECT_NAME} (string)\n- {SITE_URL} (absolute url)\n- {STACK} (e.g., Next.js 14, MDX, Tailwind)\n- {CODEBASE_INFO} (key dirs/files, routing model)\n- {GOALS} (e.g., SSR JSON-LD, metadataBase, robots/sitemap, Article/FAQ/HowTo automation, E-E-A-T, perf/CTAs)\n- {CONSTRAINTS} (e.g., \u201cno timelines\u201d, \u201cagent-friendly\u201d, \u201cSSR schema only\u201d)\n- {KNOWN_ASSETS} (e.g., guides in /content/guides, reviews.json)\n- {OPEN_QUESTIONS} (unknowns to confirm)\n\nPROCESS (execute in order):\n1) **Scope & Constraints:** Restate goals/constraints in 3 bullets; list assumptions if inputs are missing.\n2) **Plan:** Produce an ordered checklist with exact file paths, code stubs, and **Definition of Done** for each item.\n3) **Docs (optional):** If requested, generate `/docs/AGENTS.md` with operating mode, guardrails, commands, playbooks, validation checklist, rollback.\n4) **Quality Gates:** Add a PR checklist aligned to SEO/AEO outcomes (SSR schema, Rich Results, robots/sitemap, LCP/CLS, a11y).\n5) **Verification:** Specify how to validate (view-source for JSON-LD, Rich Results test, Lighthouse, link checks). Avoid fabricating data; omit unknown fields.\n\nOUTPUT SPEC:\n- Sections: **Prep**, **Implementation Checklist**, **(Optional) AGENTS.md content**, **Validation Checklist**, **Assumptions/Next Questions**.\n- Format: Markdown with code fences for file stubs, checkbox lists for tasks, short DoD bullets.\n- Style: Agent-executable, no timelines, absolute URLs in schema, server-rendered JSON-LD only.\n\nRUBRIC (self-check before finalizing):\n- Clarity \u2265 5/5, Specificity \u2265 4/5, Constraints/Format \u2265 5/5, Tool Use \u2265 4/5, Outcome Quality \u2265 5/5.\n- No client-deferred schema; no invented ratings/reviews; no broken internal links.",
+        "role": "You are a senior \u201cSEO/AEO Implementation Agent\u201d for a Next.js 14 codebase.",
+        "task": "Transform inputs into (a) an agent-executable checklist (atomic tasks + DoD), and/or (b) repo-ready docs (e.g., AGENTS.md), without timelines.",
+        "inputs": [
+          "- {PROJECT_NAME} (string)",
+          "- {SITE_URL} (absolute url)",
+          "- {STACK} (e.g., Next.js 14, MDX, Tailwind)",
+          "- {CODEBASE_INFO} (key dirs/files, routing model)",
+          "- {GOALS} (e.g., SSR JSON-LD, metadataBase, robots/sitemap, Article/FAQ/HowTo automation, E-E-A-T, perf/CTAs)",
+          "- {CONSTRAINTS} (e.g., \u201cno timelines\u201d, \u201cagent-friendly\u201d, \u201cSSR schema only\u201d)",
+          "- {KNOWN_ASSETS} (e.g., guides in /content/guides, reviews.json)",
+          "- {OPEN_QUESTIONS} (unknowns to confirm)"
+        ],
+        "process": [
+          "1) **Scope & Constraints:** Restate goals/constraints in 3 bullets; list assumptions if inputs are missing.",
+          "2) **Plan:** Produce an ordered checklist with exact file paths, code stubs, and **Definition of Done** for each item.",
+          "3) **Docs (optional):** If requested, generate `/docs/AGENTS.md` with operating mode, guardrails, commands, playbooks, validation checklist, rollback.",
+          "4) **Quality Gates:** Add a PR checklist aligned to SEO/AEO outcomes (SSR schema, Rich Results, robots/sitemap, LCP/CLS, a11y).",
+          "5) **Verification:** Specify how to validate (view-source for JSON-LD, Rich Results test, Lighthouse, link checks). Avoid fabricating data; omit unknown fields."
+        ],
+        "output": "- Sections: **Prep**, **Implementation Checklist**, **(Optional) AGENTS.md content**, **Validation Checklist**, **Assumptions/Next Questions**.\n- Format: Markdown with code fences for file stubs, checkbox lists for tasks, short DoD bullets.\n- Style: Agent-executable, no timelines, absolute URLs in schema, server-rendered JSON-LD only.\n\nRUBRIC (self-check before finalizing):\n- Clarity \u2265 5/5, Specificity \u2265 4/5, Constraints/Format \u2265 5/5, Tool Use \u2265 4/5, Outcome Quality \u2265 5/5.\n- No client-deferred schema; no invented ratings/reviews; no broken internal links.",
+        "quality_checks": [
+          "- Sections: **Prep**, **Implementation Checklist**, **(Optional) AGENTS.md content**, **Validation Checklist**, **Assumptions/Next Questions**.",
+          "- Format: Markdown with code fences for file stubs, checkbox lists for tasks, short DoD bullets.",
+          "- Style: Agent-executable, no timelines, absolute URLs in schema, server-rendered JSON-LD only."
+        ]
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "\u201cConfirm {SITE_URL} (for metadataBase) and list indexable routes so I can finalize sitemap and canonicals.\u201d",
+          "original": "\u201cConfirm {SITE_URL} (for metadataBase) and list indexable routes so I can finalize sitemap and canonicals.\u201d"
+        }
+      ],
+      "lessons": [
+        "Tightening constraints (\u201cAI agent; no timelines\u201d) immediately improves deliverable fitness.",
+        "Repo-ready artifacts (AGENTS.md) reduce future coordination cost and speed onboarding.",
+        "DoD per task converts plans into executable work for autonomous agents.",
+        "SSR JSON-LD + absolute URLs should be explicit, default guardrails for SEO/AEO tasks.",
+        "Validation gates (Rich Results, Lighthouse, link checks) prevent silent regressions."
+      ],
+      "extraction_success": true,
+      "word_count": 1427
+    },
+    {
+      "filename": "prompt-insights--deadbeef.md",
+      "file_id": "deadbeef",
+      "title": "Prompt Insights: Meta-Prompting Thread Analysis",
+      "date": "2024-03-09",
+      "tags": "",
+      "domain": "data-analysis",
+      "quality_score": "MEDIUM",
+      "super_prompt": {
+        "full_text": "You are a Prompt Forensics & Optimization assistant. Given a conversation history {{THREAD_HISTORY}}, perform:\n\n1. **Conversation Map**  \n   - Enumerate each message (speaker, summary).  \n   - Mark key turning points.\n\n2. **Great Prompts Catalog**  \n   - Extract up to {{MAX_PROMPTS}} high-impact prompts.  \n   - For each: quote (\u226425 words), tag, score (Clarity, Specificity, Constraints/Format, ToolUse, Outcome), brief rationale.\n\n3. **Strong Links**  \n   - Identify top {{TOP_N_LINKS}} prompt\u2192effect connections.  \n   - Provide one-sentence explanations.\n\n4. **Missed Opportunities**  \n   - Detect gaps (clarifications, constraints, verification, tooling).  \n   - Suggest one-line improvement prompts labeled with Impact/Effort.\n\n5. **Upgrade Table**  \n   - Select {{UPGRADE_COUNT}} original prompts.  \n   - Produce ORIGINAL \u2192 UPGRADED with Impact/Effort.\n\n6. **Lessons Learned**  \n   - List top {{LESSON_COUNT}} insights, ranked by impact.\n\n7. **Quick Wins Library**  \n   - Provide {{WIN_COUNT}} micro-prompts for clarify, constrain, evaluate, refactor, export, verify.\n\n**Output** in Markdown with YAML front matter:  \n- title, date, tags, thread_link, thread_fingerprint.",
+        "role": null,
+        "task": null,
+        "inputs": [],
+        "process": [],
+        "output": "- title, date, tags, thread_link, thread_fingerprint.",
+        "quality_checks": []
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "\u201cWhat additional information would clarify this task?\u201d",
+          "original": "\u201cWhat additional information would clarify this task?\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cList any assumptions you\u2019re making before proceeding.\u201d",
+          "original": "\u201cList any assumptions you\u2019re making before proceeding.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cConvert the above prompt into a numbered checklist.\u201d",
+          "original": "\u201cConvert the above prompt into a numbered checklist.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cCritique the last answer for factual accuracy only.\u201d",
+          "original": "\u201cCritique the last answer for factual accuracy only.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cRefactor this prompt to output as concise bullet points.\u201d",
+          "original": "\u201cRefactor this prompt to output as concise bullet points.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cExport the conversation summary in Markdown format.\u201d",
+          "original": "\u201cExport the conversation summary in Markdown format.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cVerify each citation and include its publication date.\u201d",
+          "original": "\u201cVerify each citation and include its publication date.\u201d"
+        }
+      ],
+      "lessons": [
+        "**Iterative clarification** dramatically improves final output quality.",
+        "**Explicit role and format instructions** reduce ambiguity.",
+        "**Visual representations** (mind maps, tables) enhance comprehension.",
+        "**Self-critique loops** minimize hallucinations and errors.",
+        "**Reusable templates** boost efficiency and consistency."
+      ],
+      "extraction_success": true,
+      "word_count": 1322
+    },
+    {
+      "filename": "prompt-insights--e97a13f7.md",
+      "file_id": "e97a13f7",
+      "title": "Prompt Insights: Forensics of the Prior Thread",
+      "date": "2024-04-03",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "MEDIUM",
+      "super_prompt": {
+        "full_text": "### Section 5: Anti-Fragility Add-Ons (bulleted clauses)\n\n- **Evidence Scarcity:** \u201cIf fewer than two authoritative sources exist, add a \u2018Gaps & Validation Plan\u2019 with specific follow-ups.\u201d\n- **Version Drift:** \u201cQuote exact version/changelog lines and date-stamp them; avoid vague feature claims.\u201d\n- **Tool Usage:** \u201cWhere online verification is relevant, state the search terms and domains used.\u201d\n- **Metrics Integrity:** \u201cFor every percentage, include baseline and n-value if present; otherwise mark anecdotal.\u201d\n- **Security Controls:** \u201cDocument default vs. hardened settings (e.g., secret redaction, license scanning) with CI snippets.\u201d\n### Section 6: Missed Opportunities (bulleted + micro-prompts + Impact/Effort)\n\n- Assistant did not provide real, clickable sources; used pseudo-citations like `\ue200cite\ue202turn\u2026\ue201`.  \n  *Micro\u2011prompt:* Require verifiable links and dates: \u201cAttach working URLs with \u2018(verified 2025\u201107\u201115)\u2019 after each claim.\u201d  \n  *Impact:* H \u00b7 *Effort:* L\n- Multiple unverified metrics (e.g., enterprise counts) with no public figures noted.  \n  *Micro\u2011prompt:* Insert: \u201cIf a metric lacks a public source, write: \u2018No public figures available\u2014anecdotal only.\u2019\u201d  \n  *Impact:* H \u00b7 *Effort:* L\n- Version notes mostly asserted, not cited.  \n  *Micro\u2011prompt:* Add: \u201cCreate a \u2018Version Notes\u2019 box quoting exact changelog lines with version numbers.\u201d  \n  *Impact:* M \u00b7 *Effort:* M\n- No explicit measurement plan for pilots.  \n  *Micro\u2011prompt:* Prompt: \u201cDefine KPIs, data sources, and collection cadence for a 60\u2011day pilot.\u201d  \n  *Impact:* M \u00b7 *Effort:* L\n- No tool\u2011use disclosure of search/browse strategy.  \n  *Micro\u2011prompt:* Prompt: \u201cList search queries and domains checked to verify claims.\u201d  \n  *Impact:* M \u00b7 *Effort:* L\n\nConfidence: High; Assumptions: Based entirely on visible content (no working links present).\n### Section 7: Upgrade Table (ORIGINAL \u2192 UPGRADED + Impact/Effort)\n\n| ORIGINAL | UPGRADED | Impact | Effort |\n|---|---|---|---|\n| \u201cSuccess Metrics & Case Studies \u2014 Include at least 3 named companies\u2026\u201d | \u201cProvide \u22653 **named** orgs/OSS per tool **with a numeric outcome** (baseline \u2192 delta \u2192 time window) and link each \u2018(verified {{VERIFY_DATE}})\u2019.\u201d | H | L |\n| \u201cMinimum two authoritative sources per focus area.\u201d | \u201cCite \u22652 **authoritative** sources per focus area **with direct quotes or release notes** and add version/date.\u201d | H | L |\n| \u201cExplicit version notes (e.g., Cursor 0.48\u2026).\u201d | \u201cAdd a **Version Notes** box per tool: version, date, exact quoted line, link (verified {{VERIFY_DATE}}).\u201d | M | L |\n| \u201cEvidence Matrix (\u22642 pages).\u201d | \u201cEvidence Matrix with a unique ID per claim, link, metric type, confidence level, and tool.\u201d | M | M |\n| \u201cAction Recommendations \u2014 5\u20137 bullets.\u201d | \u201cPilot plan with owner, start/end dates, KPIs instrumented, and decision gates.\u201d | M | L |\n\nConfidence: High; Assumptions: Upgrades preserve original intent while tightening verification.\n### Section 8: Lessons Learned (ranked bullets)\n\n1. A strong role/audience statement reliably steers tone and structure.\n2. Explicit evidence standards (\u2018verified by date\u2019) prevent unverifiable claims.\n3. Requiring baselines with deltas avoids ambiguous percentages.\n4. Version quotes beat paraphrases for roadmap/features.\n5. Small, reusable micro\u2011prompts can enforce rigor without slowing flow.\n\nConfidence: High; Assumptions: Derived from observed success/failure patterns in a1.\n### Section 9: Quick Wins Library (code blocks)",
+        "role": null,
+        "task": null,
+        "inputs": [],
+        "process": [],
+        "output": null,
+        "quality_checks": []
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "Add \u201c(verified {{VERIFY_DATE}})\u201d links to every claim; if none, mark \u201cNo public figures available\u2014anecdotal only.\u201d",
+          "original": "Add \u201c(verified {{VERIFY_DATE}})\u201d links to every claim; if none, mark \u201cNo public figures available\u2014anecdotal only.\u201d"
+        }
+      ],
+      "lessons": [
+        "A strong role/audience statement reliably steers tone and structure.",
+        "Explicit evidence standards (\u2018verified by date\u2019) prevent unverifiable claims.",
+        "Requiring baselines with deltas avoids ambiguous percentages.",
+        "Version quotes beat paraphrases for roadmap/features.",
+        "Small, reusable micro\u2011prompts can enforce rigor without slowing flow.",
+        "m1 (user): comprehensive research brief with sections on role, objectives, deliverables, required inclusions, formatting, tone, checklist.",
+        "a1 (assistant): structured response with tables and code; lacks verifiable links and uses pseudo-citation markers."
+      ],
+      "extraction_success": true,
+      "word_count": 1429
+    },
+    {
+      "filename": "prompt-insights--f02d5f45.md",
+      "file_id": "f02d5f45",
+      "title": "Prompt Insights \u2014 AEO/GEO Lab thread",
+      "date": "2024-04-28",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": "Clarify",
+          "pattern": "\u201cAudit this code for AEO/GEO, a11y (ARIA tabs), and INP performance; provide copy-ready patches.\u201d",
+          "original": "Clarify: \u201cAudit this code for AEO/GEO, a11y (ARIA tabs), and INP performance; provide copy-ready patches.\u201d"
+        }
+      ],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1221
+    },
+    {
+      "filename": "prompt-insights--f4217758.md",
+      "file_id": "f4217758",
+      "title": "Prompt Insights \u2014 ChromaDB REST API Build (TDD, Docker, Persistence)",
+      "date": "2024-05-23",
+      "tags": "",
+      "domain": "api-development",
+      "quality_score": "MEDIUM",
+      "super_prompt": {
+        "full_text": "ROLE/PERSPECTIVE\nYou are a senior backend engineer and test strategist. Use strict TDD (write failing tests first, then minimal code, then refactor).\n\nOBJECTIVE\nDeliver a production-ready REST API around a vector database with persistence, clean modularity, and Dockerized deployment.\n\nINPUTS\n- {{DB_CHOICE}} (e.g., ChromaDB)\n- {{PERSIST_PATH}} (e.g., /data/chroma)\n- {{ENDPOINTS}} (list of endpoints to support)\n- {{LANGUAGE}} (e.g., Python 3.11)\n- {{FRAMEWORK}} (e.g., FastAPI + Uvicorn)\n- {{PACKAGE_MANAGER}} (e.g., pip)\n- {{AUTH}} (none | API key | OAuth2)  \u2190 choose \"none\" unless specified\n- {{OS_ENV}} (Windows/PowerShell or Linux/macOS)\n- {{PORT_HOST}} (e.g., 8080), {{PORT_CONTAINER}} (e.g., 8000)\n\nPROCESS CHECKLIST (TDD)\n1) Write failing tests for the smallest unit (e.g., vector validation) \u2192 then endpoint tests for {{ENDPOINTS}} (insert, query, update, delete, health).\n2) Implement minimal code to pass tests; keep business logic in `services/`, DB init in `db/`, schemas in `models/`, routes in `routes/`, config in `config.py`.\n3) Enable persistence: initialize {{DB_CHOICE}} persistent client at {{PERSIST_PATH}}; add Docker volume mount.\n4) Add a `/health` route and ensure Swagger docs are accessible; include Windows-friendly curl examples.\n5) Containerize with Docker (and optional docker-compose); expose {{PORT_CONTAINER}} and map to {{PORT_HOST}}; include volume for {{PERSIST_PATH}}.\n6) Refactor for clarity; ensure test suite passes; update README with setup, tests, curl, Docker run, persistence, and troubleshooting.\n\nOUTPUT SPECIFICATION\nSections to deliver:\n- Project structure tree (modules: config, db/connection, services, routes, models, tests).\n- Pydantic models for requests/responses.\n- Route handlers (insert/query/update/delete/health).\n- Persistence client init ({{DB_CHOICE}} PersistentClient @ {{PERSIST_PATH}}).\n- Full test suite (pytest + httpx AsyncClient), strictly TDD.\n- Dockerfile + docker-compose.yml (volume mount for {{PERSIST_PATH}}).\n- README.md (setup, run, curl for {{OS_ENV}}, troubleshooting ports/SSL/env vars).\n\nQUALITY CHECKS\n- All tests green (Red\u2192Green\u2192Refactor documented in commits).\n- No deprecations: use Pydantic v2 `model_dump`, FastAPI lifespan handlers.\n- Health check returns 200 consistently.\n- Docker image runs: `docker run -p {{PORT_HOST}}:{{PORT_CONTAINER}} -v data_vol:{{PERSIST_PATH}} \u2026`\n- Windows and Linux curl examples verified.",
+        "role": null,
+        "task": null,
+        "inputs": [],
+        "process": [
+          "- Project structure tree (modules: config, db/connection, services, routes, models, tests).",
+          "- Pydantic models for requests/responses.",
+          "- Route handlers (insert/query/update/delete/health).",
+          "- Persistence client init ({{DB_CHOICE}} PersistentClient @ {{PERSIST_PATH}}).",
+          "- Full test suite (pytest + httpx AsyncClient), strictly TDD.",
+          "- Dockerfile + docker-compose.yml (volume mount for {{PERSIST_PATH}}).",
+          "- README.md (setup, run, curl for {{OS_ENV}}, troubleshooting ports/SSL/env vars).",
+          "- All tests green (Red\u2192Green\u2192Refactor documented in commits).",
+          "- No deprecations: use Pydantic v2 `model_dump`, FastAPI lifespan handlers.",
+          "- Health check returns 200 consistently.",
+          "- Docker image runs: `docker run -p {{PORT_HOST}}:{{PORT_CONTAINER}} -v data_vol:{{PERSIST_PATH}} \u2026`",
+          "- Windows and Linux curl examples verified."
+        ],
+        "output": "- Project structure tree (modules: config, db/connection, services, routes, models, tests).\n- Pydantic models for requests/responses.\n- Route handlers (insert/query/update/delete/health).\n- Persistence client init ({{DB_CHOICE}} PersistentClient @ {{PERSIST_PATH}}).\n- Full test suite (pytest + httpx AsyncClient), strictly TDD.\n- Dockerfile + docker-compose.yml (volume mount for {{PERSIST_PATH}}).\n- README.md (setup, run, curl for {{OS_ENV}}, troubleshooting ports/SSL/env vars).\n\nQUALITY CHECKS\n- All tests green (Red\u2192Green\u2192Refactor documented in commits).\n- No deprecations: use Pydantic v2 `model_dump`, FastAPI lifespan handlers.\n- Health check returns 200 consistently.\n- Docker image runs: `docker run -p {{PORT_HOST}}:{{PORT_CONTAINER}} -v data_vol:{{PERSIST_PATH}} \u2026`\n- Windows and Linux curl examples verified.",
+        "quality_checks": []
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "\u201cList the first three failing tests you will write (names + purpose) before any implementation.\u201d",
+          "original": "\u201cList the first three failing tests you will write (names + purpose) before any implementation.\u201d"
+        }
+      ],
+      "lessons": [
+        "**Strict TDD accelerates debugging** \u2014 isolated failing tests made the 422 root cause obvious (metadata shape).",
+        "**Environment and ports first** \u2014 verifying env vars and free ports prevents long detours.",
+        "**Platform-specific ergonomics matter** \u2014 Windows curl formatting and SSL/HTTP nuances can block progress if not addressed.",
+        "**Modularity pays off** \u2014 separating config/db/services/routes/tests enabled clean fixes and persistence changes.",
+        "**Document health paths & defaults** \u2014 `/health` and `/docs` reduce confusion from 404s at `/`."
+      ],
+      "extraction_success": true,
+      "word_count": 2200
+    },
+    {
+      "filename": "prompt-insights--f5b17e93.md",
+      "file_id": "hash8: f5b17e93",
+      "title": "Prompt Insights \u2014 Prompt Generator App Thread",
+      "date": "2024-06-17",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "\"Summarize the full architecture (backend, frontend, data) for this app in three sections.\"",
+          "original": "\"Summarize the full architecture (backend, frontend, data) for this app in three sections.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Produce markdown documentation only, following Section headers 1\u20135.\"",
+          "original": "\"Produce markdown documentation only, following Section headers 1\u20135.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Check whether all entities follow CLEAN code principle; list any violations.\"",
+          "original": "\"Check whether all entities follow CLEAN code principle; list any violations.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Merge the best ideas from previous designs into one reusable prompt template.\"",
+          "original": "\"Merge the best ideas from previous designs into one reusable prompt template.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Validate ORM models and migrations match JSON schema definitions.\"",
+          "original": "\"Validate ORM models and migrations match JSON schema definitions.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Output five markdown docs for dev handoff, each covering a specific subsystem.\"",
+          "original": "\"Output five markdown docs for dev handoff, each covering a specific subsystem.\""
+        },
+        {
+          "category": null,
+          "pattern": "\"Trace where tool or migration errors could occur and add fallback mechanisms.\"",
+          "original": "\"Trace where tool or migration errors could occur and add fallback mechanisms.\""
+        }
+      ],
+      "lessons": [
+        "Clear early scoping yields faster architectural convergence.",
+        "Structured deliverables (multi-doc output) improve developer readiness.",
+        "Concrete UI language (tabs, sliders) elicits practical designs.",
+        "Explicit tool constraints (FastAPI, Alembic) enable executable artifacts.",
+        "Iterative refinement (frontend, data, migration) mirrors real project evolution."
+      ],
+      "extraction_success": true,
+      "word_count": 1393
+    },
+    {
+      "filename": "prompt-insights--hash8-unavailable.md",
+      "file_id": "hash8-unavailable",
+      "title": "Prompt Insights \u2014 Forensics \u2022 Chainminer \u2022 Opportunity Hunter",
+      "date": "2024-07-12",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": {
+        "full_text": "```md\n<System>\nYou are {{ROLE}} \u2014 a senior expert who delivers fast, reliable results with minimal hallucination.\nPriorities: 1) Correctness vs. acceptance criteria, 2) Speed, 3) Effort, 4) Cost.\nIf a fact blocks progress, ask ONE concise question; else proceed with labeled assumptions.\n</System>\n\n<Context>\nGoal: {{GOAL}}\nAudience/Use: {{AUDIENCE_USE}}\nScope/Boundaries: {{SCOPE}}\nEnvironment/Stack (if any): {{STACK_OR_TOOLS}}\nEvidence policy: {{EVIDENCE_WINDOW_OR_RULES}}\n</Context>\n\n<Inputs>\n{{INPUTS_OR_DATA}}\n</Inputs>\n\n<Process>\n1) Plan \u2192 Write a brief plan (or Planner scratchpad) with: tasks, dependencies, risks, acceptance criteria.\n2) Execute \u2192 Produce the required artifacts exactly as specified.\n3) Verify \u2192 Run the acceptance checklist; flag deviations with fixes or follow-ups.\n4) Package \u2192 Provide outputs in the requested format(s) with short README and usage.\n5) (If research) Cite sources inline and list references; mark vendor-only claims.\n</Process>\n\n<Output Specification>\n- Sections: {{SECTIONS_OR_FILES_REQUIRED}}  \n- Formats: {{FORMATS}}  \n- Acceptance Criteria: {{CHECKS_LIST}}  \n- Metrics/Quality gates: {{METRICS_OR_THRESHOLDS}}  \n- Deliverables: {{ARTIFACTS}}  \n\n<Anti-Fragility>\n- If ambiguity remains \u2192 propose 2\u20133 interpretations, pick one, and proceed with rationale.\n- If tools unavailable \u2192 provide a mocked or offline equivalent and note gaps.\n- If UI-only work \u2192 include Divergence Map, Hardened Steps, Post-Checks, Rollback.\n- If local law/policy \u2192 restrict to \u2264 {{MONTH_WINDOW}} months; cite official sources.\n- If long-running \u2192 chunk into milestones and return partial artifacts per milestone.\n```",
+        "role": null,
+        "task": null,
+        "inputs": [],
+        "process": [],
+        "output": null,
+        "quality_checks": []
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "**Add Evidence Window**",
+          "original": "**Add Evidence Window**"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cCite \u22653 authoritative sources dated \u2264 {{N}} months; append a References section. Tag vendor-only claims as (vendor).\u201d",
+          "original": "\u201cCite \u22653 authoritative sources dated \u2264 {{N}} months; append a References section. Tag vendor-only claims as (vendor).\u201d"
+        }
+      ],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1730
+    },
+    {
+      "filename": "prompt-insights-0cf9cc53e99e411b9825ae8abcc56843.md",
+      "file_id": "0cf9cc53e99e411b9825ae8abcc56843",
+      "title": "Prompt Forensics Report \u2013 Process\u2011Automation Interview Thread",
+      "date": "2024-08-06",
+      "tags": "",
+      "domain": "automation",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": "Clarify",
+          "pattern": "\u201cConfirm scope: {{tools}} and {{use-case}}; include/exclude {{items}}.\u201d",
+          "original": "Clarify: \u201cConfirm scope: {{tools}} and {{use-case}}; include/exclude {{items}}.\u201d"
+        },
+        {
+          "category": "Constrain",
+          "pattern": "\u201cReturn a markdown table with exactly these columns: {{cols}}; \u2264{{words}} words.\u201d",
+          "original": "Constrain: \u201cReturn a markdown table with exactly these columns: {{cols}}; \u2264{{words}} words.\u201d"
+        },
+        {
+          "category": "Verify",
+          "pattern": "\u201cCite 2\u20133 official sources (2024\u20132025) per claim; add dates.\u201d",
+          "original": "Verify: \u201cCite 2\u20133 official sources (2024\u20132025) per claim; add dates.\u201d"
+        },
+        {
+          "category": "Refactor",
+          "pattern": "\u201cSummarize to 5 bullets (\u226412 words each), action-oriented.\u201d",
+          "original": "Refactor: \u201cSummarize to 5 bullets (\u226412 words each), action-oriented.\u201d"
+        },
+        {
+          "category": "Export",
+          "pattern": "\u201cCreate a PDF named {{file}} and provide a sandbox link.\u201d",
+          "original": "Export: \u201cCreate a PDF named {{file}} and provide a sandbox link.\u201d"
+        },
+        {
+          "category": "Evaluate",
+          "pattern": "\u201cSelf-check against: accuracy, completeness, constraints; list fixes applied.\u201d",
+          "original": "Evaluate: \u201cSelf-check against: accuracy, completeness, constraints; list fixes applied.\u201d"
+        }
+      ],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1611
+    },
+    {
+      "filename": "prompt-insights-20251020-205339.md",
+      "file_id": "20251020-205339",
+      "title": "Prompt Forensics \u2022 Chainminer \u2022 Opportunity Hunter Report",
+      "date": "2024-08-31",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "```md\nROLE: Senior Data Product Engineer + UX Strategist\n\nTASK: Build and ship a data-to-visualization web app for rental vs. ownership analysis with fast discovery, trustworthy uncertainty handling, and exportable, reproducible outputs.\n\nOBJECTIVE: Deliver a working FastAPI + Next.js app with bivariate maps, comparisons, trends, exports, saved views, and onboarding, optimized for modernness, intuitiveness, and explainability.\n\nINPUTS:\n- {DATASETS}: e.g., ACS renter/owner %, rent burden, Zillow ZORI/ZHVI; include vintages.\n- {GEOGRAPHIES}: state/county/place/tract (and optional neighborhood sets).\n- {FEATURES}: e.g., Trends, Compare + Map, Bivariate, Recipes, Explain Drawer, Boundaries upload, Saved views, Command palette, Web Share, Exports.\n- {BRANDING}: app name, color constraints, accessibility requirements (WCAG target).\n- {DELIVERY_MODE}: zip artifacts, run instructions, environment variables.\n\nPROCESS CHECKLIST:\n1) **Plan & Scaffold**: Outline architecture (FastAPI, endpoints; Next.js routes/components), env strategy, and data contracts. Create runnable scaffolds.\n2) **Core Features**: Implement Bivariate (with thresholds + hatching), Compare (bars + table), Trends (benchmarks), Story Kit exports (PNG/SVG/CSV + README caption/alt).\n3) **Modern UX**: Add Web Share, command palette (actions: exports, save view), keyboard cheatsheet, skeleton loading, and touch-friendly controls.\n4) **Guidance & Trust**: Add Insight Recipes (click-to-apply presets) and an Explain Drawer (CV/MOE basics, CI cautions). Watermark and footers on exports.\n5) **Collaboration & Boundaries**: Implement /views/save + public retrieval; add Boundaries upload (GeoJSON) and synthetic or real aggregation endpoint.\n6) **Onboarding & Metrics**: Add first-run tour; instrument events (TTFI, exports, saved view rate); include a Methods page link and a Saved Views gallery.\n\nOUTPUT SPEC:\n- **Artifacts**: two zips (FastAPI project; Next.js project), run steps, .env examples.\n- **Endpoints**: `/bivariate/geojson`, `/trends/compare`, `/stats`, `/export/storykit`, `/views/save`, `/views/public/{id}`, `/boundaries/*`, `/events`.\n- **UI Routes**: `/bivariate`, `/compare-map`, `/trends`, `/boundaries`, `/saved` (gallery).\n- **A11y**: patterned uncertainty, focus states, SR announcements for selection changes.\n- **Docs**: README with quickstart, feature list, and data freshness notes.\n\nQUALITY CHECKS (RUBRIC):\n- **Completeness**: All listed routes + endpoints work with sample data.\n- **UX Speed**: TTFI < 90s; exports within 1s on sample data.\n- **Trust**: Hatching for high-CV/no-data; captions/alt in exports; watermark & permalink.\n- **Reproducibility**: Saved views roundtrip via public URL; command palette actions present.\n- **A11y**: Color-safe palette + patterns; keyboard path validated; ARIA live regions used.\n- **Docs**: Run instructions and env usage are accurate and tested.\n```",
+        "role": "Senior Data Product Engineer + UX Strategist",
+        "task": "Build and ship a data-to-visualization web app for rental vs. ownership analysis with fast discovery, trustworthy uncertainty handling, and exportable, reproducible outputs.",
+        "inputs": [
+          "- {DATASETS}: e.g., ACS renter/owner %, rent burden, Zillow ZORI/ZHVI; include vintages.",
+          "- {GEOGRAPHIES}: state/county/place/tract (and optional neighborhood sets).",
+          "- {FEATURES}: e.g., Trends, Compare + Map, Bivariate, Recipes, Explain Drawer, Boundaries upload, Saved views, Command palette, Web Share, Exports.",
+          "- {BRANDING}: app name, color constraints, accessibility requirements (WCAG target).",
+          "- {DELIVERY_MODE}: zip artifacts, run instructions, environment variables."
+        ],
+        "process": [
+          "1) **Plan & Scaffold**: Outline architecture (FastAPI, endpoints; Next.js routes/components), env strategy, and data contracts. Create runnable scaffolds.",
+          "2) **Core Features**: Implement Bivariate (with thresholds + hatching), Compare (bars + table), Trends (benchmarks), Story Kit exports (PNG/SVG/CSV + README caption/alt).",
+          "3) **Modern UX**: Add Web Share, command palette (actions: exports, save view), keyboard cheatsheet, skeleton loading, and touch-friendly controls.",
+          "4) **Guidance & Trust**: Add Insight Recipes (click-to-apply presets) and an Explain Drawer (CV/MOE basics, CI cautions). Watermark and footers on exports.",
+          "5) **Collaboration & Boundaries**: Implement /views/save + public retrieval; add Boundaries upload (GeoJSON) and synthetic or real aggregation endpoint.",
+          "6) **Onboarding & Metrics**: Add first-run tour; instrument events (TTFI, exports, saved view rate); include a Methods page link and a Saved Views gallery."
+        ],
+        "output": "- **Artifacts**: two zips (FastAPI project; Next.js project), run steps, .env examples.\n- **Endpoints**: `/bivariate/geojson`, `/trends/compare`, `/stats`, `/export/storykit`, `/views/save`, `/views/public/{id}`, `/boundaries/*`, `/events`.\n- **UI Routes**: `/bivariate`, `/compare-map`, `/trends`, `/boundaries`, `/saved` (gallery).\n- **A11y**: patterned uncertainty, focus states, SR announcements for selection changes.\n- **Docs**: README with quickstart, feature list, and data freshness notes.\n\nQUALITY CHECKS (RUBRIC):\n- **Completeness**: All listed routes + endpoints work with sample data.\n- **UX Speed**: TTFI < 90s; exports within 1s on sample data.\n- **Trust**: Hatching for high-CV/no-data; captions/alt in exports; watermark & permalink.\n- **Reproducibility**: Saved views roundtrip via public URL; command palette actions present.\n- **A11y**: Color-safe palette + patterns; keyboard path validated; ARIA live regions used.\n- **Docs**: Run instructions and env usage are accurate and tested.\n```",
+        "quality_checks": [
+          "- **Completeness**: All listed routes + endpoints work with sample data.",
+          "- **UX Speed**: TTFI < 90s; exports within 1s on sample data.",
+          "- **Trust**: Hatching for high-CV/no-data; captions/alt in exports; watermark & permalink.",
+          "- **Reproducibility**: Saved views roundtrip via public URL; command palette actions present.",
+          "- **A11y**: Color-safe palette + patterns; keyboard path validated; ARIA live regions used.",
+          "- **Docs**: Run instructions and env usage are accurate and tested."
+        ]
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "// Clarify scope",
+          "original": "// Clarify scope"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cList endpoints and routes you intend to implement, with brief payload examples for each.\u201d",
+          "original": "\u201cList endpoints and routes you intend to implement, with brief payload examples for each.\u201d"
+        }
+      ],
+      "lessons": [
+        "**Explicit delivery prompts** (\u201cship two zips\u201d) outperform vague approvals\u2014clear targets create artifacts.",
+        "**Approve-then-ship cadence** (critique \u2192 \u201cyes do that\u201d) accelerates iteration while keeping scope aligned.",
+        "**Modern UX features** (Web Share, command palette, hatching) materially improve usability and trust with minimal backend lift.",
+        "**Guided discovery** (Recipes + Explain Drawer) shortens time-to-first-insight and reduces misinterpretation risk.",
+        "**Light instrumentation** (events, TTFI) is easy to add and crucial for validating UX improvements."
+      ],
+      "extraction_success": true,
+      "word_count": 2613
+    },
+    {
+      "filename": "prompt-insights-20251020T210042Z.md",
+      "file_id": "20251020T210042Z",
+      "title": "Prompt-Chain Audit & Refactor (Simpson Strong-Tie + NC Code MCP Build)",
+      "date": "2024-09-25",
+      "tags": "",
+      "domain": "web-development",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1117
+    },
+    {
+      "filename": "prompt-insights-459.md",
+      "file_id": "459",
+      "title": "Prompt Forensics Report \u2013 New Hanover Permit MCP Build Conversation",
+      "date": "2024-10-20",
+      "tags": "",
+      "domain": "web-development",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1064
+    },
+    {
+      "filename": "prompt-insights-508.md",
+      "file_id": "508",
+      "title": "Prompt Forensics Report \u2013 AWS MCP repo research thread",
+      "date": "2024-11-14",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "[Clarify] Define link scope: \"Use only README\u2011explicit repo links; exclude non\u2011repo hyperlinks unless approved.\"",
+          "original": "[Clarify] Define link scope: \"Use only README\u2011explicit repo links; exclude non\u2011repo hyperlinks unless approved.\""
+        }
+      ],
+      "lessons": [
+        "**Scope lock early:** A short option menu converts vague tasks into tractable work.",
+        "**Define \"linked repos\":** Ambiguity here drives scope creep and missed links.",
+        "**Evidence first:** Tie every claim to README citations; avoid invented references.",
+        "**Plan & format before execution:** A crisp output spec prevents rework.",
+        "**No background promises:** Deliver immediate, incremental results to maintain momentum."
+      ],
+      "extraction_success": true,
+      "word_count": 1454
+    },
+    {
+      "filename": "prompt-insights-5085.md",
+      "file_id": "5085",
+      "title": "Prompt Forensics Report \u2013 Google Search Console Ownership Transfer",
+      "date": "2024-12-09",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "\u201cIs this a **domain** property or a **URL\u2011prefix** property in GSC?\u201d",
+          "original": "\u201cIs this a **domain** property or a **URL\u2011prefix** property in GSC?\u201d"
+        }
+      ],
+      "lessons": [
+        "Precise terminology (\u201ctransfer via verification,\u201d not \u201cswitch\u201d) eliminates ambiguity.",
+        "GSC ownership hinges on verification tokens; process must cover **add, verify, remove**.",
+        "Property type (domain vs URL\u2011prefix) dictates valid verification methods.",
+        "Role and access (DNS/hosting) are the main blockers; confirm early.",
+        "Post\u2011transfer hygiene (remove old tokens/users) prevents unintended access persistence."
+      ],
+      "extraction_success": true,
+      "word_count": 1085
+    },
+    {
+      "filename": "prompt-insights-5086.md",
+      "file_id": "5086",
+      "title": "Prompt Forensics Report \u2013 Prior Thread Audit",
+      "date": "2025-01-03",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "ROLE: You are a precise, safety-conscious assistant that can use tools only within the current chat environment.\n\nTASK: Help me complete {OBJECTIVE} while honoring my constraints, verifying facts, and adapting to tool limits.\n\nINPUTS:\n- Service/System: {SERVICE} (e.g., Gmail, Outlook, Drive)\n- Access Mode: {ACCESS_MODE} (e.g., direct tool, OAuth, API key, app password, local-only)\n- Data Scope: {SCOPE} (e.g., \u201clatest email subject,\u201d \u201clist available connectors\u201d)\n- Privacy Constraints: {PRIVACY} (e.g., \u201cno secrets in chat,\u201d \u201credact PII\u201d)\n- Output Format: {FORMAT} (e.g., bullet list, table, code file)\n- Timeframe/Freshness: {FRESHNESS} (e.g., \u201cas of YYYY-MM-DD\u201d)\n\nPROCESS CHECKLIST:\n1) Confirm tool availability vs. request; state whether the task is directly doable *in this chat*.\n2) If not directly doable, present 2\u20133 viable paths (e.g., API/OAuth script, Apps Script, CLI) with pros/cons and required user actions.\n3) Ask only the *minimum* clarifying questions necessary (service, auth, scope, output), then proceed.\n4) Execute using the best path given tools; if blocked, provide a safe, working fallback (non-interactive).\n5) Verify outputs (sanity checks, minimal test data, explicit limitations); cite sources or environment constraints.\n6) Deliver the result in {FORMAT} plus a brief \u201cNext Steps\u201d block.\n\nOUTPUT SPECIFICATION:\n- Section A: \u201cWhat I can/can\u2019t do here\u201d (1\u20132 bullets each).\n- Section B: Chosen Path + Rationale (3\u20135 bullets).\n- Section C: Result (data or code).\n- Section D: How to Run / Reproduce (numbered steps).\n- Section E: Verification Notes (what to check; known limits).\n- Section F: Next Steps (options & effort).\n\nQUALITY CHECKS (self\u2011review):\n- Is the method executable without interactive stdin? If not, offer a non-interactive variant.\n- Are secrets excluded/redacted? If code needs creds, use environment variables or OAuth flows.\n- Did I cite sources/tool constraints or state that none are available?\n- Did I keep it concise and structured as requested?",
+        "role": "You are a precise, safety-conscious assistant that can use tools only within the current chat environment.",
+        "task": "Help me complete {OBJECTIVE} while honoring my constraints, verifying facts, and adapting to tool limits.",
+        "inputs": [
+          "- Service/System: {SERVICE} (e.g., Gmail, Outlook, Drive)",
+          "- Access Mode: {ACCESS_MODE} (e.g., direct tool, OAuth, API key, app password, local-only)",
+          "- Data Scope: {SCOPE} (e.g., \u201clatest email subject,\u201d \u201clist available connectors\u201d)",
+          "- Privacy Constraints: {PRIVACY} (e.g., \u201cno secrets in chat,\u201d \u201credact PII\u201d)",
+          "- Output Format: {FORMAT} (e.g., bullet list, table, code file)",
+          "- Timeframe/Freshness: {FRESHNESS} (e.g., \u201cas of YYYY-MM-DD\u201d)"
+        ],
+        "process": [
+          "1) Confirm tool availability vs. request; state whether the task is directly doable *in this chat*.",
+          "2) If not directly doable, present 2\u20133 viable paths (e.g., API/OAuth script, Apps Script, CLI) with pros/cons and required user actions.",
+          "3) Ask only the *minimum* clarifying questions necessary (service, auth, scope, output), then proceed.",
+          "4) Execute using the best path given tools; if blocked, provide a safe, working fallback (non-interactive).",
+          "5) Verify outputs (sanity checks, minimal test data, explicit limitations); cite sources or environment constraints.",
+          "6) Deliver the result in {FORMAT} plus a brief \u201cNext Steps\u201d block."
+        ],
+        "output": "1) Confirm tool availability vs. request; state whether the task is directly doable *in this chat*.\n2) If not directly doable, present 2\u20133 viable paths (e.g., API/OAuth script, Apps Script, CLI) with pros/cons and required user actions.\n3) Ask only the *minimum* clarifying questions necessary (service, auth, scope, output), then proceed.\n4) Execute using the best path given tools; if blocked, provide a safe, working fallback (non-interactive).\n5) Verify outputs (sanity checks, minimal test data, explicit limitations); cite sources or environment constraints.\n6) Deliver the result in {FORMAT} plus a brief \u201cNext Steps\u201d block.",
+        "quality_checks": [
+          "- Is the method executable without interactive stdin? If not, offer a non-interactive variant.",
+          "- Are secrets excluded/redacted? If code needs creds, use environment variables or OAuth flows.",
+          "- Did I cite sources/tool constraints or state that none are available?",
+          "- Did I keep it concise and structured as requested?"
+        ]
+      },
+      "quick_wins": [],
+      "lessons": [
+        "**Structure invites quality**: Explicit sections and formats (m2) produce higher-quality, scannable outputs.",
+        "**Clarify minimally, early**: One or two targeted questions (a3) can unlock progress without burdening the user.",
+        "**State environment limits**: Attempting interactive stdin in a non-interactive tool wastes cycles; prefer non-interactive flows.",
+        "**Be precise about capabilities**: Only claim tools/models actually available in the environment.",
+        "**Scope and privacy upfront**: Define exactly what data to return and how to protect PII before execution."
+      ],
+      "extraction_success": true,
+      "word_count": 1620
+    },
+    {
+      "filename": "prompt-insights-515.md",
+      "file_id": "515",
+      "title": "Prompt Forensics Report: Business Needs Inc Chat Audit",
+      "date": "2025-01-28",
+      "tags": "",
+      "domain": "business-process",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 749
+    },
+    {
+      "filename": "prompt-insights-521.md",
+      "file_id": "521",
+      "title": "Prompt Forensics Report \u2013 Process\u2011Automation Interview Thread",
+      "date": "2025-02-22",
+      "tags": "",
+      "domain": "automation",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": "Clarify",
+          "pattern": "\u201cConfirm scope: {{tools}} and {{use-case}}; include/exclude {{items}}.\u201d",
+          "original": "Clarify: \u201cConfirm scope: {{tools}} and {{use-case}}; include/exclude {{items}}.\u201d"
+        },
+        {
+          "category": "Constrain",
+          "pattern": "\u201cReturn a markdown table with exactly these columns: {{cols}}; \u2264{{words}} words.\u201d",
+          "original": "Constrain: \u201cReturn a markdown table with exactly these columns: {{cols}}; \u2264{{words}} words.\u201d"
+        },
+        {
+          "category": "Verify",
+          "pattern": "\u201cCite 2\u20133 official sources (2024\u20132025) per claim; add dates.\u201d",
+          "original": "Verify: \u201cCite 2\u20133 official sources (2024\u20132025) per claim; add dates.\u201d"
+        },
+        {
+          "category": "Refactor",
+          "pattern": "\u201cSummarize to 5 bullets (\u226412 words each), action-oriented.\u201d",
+          "original": "Refactor: \u201cSummarize to 5 bullets (\u226412 words each), action-oriented.\u201d"
+        },
+        {
+          "category": "Export",
+          "pattern": "\u201cCreate a PDF named {{file}} and provide a sandbox link.\u201d",
+          "original": "Export: \u201cCreate a PDF named {{file}} and provide a sandbox link.\u201d"
+        },
+        {
+          "category": "Evaluate",
+          "pattern": "\u201cSelf-check against: accuracy, completeness, constraints; list fixes applied.\u201d",
+          "original": "Evaluate: \u201cSelf-check against: accuracy, completeness, constraints; list fixes applied.\u201d"
+        }
+      ],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1611
+    },
+    {
+      "filename": "prompt-insights-523.md",
+      "file_id": "523",
+      "title": "Prompt Forensics Report \u2014 Elementor CSS/UX Thread",
+      "date": "2025-03-19",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "[Clarify target]",
+          "original": "[Clarify target]"
+        },
+        {
+          "category": null,
+          "pattern": "Are we styling an Elementor **popup** or a **regular container**? That changes overlay handling.",
+          "original": "Are we styling an Elementor **popup** or a **regular container**? That changes overlay handling."
+        },
+        {
+          "category": null,
+          "pattern": "[Overlay parity]",
+          "original": "[Overlay parity]"
+        },
+        {
+          "category": null,
+          "pattern": "Please also disable/override `.elementor-popup-modal__overlay` so preview matches live.",
+          "original": "Please also disable/override `.elementor-popup-modal__overlay` so preview matches live."
+        },
+        {
+          "category": null,
+          "pattern": "[Scroll-lock]",
+          "original": "[Scroll-lock]"
+        },
+        {
+          "category": "Add",
+          "pattern": "body:has(.my-overlay){overflow:hidden!important;height:100%!important;} and a JS fallback for older browsers.",
+          "original": "Add: body:has(.my-overlay){overflow:hidden!important;height:100%!important;} and a JS fallback for older browsers."
+        },
+        {
+          "category": null,
+          "pattern": "[80vw Centering]",
+          "original": "[80vw Centering]"
+        },
+        {
+          "category": "Use",
+          "pattern": "left:50%;transform:translateX(-50%);width:80vw;height:100vh;z-index:9999;",
+          "original": "Use: left:50%;transform:translateX(-50%);width:80vw;height:100vh;z-index:9999;"
+        },
+        {
+          "category": null,
+          "pattern": "[Mobile stack]",
+          "original": "[Mobile stack]"
+        },
+        {
+          "category": "Under 768px",
+          "pattern": "flex-direction:column; .col{max-width:100%;flex:1 1 100%;}",
+          "original": "Under 768px: flex-direction:column; .col{max-width:100%;flex:1 1 100%;}"
+        },
+        {
+          "category": null,
+          "pattern": "[Breakpoint ask]",
+          "original": "[Breakpoint ask]"
+        },
+        {
+          "category": null,
+          "pattern": "Which breakpoints matter most (e.g., 1024/768/480)? I\u2019ll tune font sizes and paddings accordingly.",
+          "original": "Which breakpoints matter most (e.g., 1024/768/480)? I\u2019ll tune font sizes and paddings accordingly."
+        },
+        {
+          "category": null,
+          "pattern": "[Keep scope]",
+          "original": "[Keep scope]"
+        },
+        {
+          "category": null,
+          "pattern": "We\u2019re focusing on Elementor CSS only\u2014no backend code required. Confirm?",
+          "original": "We\u2019re focusing on Elementor CSS only\u2014no backend code required. Confirm?"
+        }
+      ],
+      "lessons": [
+        "**Elementor overlay often masks custom backgrounds**\u2014clear it or style the correct layer.",
+        "**Preview/live parity** must be validated; many issues are editor\u2011only classes or overlays.",
+        "**Scroll\u2011bleed control** needs both CSS and, for legacy, JS fallbacks.",
+        "**Mobile\u2011first layout** avoids last\u2011minute patching; define stacking rules under 768px.",
+        "**Stay on track**\u2014avoid unrelated code paths (e.g., Python) in a CSS/Elementor thread."
+      ],
+      "extraction_success": true,
+      "word_count": 1585
+    },
+    {
+      "filename": "prompt-insights-wp-elementor-anchors-2025-10-20-620087b6.md",
+      "file_id": "620087b6",
+      "title": "Prompt Forensics Report: WordPress/Elementor Anchor-Link Support Thread",
+      "date": "2025-04-13",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "[Verify ID in DOM]",
+          "original": "[Verify ID in DOM]"
+        },
+        {
+          "category": "Run in Console",
+          "pattern": "!!document.getElementById('{{ID}}')",
+          "original": "Run in Console: !!document.getElementById('{{ID}}')"
+        }
+      ],
+      "lessons": [
+        "**Exact ID matching is the keystone**\u2014most failures were due to an ID mismatch, not link syntax.",
+        "**Builder editors may reject modern CSS**\u2014have a portable offset fallback ready.",
+        "**Avoid full-document markup in widgets**\u2014only paste body fragments.",
+        "**Diagnostics beat guessing**\u2014simple console checks isolate 80% of issues fast.",
+        "**Caching/redirects can skew tests**\u2014purge and use clean loads when validating anchors."
+      ],
+      "extraction_success": true,
+      "word_count": 1736
+    },
+    {
+      "filename": "prompt-insights.md",
+      "file_id": "repo-audit",
+      "title": "Prompt Forensics Report \u2014 Repo Audit Prompt Design",
+      "date": "2025-05-08",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "ROLE: You are a senior software architect and code reviewer.\n\nOBJECTIVE: Audit the provided repository and produce actionable insights AND a versioned report pack saved to disk.\n\nINPUTS:\n- {{REPO_TREE}} (concise tree) and {{KEY_FILES}} (configs, entry points, largest modules)\n- {{STACK_HINTS}} (languages/frameworks) \u2014 optional\n- {{DELIVERABLE_DIR}} (default: docs/audit/{{DATE_UTC}})\n- {{CONSTRAINTS}} (e.g., token limits, OS paths) \u2014 optional\n- {{FOCUS_AREAS}} (e.g., security, performance) \u2014 optional\n\nGUARDRAILS:\n- Use only evidence from supplied files; cite `path:start-end`.\n- If context is too large, list exact next files you need.\n- Prefer stack-idiomatic best practices (Clean Code, SOLID, SRP/DRY/KISS/YAGNI).\n\nPROCESS CHECKLIST:\n1) Map repo & runtime paths: produce a concise tree and inferred modules/domains.\n2) Identify hotspots (size/complexity, cycles, duplication, cross-layer calls).\n3) Score via rubric and back each score with 1\u20133 evidence references.\n4) Generate architecture-first recommendations, then detailed refactors (before\u2192after).\n5) Write all deliverables to {{DELIVERABLE_DIR}} and run a write validation checklist.\n\nOUTPUT SPEC (write these files):\n- overview.md (snapshot, ASCII architecture, boundaries, configs)\n- ratings.json (exact schema below)\n- risks.md (3\u201310 risks: severity, likelihood, impact, evidence)\n- perspectives.md (roles: strengths, concerns, verdicts)\n- recommendations_high_level.md (What/Why/Risk/Effort/Refs)\n- refactors_detailed.md (grouped by module; before\u2192after; tests)\n- quality_gates.yml (linters, types, tests, CI, security scans)\n- roadmap_30-60-90.md (goals & measurable targets)\n- dependency_health.md (manifests/locks; outdated/vulns as observed)\n- metrics.json (counts/complexity/hotspots/testing/security)\n- findings.csv (category,file,lines,severity,finding,fix_hint)\n\nRATINGS.JSON SCHEMA:\n{ \"modularity\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"cohesion_coupling\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"readability_naming\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"clean_code_principles\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"testing_coverage_quality\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"error_handling_resilience\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"security_practices\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"performance_efficiency\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"documentation_comments\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"devex_tooling_ci_cd\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"dependency_health\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"maintainability_scalability\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"overall_grade\":{\"letter\":\"B\",\"why\":\"\"} }\n\nMETRICS.JSON SCHEMA:\n{ \"totals\":{\"files\":0,\"loc\":0,\"languages\":[{\"name\":\"\",\"loc\":0}]},\n  \"complexity\":{\"max_cyclomatic\":0,\"avg_cyclomatic\":0,\"hotspots\":[{\"file\":\"\",\"function\":\"\",\"cyclomatic\":0,\"lines\":\"N-M\"}]},\n  \"design\":{\"god_files_over_500_loc\":[{\"file\":\"\",\"loc\":0}],\n            \"cycles_between_modules\":[{\"from\":\"\",\"to\":\"\",\"count\":0}],\n            \"duplication_blocks\":[{\"files\":[\"\"],\"lines_each\":\"\"}]},\n  \"testing\":{\"unit_tests\":0,\"integration_tests\":0,\"coverage_note\":\"\"},\n  \"security\":{\"secrets_found\":[{\"file\":\"\",\"lines\":\"\"}],\n              \"dangerous_patterns\":[{\"file\":\"\",\"pattern\":\"\",\"lines\":\"\"}]} }\n\nFINDINGS.CSV HEADER:\ncategory,file,lines,severity,finding,fix_hint\n\nFILESYSTEM RULES:\n- Create {{DELIVERABLE_DIR}} (POSIX-safe). If exists, suffix -v2/-v3\u2026\n- If unable to write, emit each file between",
+        "role": "You are a senior software architect and code reviewer.",
+        "task": "Audit the provided repository and produce actionable insights AND a versioned report pack saved to disk.",
+        "inputs": [
+          "- {{REPO_TREE}} (concise tree) and {{KEY_FILES}} (configs, entry points, largest modules)",
+          "- {{STACK_HINTS}} (languages/frameworks) \u2014 optional",
+          "- {{DELIVERABLE_DIR}} (default: docs/audit/{{DATE_UTC}})",
+          "- {{CONSTRAINTS}} (e.g., token limits, OS paths) \u2014 optional",
+          "- {{FOCUS_AREAS}} (e.g., security, performance) \u2014 optional"
+        ],
+        "process": [
+          "1) Map repo & runtime paths: produce a concise tree and inferred modules/domains.",
+          "2) Identify hotspots (size/complexity, cycles, duplication, cross-layer calls).",
+          "3) Score via rubric and back each score with 1\u20133 evidence references.",
+          "4) Generate architecture-first recommendations, then detailed refactors (before\u2192after).",
+          "5) Write all deliverables to {{DELIVERABLE_DIR}} and run a write validation checklist.",
+          "- overview.md (snapshot, ASCII architecture, boundaries, configs)",
+          "- ratings.json (exact schema below)",
+          "- risks.md (3\u201310 risks: severity, likelihood, impact, evidence)",
+          "- perspectives.md (roles: strengths, concerns, verdicts)",
+          "- recommendations_high_level.md (What/Why/Risk/Effort/Refs)",
+          "- refactors_detailed.md (grouped by module; before\u2192after; tests)",
+          "- quality_gates.yml (linters, types, tests, CI, security scans)",
+          "- roadmap_30-60-90.md (goals & measurable targets)",
+          "- dependency_health.md (manifests/locks; outdated/vulns as observed)",
+          "- metrics.json (counts/complexity/hotspots/testing/security)",
+          "- findings.csv (category,file,lines,severity,finding,fix_hint)"
+        ],
+        "output": "- overview.md (snapshot, ASCII architecture, boundaries, configs)\n- ratings.json (exact schema below)\n- risks.md (3\u201310 risks: severity, likelihood, impact, evidence)\n- perspectives.md (roles: strengths, concerns, verdicts)\n- recommendations_high_level.md (What/Why/Risk/Effort/Refs)\n- refactors_detailed.md (grouped by module; before\u2192after; tests)\n- quality_gates.yml (linters, types, tests, CI, security scans)\n- roadmap_30-60-90.md (goals & measurable targets)\n- dependency_health.md (manifests/locks; outdated/vulns as observed)\n- metrics.json (counts/complexity/hotspots/testing/security)\n- findings.csv (category,file,lines,severity,finding,fix_hint)\n\nRATINGS.JSON SCHEMA:\n{ \"modularity\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"cohesion_coupling\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"readability_naming\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"clean_code_principles\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"testing_coverage_quality\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"error_handling_resilience\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"security_practices\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"performance_efficiency\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"documentation_comments\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"devex_tooling_ci_cd\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"dependency_health\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"maintainability_scalability\":{\"score\":1,\"why\":\"\",\"evidence\":[\"\"]},\n  \"overall_grade\":{\"letter\":\"B\",\"why\":\"\"} }\n\nMETRICS.JSON SCHEMA:\n{ \"totals\":{\"files\":0,\"loc\":0,\"languages\":[{\"name\":\"\",\"loc\":0}]},\n  \"complexity\":{\"max_cyclomatic\":0,\"avg_cyclomatic\":0,\"hotspots\":[{\"file\":\"\",\"function\":\"\",\"cyclomatic\":0,\"lines\":\"N-M\"}]},\n  \"design\":{\"god_files_over_500_loc\":[{\"file\":\"\",\"loc\":0}],\n            \"cycles_between_modules\":[{\"from\":\"\",\"to\":\"\",\"count\":0}],\n            \"duplication_blocks\":[{\"files\":[\"\"],\"lines_each\":\"\"}]},\n  \"testing\":{\"unit_tests\":0,\"integration_tests\":0,\"coverage_note\":\"\"},\n  \"security\":{\"secrets_found\":[{\"file\":\"\",\"lines\":\"\"}],\n              \"dangerous_patterns\":[{\"file\":\"\",\"pattern\":\"\",\"lines\":\"\"}]} }\n\nFINDINGS.CSV HEADER:\ncategory,file,lines,severity,finding,fix_hint",
+        "quality_checks": []
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "CLARIFY STACK",
+          "original": "CLARIFY STACK"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cDetect primary languages/frameworks from the provided files and state assumptions you\u2019ll use.\u201d",
+          "original": "\u201cDetect primary languages/frameworks from the provided files and state assumptions you\u2019ll use.\u201d"
+        }
+      ],
+      "lessons": [
+        "**Structure wins:** Strong sectioning + schemas transforms a vague request into repeatable audits.",
+        "**Persistence matters:** Specifying file outputs and validation turns insights into artifacts.",
+        "**Evidence discipline:** Requiring paths/line ranges prevents hand\u2011wavy critiques.",
+        "**Two\u2011layer advice:** High\u2011level architecture first, then granular refactors, improves adoption.",
+        "**Guardrails reduce rework:** Token-limit strategy and \u201cask for next files\u201d keeps progress moving."
+      ],
+      "extraction_success": true,
+      "word_count": 1501
+    },
+    {
+      "filename": "prompt_insights-226.md",
+      "file_id": "226",
+      "title": "Prompt Forensics Report: Fence Content & Image Metadata Workflow (Part 1)",
+      "date": "2025-06-02",
+      "tags": "",
+      "domain": "automation",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1298
+    },
+    {
+      "filename": "prompt_insights-227.md",
+      "file_id": "227",
+      "title": "Prompt Forensics Report: Fence Content & Image Metadata Workflow (Part 2)",
+      "date": "2025-06-27",
+      "tags": "",
+      "domain": "automation",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1298
+    },
+    {
+      "filename": "prompt_insights-522.md",
+      "file_id": "522",
+      "title": "Super-Prompt Forensics & Opportunity Audit",
+      "date": "2025-07-22",
+      "tags": "",
+      "domain": "ai-ml",
+      "quality_score": "HIGH",
+      "super_prompt": {
+        "full_text": "You are {{ROLE}} specializing in prompt engineering and critique.\nYour objective is to analyze a provided {{INPUT_DOCUMENT}} and produce:\n1. **User Stories**: Identify 5 distinct stakeholder personas with \u201cAs a\u2026, I want\u2026, So that\u2026\u201d format.\n2. **Critique**: For each story, evaluate how the project meets or gaps that need addressing.\n3. **Feature Requests**: Consolidate and prioritize actionable improvements aligned to stories.\n4. **Prioritized Checklist**: List single\u2011item tasks, sorted by impact.\n\nProcess Checklist:\n- [ ] Read and summarize {{INPUT_DOCUMENT}} structure.\n- [ ] Draft 5 user stories covering product, dev, data, DevOps, and contributors.\n- [ ] Critique each story with specific feedback and suggestions.\n- [ ] Combine critiques into feature requests; break into atomic items.\n- [ ] Rank items by priority or importance.\n\nOutput Schema (Markdown):\n- Section: User Stories & Critiques\n- Section: Consolidated Feature Requests\n- Section: Prioritized Single\u2011Item Checklist\n\nQuality Checks:\n- Verify 5 user stories are present.\n- Ensure each request is independent and concrete.\n- Include priority ordering.\n- Self\u2011review for clarity, completeness, and actionability.",
+        "role": null,
+        "task": null,
+        "inputs": [],
+        "process": [
+          "- [ ] Read and summarize {{INPUT_DOCUMENT}} structure.",
+          "- [ ] Draft 5 user stories covering product, dev, data, DevOps, and contributors.",
+          "- [ ] Critique each story with specific feedback and suggestions.",
+          "- [ ] Combine critiques into feature requests; break into atomic items.",
+          "- [ ] Rank items by priority or importance.",
+          "- Section: User Stories & Critiques",
+          "- Section: Consolidated Feature Requests",
+          "- Section: Prioritized Single\u2011Item Checklist",
+          "- Verify 5 user stories are present.",
+          "- Ensure each request is independent and concrete.",
+          "- Include priority ordering.",
+          "- Self\u2011review for clarity, completeness, and actionability."
+        ],
+        "output": "- Section: User Stories & Critiques\n- Section: Consolidated Feature Requests\n- Section: Prioritized Single\u2011Item Checklist\n\nQuality Checks:\n- Verify 5 user stories are present.\n- Ensure each request is independent and concrete.\n- Include priority ordering.\n- Self\u2011review for clarity, completeness, and actionability.",
+        "quality_checks": [
+          "- Verify 5 user stories are present.",
+          "- Ensure each request is independent and concrete.",
+          "- Include priority ordering.",
+          "- Self\u2011review for clarity, completeness, and actionability."
+        ]
+      },
+      "quick_wins": [
+        {
+          "category": null,
+          "pattern": "\u201cCould you clarify the expected format for the output sections?\u201d",
+          "original": "\u201cCould you clarify the expected format for the output sections?\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cPlease present your response as a numbered list with bullet-point critiques.\u201d",
+          "original": "\u201cPlease present your response as a numbered list with bullet-point critiques.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cOn a scale of 1\u20135, how would you rate the completeness of the feature list?\u201d",
+          "original": "\u201cOn a scale of 1\u20135, how would you rate the completeness of the feature list?\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cPlease shorten the above prompt to under 50 words while preserving intent.\u201d",
+          "original": "\u201cPlease shorten the above prompt to under 50 words while preserving intent.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cProvide the final report between `---BEGIN MARKDOWN---` and `---END MARKDOWN---` tags.\u201d",
+          "original": "\u201cProvide the final report between `---BEGIN MARKDOWN---` and `---END MARKDOWN---` tags.\u201d"
+        },
+        {
+          "category": null,
+          "pattern": "\u201cConfirm that all 5 user stories include role, want, and benefit statements.\u201d",
+          "original": "\u201cConfirm that all 5 user stories include role, want, and benefit statements.\u201d"
+        }
+      ],
+      "lessons": [
+        "**Specify Format & Sections**: Explicitly define output sections to streamline structure.",
+        "**Use Role/Task Templates**: \u201cAs a\u2026, I want\u2026, So that\u2026\u201d reliably yields comprehensive user stories.",
+        "**Ask for Examples Early**: Prompting for sample outputs accelerates clarity.",
+        "**Iterative Refinement**: Breaking large asks into consolidation and prioritization steps improves focus.",
+        "**Provide Self-Review Rubric**: Embedding quality checks reduces omissions and misinterpretations."
+      ],
+      "extraction_success": true,
+      "word_count": 1210
+    },
+    {
+      "filename": "prompt_insights-925.md",
+      "file_id": "925",
+      "title": "Prompt Forensics Report: Fence Content & Image Metadata Workflow (Part 3)",
+      "date": "2025-08-16",
+      "tags": "",
+      "domain": "automation",
+      "quality_score": "LOW",
+      "super_prompt": null,
+      "quick_wins": [],
+      "lessons": [],
+      "extraction_success": true,
+      "word_count": 1298
+    }
+  ]
+}
