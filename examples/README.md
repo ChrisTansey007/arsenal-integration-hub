@@ -99,6 +99,25 @@
 
 ---
 
+### ✅ 6. [Database Migrations](./database-migrations/)
+**Best for:** Projects using custom SQL migrations, Supabase PostgreSQL
+
+**What it includes:**
+- Custom SQL migration system (no Alembic)
+- Supabase PostgreSQL integration
+- Comprehensive error prevention
+- Automated verification and tracking
+- Emergency recovery procedures
+
+**Arsenal Items Used:**
+- 1 Rule (Database Migrations)
+- 1 Workflow (Database Migration Check) - optional
+- Database-specific safeguards
+
+**Time to set up:** 10 minutes
+
+---
+
 ## 🎯 Quick Comparison
 
 | Example | Complexity | Arsenal Items | Time | Best For |
@@ -108,6 +127,7 @@
 | **Full-Stack App** | ⭐⭐⭐ Complex | 9+ items | 15 min | Complete web apps |
 | **API Service** | ⭐⭐ Moderate | 6 items | 10 min | Backend services |
 | **React Native** | ⭐⭐ Moderate | 5 items | 15 min | Mobile apps |
+| **Database Migrations** | ⭐⭐ Moderate | 1-2 items | 10 min | SQL migration projects |
 
 ---
 
@@ -218,6 +238,7 @@ Found a useful pattern? Contribute it back to help others!
 - **Building a web app?** → Full-Stack Next.js App
 - **Building an API?** → API Service
 - **Building mobile?** → React Native App
+- **Using SQL migrations?** → Database Migrations
 
 ### Can I combine examples?
 

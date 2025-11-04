@@ -202,15 +202,16 @@ These repositories help you use and manage the Arsenal content:
 **What it is:** Central hub with examples and documentation  
 **What it does:** Shows how to combine all Arsenal tools together  
 **Contains:**
-- **8 Complete Examples:**
+- **9 Complete Examples:**
   1. React Vite Setup
   2. Repository Organization
-  3. Full-Stack Next.js + FastAPI App
-  4. React Native Mobile App
-  5. FastAPI Microservice
-  6. Team Collaboration Setup
-  7. Solo Developer Productivity
-  8. Meta-Prompting Workflow
+  3. Database Migrations
+  4. Full-Stack Next.js + FastAPI App
+  5. React Native Mobile App
+  6. FastAPI Microservice
+  7. Team Collaboration Setup
+  8. Solo Developer Productivity
+  9. Meta-Prompting Workflow
 - **Setup Scripts (10):**
   - `install-all.sh` - Clone all Arsenal repos
   - `setup-fullstack.sh`, `setup-mobile.sh`, `setup-api.sh`
@@ -706,7 +707,7 @@ git clone your-project
 - Multiple automation scripts
 
 **Integration:**
-- 8 complete examples
+- 9 complete examples
 - 10 setup scripts
 - Comprehensive documentation
 - 3 new tooling repos in progress (CLI, MCP servers)

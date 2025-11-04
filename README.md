@@ -3,7 +3,7 @@
 **How to use the complete Arsenal ecosystem together**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Examples](https://img.shields.io/badge/Examples-8-brightgreen.svg)]()
+[![Examples](https://img.shields.io/badge/Examples-9-brightgreen.svg)]()
 [![Scripts](https://img.shields.io/badge/Scripts-10-blue.svg)]()
 
 ---
@@ -59,6 +59,7 @@ Choose your scenario:
 **Project Setup:**
 - **[React Vite Setup](examples/react-vite-setup/)** - React + Vite with automated ESM fixes and modern UI
 - **[Repository Organization](examples/repo-organization/)** - File organization and cleanup automation
+- **[Database Migrations](examples/database-migrations/)** - Custom SQL migrations with Supabase PostgreSQL
 - **[Full-Stack Web App](examples/fullstack-nextjs-app/)** - Next.js + FastAPI
 - **[Mobile App](examples/react-native-app/)** - React Native with backend
 - **[API Service](examples/api-service/)** - Backend API project
@@ -84,7 +85,7 @@ Each example includes:
 
 ## 📚 What's Inside
 
-### Complete Integration Examples (7)
+### Complete Integration Examples (9)
 
 #### Project Setup & Organization
 
@@ -101,21 +102,28 @@ Each example includes:
    - Repository cleanup automation
    - Best practices enforcement
 
+3. **[Database Migrations](examples/database-migrations/)** 🗄️ NEW
+   - Custom SQL migration system (no Alembic)
+   - Supabase PostgreSQL integration
+   - Comprehensive error prevention
+   - Automated verification and tracking
+   - Emergency recovery procedures
+
 #### Full-Stack Applications
 
-3. **[Full-Stack Next.js + FastAPI](examples/fullstack-nextjs-app/)**
+4. **[Full-Stack Next.js + FastAPI](examples/fullstack-nextjs-app/)**
    - Frontend: Next.js 14 App Router
    - Backend: FastAPI + PostgreSQL
    - Complete Arsenal integration
    - Team collaboration setup
 
-4. **[React Native Mobile App](examples/react-native-app/)**
+5. **[React Native Mobile App](examples/react-native-app/)**
    - Mobile: React Native + Expo
    - Backend: Node.js API
    - CI/CD workflows
    - App store deployment
 
-5. **[FastAPI Microservice](examples/api-service/)**
+6. **[FastAPI Microservice](examples/api-service/)**
    - REST API with FastAPI
    - Database with Prisma
    - Testing workflows
@@ -123,17 +131,26 @@ Each example includes:
 
 #### Team & Workflow
 
-6. **[Team Collaboration Setup](examples/team-setup/)**
+7. **[Team Collaboration Setup](examples/team-setup/)**
    - Multi-developer configuration
    - Shared Memories and Rules
    - Code review workflows
    - Onboarding automation
 
-7. **[Solo Developer Productivity](examples/solo-developer/)**
+8. **[Solo Developer Productivity](examples/solo-developer/)**
    - Minimal setup
    - Essential tools only
    - Optimized for speed
    - Personal customization
+
+#### Meta-Prompting & Knowledge Extraction
+
+9. **[Meta-Prompting Workflow](examples/meta-prompting/)**
+   - Systematic conversation analysis
+   - Prompt extraction from threads
+   - Knowledge base building
+   - Quality scoring framework
+   - Arsenal content generation
 
 ### Setup Scripts (10)
 

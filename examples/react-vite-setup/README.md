@@ -527,14 +527,39 @@ node --check filename.js
 
 ---
 
-## 📚 Reference Links
+## 🔗 Related Arsenal Items
 
-**Arsenal Items:**
-- [React Vite Setup Script](https://github.com/ChrisTansey007/ai-scripts-arsenal/tree/main/scripts/frontend/react-vite-setup)
-- [Vite ESM Rule](https://github.com/ChrisTansey007/ai-rules-arsenal/blob/main/windsurf/by-framework/vite-esm-modules.md)
-- [Modernize UI Prompt](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/ui/modernize-react-ui.md)
+### **⚙️ Rules**
+- [Vite ESM Modules](https://github.com/ChrisTansey007/ai-rules-arsenal/blob/main/windsurf/by-framework/vite-esm-modules.md) ⭐ Core - ESM configuration standards
+- [Next.js App Router](https://github.com/ChrisTansey007/ai-rules-arsenal/blob/main/windsurf/by-framework/nextjs-app-router.md) - React patterns and conventions
+- [Prompt Quality Standards](https://github.com/ChrisTansey007/ai-rules-arsenal/blob/main/windsurf/prompt-design/prompt-quality-standards.md) - Quality framework
 
-**External Resources:**
+### **📝 Prompts**
+- [Modernize React UI](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/ui/modernize-react-ui.md) ⭐ Core - UI transformation guide
+- [Structured Document Architect](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/development/documentation/structured-document-architect.md) - Documentation creation
+- [Self-Score Output](https://github.com/ChrisTansey007/prompt-arsenal/blob/main/quality-assurance/self-score-output.md) - Quality validation
+
+### **🔄 Workflows**
+- [Run Tests and Fix](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/development/run-tests-and-fix.md) - Automated testing
+- [Code Review Assistant](https://github.com/ChrisTansey007/ai-workflows-arsenal/blob/main/windsurf/development/code-review-assistant.md) - Pre-commit review
+
+### **🤖 Scripts**
+- [React Vite Setup Script](https://github.com/ChrisTansey007/ai-scripts-arsenal/tree/main/scripts/frontend/react-vite-setup) ⭐ Core - Automated setup
+
+### **💭 Memories**
+- [React Patterns Library](https://github.com/ChrisTansey007/windsurf-memories-arsenal) - Component patterns
+- [Frontend Best Practices](https://github.com/ChrisTansey007/windsurf-memories-arsenal) - Development standards
+
+### **🔗 Integration Examples**
+- [Full-Stack Next.js App](../fullstack-nextjs-app/) - Complete application setup
+- [Solo Developer](../solo-developer/) - Minimal configuration
+- [Repository Organization](../repo-organization/) - File structure
+
+### **🛠️ New Tools**
+- [Arsenal CLI](https://github.com/ChrisTansey007/arsenal-cli) - Manage React projects via CLI
+- [Arsenal MCP Server](https://github.com/ChrisTansey007/arsenal-mcp-server) - Access React patterns via MCP
+
+### **📚 External Resources**
 - [Vite Documentation](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Lucide Icons](https://lucide.dev/)
