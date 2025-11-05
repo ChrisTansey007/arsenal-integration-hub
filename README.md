@@ -3,7 +3,7 @@
 **How to use the complete Arsenal ecosystem together**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Examples](https://img.shields.io/badge/Examples-9-brightgreen.svg)]()
+[![Examples](https://img.shields.io/badge/Examples-10-brightgreen.svg)]()
 [![Scripts](https://img.shields.io/badge/Scripts-10-blue.svg)]()
 
 ---
@@ -13,8 +13,8 @@
 ### Content Repositories
 ```
 💭 windsurf-memories-arsenal  → What Cascade remembers
-📝 prompt-arsenal            → What to ask/build (26 prompts)
-⚙️ ai-rules-arsenal          → How Cascade behaves
+📝 prompt-arsenal            → What to ask/build (28 prompts)
+⚙️ ai-rules-arsenal          → How Cascade behaves (5 new rules!)
 🔄 ai-workflows-arsenal      → Multi-step processes
 🤖 ai-scripts-arsenal        → Automation scripts
 ```
@@ -60,6 +60,7 @@ Choose your scenario:
 - **[React Vite Setup](examples/react-vite-setup/)** - React + Vite with automated ESM fixes and modern UI
 - **[Repository Organization](examples/repo-organization/)** - File organization and cleanup automation
 - **[Database Migrations](examples/database-migrations/)** - Custom SQL migrations with Supabase PostgreSQL
+- **[Next.js 15 + Arsenal Content](examples/nextjs-15-arsenal-content/)** ⚡ NEW - Next.js 15 with type-safe MDX content management
 - **[Full-Stack Web App](examples/fullstack-nextjs-app/)** - Next.js + FastAPI
 - **[Mobile App](examples/react-native-app/)** - React Native with backend
 - **[API Service](examples/api-service/)** - Backend API project
@@ -85,45 +86,54 @@ Each example includes:
 
 ## 📚 What's Inside
 
-### Complete Integration Examples (9)
+### Complete Integration Examples (10)
 
 #### Project Setup & Organization
 
-1. **[React Vite Setup](examples/react-vite-setup/)** ⚡ NEW
+1. **[React Vite Setup](examples/react-vite-setup/)** ⚡
    - Automated React + Vite project setup
    - ESM configuration fixes
    - Modern UI transformation guide
    - Accessibility best practices
    - Time saved: 2-3 hours per project
 
-2. **[Repository Organization](examples/repo-organization/)** 📁 NEW
+2. **[Repository Organization](examples/repo-organization/)** 📁
    - Systematic file organization workflow
    - Safe file migration scripts
    - Repository cleanup automation
    - Best practices enforcement
 
-3. **[Database Migrations](examples/database-migrations/)** 🗄️ NEW
+3. **[Database Migrations](examples/database-migrations/)** 🗄️
    - Custom SQL migration system (no Alembic)
    - Supabase PostgreSQL integration
    - Comprehensive error prevention
    - Automated verification and tracking
    - Emergency recovery procedures
 
+4. **[Next.js 15 + Arsenal Content](examples/nextjs-15-arsenal-content/)** 🆕
+   - Next.js 15 with async params pattern
+   - Type-safe MDX content management
+   - Frontend UX patterns (typography, mobile overlays)
+   - TypeScript strict development
+   - Windows PowerShell Git compatibility
+   - Uses 5 new Arsenal rules!
+   - Time saved: 3-4 hours per project
+
 #### Full-Stack Applications
 
-4. **[Full-Stack Next.js + FastAPI](examples/fullstack-nextjs-app/)**
+5. **[Full-Stack Next.js + FastAPI](examples/fullstack-nextjs-app/)**
    - Frontend: Next.js 14 App Router
    - Backend: FastAPI + PostgreSQL
    - Complete Arsenal integration
    - Team collaboration setup
 
-5. **[React Native Mobile App](examples/react-native-app/)**
+6. **[React Native Mobile App](examples/react-native-app/)**
    - Mobile: React Native + Expo
    - Backend: Node.js API
    - CI/CD workflows
    - App store deployment
 
-6. **[FastAPI Microservice](examples/api-service/)**
+7. **[FastAPI Microservice](examples/api-service/)**
    - REST API with FastAPI
    - Database with Prisma
    - Testing workflows
@@ -131,13 +141,13 @@ Each example includes:
 
 #### Team & Workflow
 
-7. **[Team Collaboration Setup](examples/team-setup/)**
+8. **[Team Collaboration Setup](examples/team-setup/)**
    - Multi-developer configuration
    - Shared Memories and Rules
    - Code review workflows
    - Onboarding automation
 
-8. **[Solo Developer Productivity](examples/solo-developer/)**
+9. **[Solo Developer Productivity](examples/solo-developer/)**
    - Minimal setup
    - Essential tools only
    - Optimized for speed
@@ -145,7 +155,7 @@ Each example includes:
 
 #### Meta-Prompting & Knowledge Extraction
 
-9. **[Meta-Prompting Workflow](examples/meta-prompting/)**
+10. **[Meta-Prompting Workflow](examples/meta-prompting/)**
    - Systematic conversation analysis
    - Prompt extraction from threads
    - Knowledge base building

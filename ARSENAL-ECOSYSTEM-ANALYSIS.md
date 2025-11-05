@@ -50,7 +50,7 @@ These repositories contain the actual content that Cascade uses:
 
 ---
 
-#### 2. **📝 prompt-arsenal** (26 prompts)
+#### 2. **📝 prompt-arsenal** (28 prompts)
 **What it is:** Library of production-ready, reusable prompts  
 **What it does:** Provides tested, effective prompts for common tasks  
 **Contains:**
@@ -202,16 +202,17 @@ These repositories help you use and manage the Arsenal content:
 **What it is:** Central hub with examples and documentation  
 **What it does:** Shows how to combine all Arsenal tools together  
 **Contains:**
-- **9 Complete Examples:**
+- **10 Complete Examples:**
   1. React Vite Setup
   2. Repository Organization
   3. Database Migrations
-  4. Full-Stack Next.js + FastAPI App
-  5. React Native Mobile App
-  6. FastAPI Microservice
-  7. Team Collaboration Setup
-  8. Solo Developer Productivity
-  9. Meta-Prompting Workflow
+  4. Next.js 15 + Arsenal Content (NEW!)
+  5. Full-Stack Next.js + FastAPI App
+  6. React Native Mobile App
+  7. FastAPI Microservice
+  8. Team Collaboration Setup
+  9. Solo Developer Productivity
+  10. Meta-Prompting Workflow
 - **Setup Scripts (10):**
   - `install-all.sh` - Clone all Arsenal repos
   - `setup-fullstack.sh`, `setup-mobile.sh`, `setup-api.sh`

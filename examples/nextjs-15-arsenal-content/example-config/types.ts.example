@@ -1,0 +1,85 @@
+// src/lib/arsenal/types.ts
+// TypeScript interfaces for Arsenal content metadata
+
+export interface BaseArsenalMetadata {
+  slug: string
+  title: string
+  description: string
+  resourceType: ArsenalResourceType
+  status: 'available' | 'coming-soon' | 'beta' | 'deprecated'
+  dateAdded: string  // ISO 8601 format
+  dateUpdated: string  // ISO 8601 format
+  tags: string[]
+  githubRepo: string
+  githubPath: string
+  githubUrl: string
+}
+
+export type ArsenalResourceType = 
+  | 'workflow'
+  | 'script'
+  | 'rule'
+  | 'memory'
+  | 'prompt'
+  | 'integration'
+
+// Workflow-specific metadata
+export interface WorkflowMetadata extends BaseArsenalMetadata {
+  resourceType: 'workflow'
+  platform: 'windsurf' | 'cursor' | 'vscode' | 'general'
+  difficulty: 'beginner' | 'intermediate' | 'advanced'
+  estimatedTime: string
+  prerequisites?: string[]
+}
+
+// Script-specific metadata
+export interface ScriptMetadata extends BaseArsenalMetadata {
+  resourceType: 'script'
+  language: 'bash' | 'python' | 'javascript' | 'powershell' | 'typescript'
+  os: ('linux' | 'macos' | 'windows')[]
+  dependencies?: string[]
+}
+
+// Rule-specific metadata
+export interface RuleMetadata extends BaseArsenalMetadata {
+  resourceType: 'rule'
+  tool: 'windsurf' | 'cursor' | 'copilot' | 'cody' | 'general'
+  activationMode: 'always' | 'glob' | 'manual' | 'model-decision'
+  globs?: string[]
+}
+
+// Memory-specific metadata
+export interface MemoryMetadata extends BaseArsenalMetadata {
+  resourceType: 'memory'
+  category: 'pattern' | 'convention' | 'guideline' | 'example'
+  scope: 'project' | 'team' | 'personal'
+}
+
+// Prompt-specific metadata
+export interface PromptMetadata extends BaseArsenalMetadata {
+  resourceType: 'prompt'
+  category: 'development' | 'content' | 'analysis' | 'automation'
+  difficulty: 'beginner' | 'intermediate' | 'advanced'
+}
+
+// Integration example metadata
+export interface IntegrationMetadata extends BaseArsenalMetadata {
+  resourceType: 'integration'
+  framework: string
+  difficulty: 'beginner' | 'intermediate' | 'advanced'
+  arsenalItems: {
+    rules?: string[]
+    workflows?: string[]
+    scripts?: string[]
+    prompts?: string[]
+  }
+}
+
+// Union type of all metadata types
+export type AnyArsenalMetadata =
+  | WorkflowMetadata
+  | ScriptMetadata
+  | RuleMetadata
+  | MemoryMetadata
+  | PromptMetadata
+  | IntegrationMetadata

@@ -118,6 +118,29 @@
 
 ---
 
+### ✅ 7. [Next.js 15 + Arsenal Content](./nextjs-15-arsenal-content/) 🆕
+**Best for:** Next.js 15 applications with type-safe MDX content management systems
+
+**What it includes:**
+- Next.js 15 async params pattern
+- Type-safe MDX content loading
+- Frontend UX patterns (typography, mobile overlays)
+- TypeScript strict development
+- Windows PowerShell Git compatibility
+- Complete example code and configurations
+
+**Arsenal Items Used:**
+- 5 Rules (Next.js 15 App Router, MDX Content Management, Frontend UX Patterns, TypeScript Strict Development, Windows PowerShell Git)
+- Multiple example files (types, loaders, pages, MDX)
+- Complete setup script
+
+**Time to set up:** 30-60 minutes
+
+**What's special:**
+This example showcases the full RuleMiner extraction process - all 5 rules were derived from a real Next.js 15 + Arsenal content management project using Prompt Forensics Analyzer!
+
+---
+
 ## 🎯 Quick Comparison
 
 | Example | Complexity | Arsenal Items | Time | Best For |
@@ -128,6 +151,7 @@
 | **API Service** | ⭐⭐ Moderate | 6 items | 10 min | Backend services |
 | **React Native** | ⭐⭐ Moderate | 5 items | 15 min | Mobile apps |
 | **Database Migrations** | ⭐⭐ Moderate | 1-2 items | 10 min | SQL migration projects |
+| **Next.js 15 + MDX** | ⭐⭐⭐ Complex | 5 rules | 30-60 min | Content platforms, blogs, docs sites |
 
 ---
 
@@ -239,6 +263,7 @@ Found a useful pattern? Contribute it back to help others!
 - **Building an API?** → API Service
 - **Building mobile?** → React Native App
 - **Using SQL migrations?** → Database Migrations
+- **Building a content site/blog with Next.js 15?** → Next.js 15 + Arsenal Content
 
 ### Can I combine examples?
 

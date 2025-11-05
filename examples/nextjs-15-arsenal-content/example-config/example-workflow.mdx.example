@@ -1,0 +1,333 @@
+---
+slug: "git-workflow-automation"
+title: "Git Workflow Automation"
+description: "Automate your Git workflow with custom scripts, aliases, and hooks for improved productivity"
+resourceType: "workflow"
+status: "available"
+dateAdded: "2025-11-05"
+dateUpdated: "2025-11-05"
+tags: ["git", "automation", "productivity", "workflow"]
+githubRepo: "ChrisTansey007/arsenal-integration-hub"
+githubPath: "content/arsenal/workflows/git-workflow-automation.mdx"
+githubUrl: "https://github.com/ChrisTansey007/arsenal-integration-hub/blob/main/content/arsenal/workflows/git-workflow-automation.mdx"
+platform: "general"
+difficulty: "intermediate"
+estimatedTime: "30 minutes"
+prerequisites: ["git", "bash or powershell"]
+---
+
+# Git Workflow Automation
+
+**Streamline your Git workflow with automation, reducing repetitive tasks and improving consistency.**
+
+---
+
+## 🎯 Overview
+
+This workflow helps you:
+- ✅ Create custom Git aliases for common operations
+- ✅ Set up Git hooks for automated checks
+- ✅ Build reusable Git scripts
+- ✅ Standardize commit messages
+- ✅ Automate branch management
+
+**Time saved:** 15-30 minutes per day
+
+---
+
+## 📋 Prerequisites
+
+Before starting, ensure you have:
+- Git 2.23+ installed
+- Basic command line knowledge
+- Text editor (VS Code, Vim, etc.)
+- Optional: PowerShell (Windows) or Bash (Linux/macOS)
+
+---
+
+## ⚙️ Setup
+
+### **Step 1: Configure Git Aliases**
+
+Add these to your `~/.gitconfig`:
+
+```ini
+[alias]
+  # Quick status
+  s = status -sb
+  
+  # Better log
+  lg = log --oneline --graph --decorate --all
+  
+  # Quick add and commit
+  ac = !git add -A && git commit -m
+  
+  # Undo last commit (keep changes)
+  undo = reset HEAD~1 --soft
+  
+  # Clean merged branches
+  cleanup = !git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d
+  
+  # Show changed files
+  changed = diff --name-only
+```
+
+### **Step 2: Create Git Scripts**
+
+Create `~/bin/git-scripts/`:
+
+```bash
+mkdir -p ~/bin/git-scripts
+```
+
+**Smart Commit Script** (`~/bin/git-scripts/smart-commit.sh`):
+
+```bash
+#!/bin/bash
+# Smart commit with conventional commit format
+
+read -p "Type (feat/fix/docs/refactor): " type
+read -p "Scope (optional): " scope
+read -p "Description: " desc
+
+if [ -n "$scope" ]; then
+  git commit -m "${type}(${scope}): ${desc}"
+else
+  git commit -m "${type}: ${desc}"
+fi
+```
+
+Make it executable:
+```bash
+chmod +x ~/bin/git-scripts/smart-commit.sh
+```
+
+### **Step 3: Set Up Git Hooks**
+
+**Pre-commit Hook** (`.git/hooks/pre-commit`):
+
+```bash
+#!/bin/bash
+# Run linting and tests before commit
+
+echo "Running pre-commit checks..."
+
+# Run linter
+npm run lint
+if [ $? -ne 0 ]; then
+  echo "❌ Linting failed. Please fix errors before committing."
+  exit 1
+fi
+
+# Run type check
+npm run type-check
+if [ $? -ne 0 ]; then
+  echo "❌ Type check failed. Please fix errors before committing."
+  exit 1
+fi
+
+echo "✅ Pre-commit checks passed!"
+exit 0
+```
+
+Make it executable:
+```bash
+chmod +x .git/hooks/pre-commit
+```
+
+---
+
+## 🎯 Usage
+
+### **Daily Workflow**
+
+```bash
+# 1. Quick status
+git s
+
+# 2. Add and commit with alias
+git ac "Add new feature"
+
+# 3. Use smart commit script
+~/bin/git-scripts/smart-commit.sh
+# Type: feat
+# Scope: auth
+# Description: Add JWT authentication
+# Result: git commit -m "feat(auth): Add JWT authentication"
+
+# 4. View commit history
+git lg
+
+# 5. Clean up merged branches
+git cleanup
+```
+
+### **Branch Management**
+
+```bash
+# Create feature branch
+git checkout -b feature/new-feature
+
+# Work on changes...
+git ac "Implement feature X"
+
+# Push and create PR
+git push -u origin feature/new-feature
+
+# After merge, cleanup
+git checkout main
+git pull
+git cleanup  # Removes merged branches
+```
+
+---
+
+## 📝 Conventional Commits
+
+Use standardized commit messages:
+
+```
+<type>(<scope>): <description>
+
+[optional body]
+
+[optional footer]
+```
+
+**Types:**
+- `feat:` New feature
+- `fix:` Bug fix
+- `docs:` Documentation changes
+- `refactor:` Code refactoring
+- `test:` Adding tests
+- `chore:` Maintenance tasks
+
+**Examples:**
+```bash
+git commit -m "feat(auth): Add OAuth2 login"
+git commit -m "fix(api): Correct endpoint URL"
+git commit -m "docs(readme): Update installation steps"
+```
+
+---
+
+## 🔧 Advanced Automation
+
+### **Automated Branch Naming**
+
+```bash
+# ~/.gitconfig
+[alias]
+  new-feature = "!f() { git checkout -b feature/$1; }; f"
+  new-hotfix = "!f() { git checkout -b hotfix/$1; }; f"
+```
+
+Usage:
+```bash
+git new-feature user-authentication
+# Creates and checks out: feature/user-authentication
+
+git new-hotfix critical-bug
+# Creates and checks out: hotfix/critical-bug
+```
+
+### **Commit Message Templates**
+
+Create `.gitmessage`:
+
+```
+<type>(<scope>): <subject>
+
+<body>
+
+<footer>
+
+# Type: feat, fix, docs, refactor, test, chore
+# Scope: Component or module affected
+# Subject: Brief description (imperative mood)
+# Body: Detailed explanation (optional)
+# Footer: Breaking changes, issue references (optional)
+```
+
+Configure Git to use it:
+```bash
+git config --global commit.template ~/.gitmessage
+```
+
+---
+
+## ✅ Verification
+
+Test your setup:
+
+```bash
+# 1. Test aliases
+git s
+git lg
+
+# 2. Test smart commit script
+~/bin/git-scripts/smart-commit.sh
+
+# 3. Test pre-commit hook
+# Make a change and try to commit
+git add .
+git commit -m "Test commit"
+# Should run linting and type checks
+
+# 4. Verify configuration
+git config --global --list
+```
+
+---
+
+## 💡 Pro Tips
+
+1. **Backup your Git config**
+   ```bash
+   cp ~/.gitconfig ~/.gitconfig.backup
+   ```
+
+2. **Share hooks with team**
+   - Use Husky or lefthook for project-level hooks
+   - Commit hooks to `.husky/` directory
+
+3. **Platform-specific aliases**
+   - Windows PowerShell: Use single quotes
+   - Linux/macOS: Use double quotes
+
+4. **Learn interactive rebase**
+   ```bash
+   git rebase -i HEAD~3  # Edit last 3 commits
+   ```
+
+---
+
+## 🔗 Related Arsenal Items
+
+### **⚙️ Rules**
+- [Windows PowerShell Git](../../rules/windows-powershell-git.md) - Git commands on Windows
+- [Complete Problem-Solving](../../rules/complete-problem-solving.md) - Systematic workflow
+
+### **📝 Prompts**
+- [Structured Document Architect](../prompts/structured-document-architect.md) - Document workflows
+- [Self-Score Output](../prompts/self-score-output.md) - Validate setup
+
+### **🔄 Workflows**
+- [Code Review Assistant](../workflows/code-review-assistant.md) - Pre-commit review
+- [Run Tests and Fix](../workflows/run-tests-and-fix.md) - Automated testing
+
+---
+
+## 📚 Additional Resources
+
+- [Git Documentation](https://git-scm.com/doc)
+- [Conventional Commits](https://www.conventionalcommits.org/)
+- [Git Hooks Documentation](https://git-scm.com/docs/githooks)
+- [Husky - Git Hooks](https://typicode.github.io/husky/)
+
+---
+
+**Status:** Production-ready ✅  
+**Difficulty:** Intermediate  
+**Time to Complete:** 30 minutes  
+**Maintenance:** Low
