@@ -73,7 +73,26 @@ Choose your scenario:
 
 - **[Meta-Prompting Workflow](./examples/meta-prompting/)** - Systematic conversation analysis and knowledge extraction pipeline
 
-### 3. Follow the Guide
+### 3. Add Arsenal to Your Projects
+
+**Ready to add Arsenal rules & workflows to your own project?**
+
+📖 **[Complete Setup Guide](docs/SETUP-ARSENAL-RULES-WORKFLOWS.md)** - Detailed instructions for adding any Arsenal content to any project (3 methods: script, manual, or UI)
+
+⚡ **[Quick Reference](docs/QUICK-REFERENCE-ARSENAL-SETUP.md)** - One-page cheatsheet with popular setups and copy-paste commands
+
+**Choose your method:**
+- **Quick Setup Script** - One command to install rules, workflows, and memories
+- **Manual Setup** - Use file explorer to copy what you need
+- **Windsurf UI** - Point-and-click in Customizations panel
+
+**Popular setups included:**
+- Next.js 15 projects
+- Python/FastAPI projects  
+- Arsenal content creation
+- React, TypeScript, and more
+
+### 4. Follow the Examples
 
 Each example includes:
 - Complete setup instructions
@@ -177,6 +196,8 @@ Each example includes:
 
 ### Guides & Documentation
 
+- **[Setup Arsenal in Your Project](docs/SETUP-ARSENAL-RULES-WORKFLOWS.md)** ⭐ NEW - Complete guide for adding rules & workflows
+- **[Quick Reference](docs/QUICK-REFERENCE-ARSENAL-SETUP.md)** ⚡ NEW - One-page setup cheatsheet
 - **[Getting Started Guide](docs/getting-started.md)**
 - **[Architecture Overview](docs/architecture.md)**
 - **[Best Practices](docs/best-practices.md)**
